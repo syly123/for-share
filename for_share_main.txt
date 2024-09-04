@@ -1,0 +1,26 @@
+	FY2023 Q1	FY2024 Q1	Change
+Ordinary revenues	1050.2	1052.0	1.7
+Premium and other income	615.3	568.7	-46.6
+Investment income	373.4	376.0	2.6
+Interest and dividends	172.4	195.9	23.5
+Gains on sale of securities	129.1	128.9	-0.1
+Foreign exchange gains	6.0	22.7	16.7
+Gains on investments in separate accounts	63.1	17.4	-45.7
+Other ordinary revenues	61.4	107.2	45.7
+Ordinary expenses	945.9	909.3	-36.6
+Benefits and claims	625.3	604.0	-21.3
+Provision for policy reserves and others	39.9	2.0	-37.8
+Investment expenses	129.4	143.6	14.2
+Losses on sale of securities	59.5	79.5	19.9
+Losses on valuation of securities	0.6	0.7	0.1
+Derivative transaction losses	47.1	32.6	-14.4
+Operating expenses	92.1	99.6	7.4
+Other ordinar e enses	59.0	59.8	0.8
+Depreciation expenses	10.6	11.0	0.3
+Ordina profit (loss)	104.3	142.7	38.4
+Extraordinary gains	0.2	1.2	1.0
+Extraordina losses	4.0	7.4	3.4
+Provision for reserve for policyholder dividends	20.2	21.0	0.7
+Income before income taxes (losses)	80.2	115.4	35.2
+Total of corporate income taxes	21.6	32.7	11.1
+Net income (loss)	58.5	82.6	24.0
