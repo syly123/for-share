@@ -35,3 +35,23 @@ Fixes a problem where accessing NDS from the "Login.gs" system was very slow.
 The transaction is assumed to occur in FY12/2025.
 The transaction's ROIC is calculated as the target company's FY12/2025 net profit plus interest expense divided by the acquisition price plus the target company's most recent total interest-bearing debt.
 RoEV uses the target of 8% set in Dai-ichi Life HD's medium-term management plan and calculates the number of years it will take for EVPS to recover, assuming EEV grows by 8% annually from FY2024 onwards.
+
+https://www.nli-research.co.jp/report/detail/id=39165?site=nli
+
+
+また負債と連動している責任準備金対応債券については、リバランスした際に単年度の利益にマイナスの影響が出るが、リスク性資産の売却益とオフセットするなど単年度収支もコンロールしていきたい。
+
+https://assets.kpmg.com/content/dam/kpmg/jp/pdf/2022/jp-kinyu-seiho.pdf
+
+現行会計基準では資産は時価評価、負債は簿価評価しているので、金利上昇時は資産のみが減少する（保有債券の価格低下、また将来CFの割引率が上昇するため）
+ESRでは負債も時価評価（経済価値ベースなので）され、計算方法は将来CFの割引現在価値。
+よって金利上昇に伴う純資産の減少という問題は解決される（将来の逆ざや・順ざやもすぐに時価に織り込まれる）
+
+https://www.fsa.go.jp/news/r1/sonota/20200626_hoken/01.pdf
+
+現行 SMR と経済価値ベースのソルベンシー比率（ESR）の間で取扱いが大きく異なる要素の一つに、金利がある。金利低下時において、現行 SMR では、負債側の 評価には基本的には影響が生じない一方、資産側は債券価格の上昇を反映して資本 が増加し、SMR は上昇する。これに対し、ESR では、現時点における多くの国内 生命保険会社のポートフォリオのように負債側のデュレーションが資産側のデュ レーションを上回る場合には、ESR 算出上の保険負債評価額の上昇額が債券価格の上昇額を上回るため、経済価値ベースの純資産が減少し、ESR は低下する。こうし た金利低下から生じるリスクをタイムリーに捉えることができるなど、中⻑期的な 保険会社の健全性をフォワードルッキングに把握する観点から、ESR は現行 SMR に 比べ優れた指標であると言える。
+
+金利上昇時には大量解約リスクが増大する。リスク量はESRの分母にあたるため、ESRの低下圧力になる。
+金利上昇時には資産も負債も時価評価で縮小するので純資産への影響はイーブンである。
+一方で負債デュレーションが資産デュレーションを大幅に上回る場合（デュレーションギャップが大きい場合）は当然金利上昇による価格縮小額は保険負債のほうが大きいため、純資産は増加する。
+金利上昇局面において、現状の第一の資産構成を鑑みるとプラス影響の可能性が高い（時価評価の場合負債の縮小がより大きい）
