@@ -29,3 +29,5 @@ Net income (loss)	58.5	82.6	24.0
 test!!!
 
 Improve the availability of easy-to-understand tutorials and official documentation for our most useful tools, especially those related to automation and engineering, not just for the engineering department but for the entire company.
+
+Fixes a problem where accessing NDS from the "Login.gs" system was very slow.
