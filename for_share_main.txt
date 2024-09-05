@@ -31,3 +31,7 @@ test!!!
 Improve the availability of easy-to-understand tutorials and official documentation for our most useful tools, especially those related to automation and engineering, not just for the engineering department but for the entire company.
 
 Fixes a problem where accessing NDS from the "Login.gs" system was very slow.
+
+The transaction is assumed to occur in FY12/2025.
+The transaction's ROIC is calculated as the target company's FY12/2025 net profit plus interest expense divided by the acquisition price plus the target company's most recent total interest-bearing debt.
+RoEV uses the target of 8% set in Dai-ichi Life HD's medium-term management plan and calculates the number of years it will take for EVPS to recover, assuming EEV grows by 8% annually from FY2024 onwards.
