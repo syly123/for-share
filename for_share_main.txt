@@ -55,3 +55,7 @@ https://www.fsa.go.jp/news/r1/sonota/20200626_hoken/01.pdf
 金利上昇時には資産も負債も時価評価で縮小するので純資産への影響はイーブンである。
 一方で負債デュレーションが資産デュレーションを大幅に上回る場合（デュレーションギャップが大きい場合）は当然金利上昇による価格縮小額は保険負債のほうが大きいため、純資産は増加する。
 金利上昇局面において、現状の第一の資産構成を鑑みるとプラス影響の可能性が高い（時価評価の場合負債の縮小がより大きい）
+
+https://www.dai-ichi-life-hd.com/investor/library/kessan/2024/pdf/2024_quarter_phone.pdf
+https://www.dai-ichi-life-hd.com/investor/library/kessan/2023/pdf/2023_statement_qa.pdf
+
