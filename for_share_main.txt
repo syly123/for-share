@@ -1,1 +1,3 @@
 The industry average lapse and surrender rate is calculated by dividing the Surrender and Lapse Amount by the Total amount of Policies in Force.
+
+Since liability duration exceeds asset duration, the price reduction due to rising interest rates will be greater for insurance liabilities, net assets will increase, and ESR will be net positive. On the other hand, when interest rates rise, mass lapse risk will increase, which may put downward pressure on ESR.
