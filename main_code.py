@@ -30,3 +30,5 @@ dest_sheet.range('A2').api.PasteSpecial(Paste=-4122)  # -4122 は「書式」だ
         if sheet.range(f"A{row}").api.Rows.OutlineLevel > 1:
             # グループ化されている行のみ展開（OutlineLevelが1より大きい場合）
             sheet.api.Rows(row).ShowDetail = True
+
+https://chatgpt.com/share/90acbadf-b30d-4edf-ac01-3c6c8d434c48
