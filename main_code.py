@@ -18,3 +18,8 @@ dest_sheet.range('A2').options(ndim=2).value = source_range.formula
 wb2.save()
 wb1.close()
 wb2.close()
+
+
+# 2. 書式をコピー (値とフォーマットは一緒にコピーされる)
+source_range.api.Copy()
+dest_sheet.range('A2').api.PasteSpecial(Paste=-4122)  # -4122 は「書式」だけを貼り付けるオプション
