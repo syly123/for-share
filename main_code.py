@@ -23,3 +23,10 @@ wb2.close()
 # 2. 書式をコピー (値とフォーマットは一緒にコピーされる)
 source_range.api.Copy()
 dest_sheet.range('A2').api.PasteSpecial(Paste=-4122)  # -4122 は「書式」だけを貼り付けるオプション
+
+
+    # 8～20行の範囲で折りたたまれている行を展開
+    for row in range(8, 21):  # 8行目から20行目までの範囲
+        if sheet.range(f"A{row}").api.Rows.OutlineLevel > 1:
+            # グループ化されている行のみ展開（OutlineLevelが1より大きい場合）
+            sheet.api.Rows(row).ShowDetail = True
