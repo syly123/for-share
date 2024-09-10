@@ -24,9 +24,9 @@ wb2.close()
 source_range.api.Copy()
 dest_sheet.range('A2').api.PasteSpecial(Paste=-4122)  # -4122 は「書式」だけを貼り付けるオプション
 
-    # 8～20行の範囲でグループ化されている行を展開
-    for row in range(8, 21):  # 8行目から20行目までの範囲
-        row_range = sheet.range(f"{row}:{row}")
-        if row_range.api.Rows.OutlineLevel > 1:
-            # グループ化されている行のみ展開（OutlineLevelが1より大きい場合）
-            row_range.api.ShowDetail = True
+# 8～20行の範囲でグループ化されている行を展開
+for row in range(8, 21):  # 8行目から20行目までの範囲
+    row_range = sheet.range(f"{row}:{row}")
+    if row_range.api.Rows.OutlineLevel > 1:
+        # グループ化されている行のみ展開（OutlineLevelが1より大きい場合）
+        row_range.api.ShowDetail = True
