@@ -1,28 +1,4 @@
-	Shareholders' equity								Valuation and translation adjustments	Total net assets				
-	Capital stock	Capital surplus	Retained earnings					Retained earnings	Total shareholders' equity	Net unrealized gains (losses) on securities, net of tax	Deferred hedge gains (losses)	Reserve for land revaluation	Total of valuation and translation adjustments	
-		Legal capital surplus	Other capital surplus	Total capital surplus	Other retained earnings			Total retained earnings						
-					Reserve for tax basis adjustments of real estate	Reserve for specified business investment	Retained earnings brought forward							
-Balance at the beginning of the year	60000	60000	260000	320000	8805	299	194598	203704	583705	1523596	-37654	30369	1516311	2100016
-Changes for the year														
-Dividends			-71440	-71440			-165646	-165646	-237087					-237087
-Net income							203882	203882	203882					203882
-Transfer to reserve for tax basis adjustments of real estate					2211		-2211	-	-					-
-Transfer from reserve for tax basis adjustments of real estate					-158		158	-	-					-
-Transfer from reserve for land revaluation							2145	2145	2145					2145
-Net changes of items other than shareholders' equity										896567	-65385	-2145	829036	829036
-Total changes for the year	-	-	-71440	-71440	2052	-	38328	40380	-31059	896567	-65385	-2145	829036	797976
-Balance at the end of the year	60000	60000	188560	248560	10858	299	232926	244085	552645	2420163	-103039	28223	2345347	2897993
-														
-														
-														
-	Shareholders' equity	Accumulated other comprehensive income									Total net assets			
-	Capital stock	Capital surplus	Retained earnings	Total shareholders' equity	Net unrealized gains (losses) on securities, net of tax	Deferred hedge gains (losses)	Reserve for land revaluation	Foreign currency translation adjustments	Accumulated remeasurement s of defined benefit plans	Total accumulated other comprehensive income				
-Balance at the beginning of the year	60000	320000	200362	580363	1523596	-37654	30369	-525	24307	1540093	2120456			
-Changes for the year														
-Dividends		-71440	-165646	-237087							-237087			
-Net income attributable to shareholders of parent company			205737	205737							205737			
-Transfer from reserve for land revaluation			2145	2145							2145			
-Others			0	0							0			
-Net changes of items other than shareholders' equity					896567	-65385	-2145	245	94444	923725	923725			
-Total changes for the year	-	-71440	42236	-29204	896567	-65385	-2145	245	94444	923725	894521			
-Balance at the end of the year	60000	248560	242598	551158	2420163	-103039	28223	-279	118751	2463818	3014977			
+The decline in F&G's net profit in FY2023/12 is mainly due to an increase in FIA/IUL market related liability and higher pension risk transfer group annuity obligations.
+
+https://www.sec.gov/Archives/edgar/data/1934850/000193485024000018/fg-20231231.htm
+P.90
