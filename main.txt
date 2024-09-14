@@ -1,26 +1,27 @@
-https://www.astuteanalytica.com/industry-report/employee-benefits-platform-market
 
-https://www.precedenceresearch.com/employee-benefit-broker-market
+【Unum】
+https://www.fitchratings.com/research/insurance/fitch-upgrades-unum-ratings-outlooks-are-stable-20-11-2023
 
-https://www.grandviewresearch.com/industry-analysis/employee-benefit-broker-market-report
+さらに、長期介護 (LTC) 準備金の適切性は、同社が保険料不足準備金を積み立て、高金利環境により準備金の余剰が発生したことで改善しました。また、持ち株会社の流動性は引き続き堅調で目標を上回っています。
+相当なLTCエクスポージャー:長期的には、UNMの格付け上の懸念として、高金利環境の恩恵を受けているにもかかわらず、レガシーLTCへのエクスポージャーが引き続き過大であることが挙げられる。UNMは、主要な準備金の想定にさらなる保守性を加えたため、2023年末までに法定準備金を最良推定準備金より30億ドル増強するプロセスを進めている。
+UNM は、フィッチの格付け対象企業の中で LTC へのエクスポージャーが最も高い企業の 1 つであり、法定 LTC 準備金は総調整資本の 3 倍を超えています。幸いなことに、同社は 2022 年 8 月に金利リスクヘッジ プログラムを実施し、2023 年も引き続き同プログラムを拡大して、LTC 事業に関連するリスクをより適切に管理する予定です。さらに、UNM は、任意給付商品の十分な充足度など、企業レベルで強力な準備金マージンを誇っており、LTC エクスポージャーに関する懸念を部分的に相殺しています。
 
-https://www.appsruntheworld.com/top-10-hcm-software-vendors-in-benefit-administration-market-segment/
+https://www.fitchratings.com/research/insurance/fitch-affirms-unum-ratings-outlook-revised-to-positive-13-09-2024
+さらに、同社は保険料不足準備金を全額積み立て、大幅な準備金マージンを生み出し、金利低下の可能性から守るために金利ヘッジを追加したため、長期介護（LTC）準備金の適切性も改善しました。
+大きなエクスポージャー、リスクの低減: UNM は、フィッチの格付け対象企業の中で LTC へのエクスポージャーが最も大きい企業の 1 つであり、法定 LTC 準備金は総調整資本の 4 倍以上を占めています。幸いなことに、同社は 2022 年 8 月に金利リスクヘッジ プログラムを実施し、現在までに将来の LTC キャッシュフローを 30 億ドルヘッジしています。UNM は 16 億ドルの LTC 保険料不足準備金を全額積み立てており、その結果、保有準備金と最良見積額 (系列のキャプティブ再保険子会社の余剰資本を含む) の間に 28 億ドル以上のマージンがあります。
 
-https://www.limra.com/siteassets/newsroom/liam/2023/0855-2023-closing-the-protection-gap-middle-income-infographic_meta.pdf
+さらに、UNM は、任意給付商品の十分な充足度を含め、企業レベルで強力な準備金マージンを有しており、LTC エクスポージャーに関する懸念を部分的に相殺しています。長期的には、UNM の格付けに関する懸念には、従来の LTC に対する過大なエクスポージャーが継続していることが含まれますが、同事業は金利上昇の恩恵を受けており、金利ヘッジにより金利低下の可能性からより保護されています。
 
-https://lifehappens.org/press/barometer-2024/
 
-Sorry for contacting you again.
+https://www.sec.gov/Archives/edgar/data/5513/000000551324000015/unm-20231231.htm
+10-k P.49
+The cash flow assumption updates in our Closed Block segment were primarily driven by the long-term care product line which increased our liability for future policy benefits by $368.1 million, due primarily to lower expectations for active policy lapse and mortality assumptions, partially offset by an increase to expected future premium rate increases.
+当社のクローズド ブロック セグメントにおけるキャッシュ フローの想定の更新は、主に長期介護商品ラインによるもので、将来の保険給付に対する負債が 3 億 6,810 万ドル増加しました。これは主に、アクティブな保険契約の失効および死亡率の想定値の低下によるものですが、予想される将来の保険料率の上昇の増加によって部分的に相殺されています。
 
-Additionally,
+【VOYA】
+https://uat.investmentnews.com/voyas-new-ceo-looks-to-offer-more-customized-strategies-through-alternatives-offerings-69206
+Voya IMの元債券部門最高投資責任者であるハートセラーズ氏は、オルタナティブ投資商品、特に成長を続けるプライベートクレジットおよび定量的株式プログラムを通じて、よりカスタマイズされたソリューションを提供したいと考えている。
 
-Could you please add Operating ROE on top of the Globe life graph on page 2 of the attached PPT?
+ハーツェラーズ氏は9月8日の電話インタビューで、投資家からの手数料圧力がマージン圧力を強めていると語った。ボヤはこの圧力に対し、担保付ローン債務業務や住宅ローンヘッジファンドなどのオルタナティブ商品を通じて付加価値とカスタマイズされた戦略を提供することで対応しているが、最近は新規投資家の受け入れを停止した。
 
-It would be like the Unum slide on page 3.
-
-会社のハイライト
-■ Voya Financial (旧 ING U.S.) は 2013 年からニューヨーク証券取引所に上場(NYSE: VOYA)
-■ ニューヨーク、アトランタ、サンディエゴ、サンフランシスコ、スコッツデール、オレゴン州ポートランド、コネチカット州ウェストポート、コネチカット州ウィンザー、ロンドンにオフィス設立
-■ 2022 年から Allianz Global Investors と戦略的パートナーシップを締結
-■ プライベート エクイティ、プライベート デット、不動産デット、529 ローン、銀行ローンの5大マネージャーの1つ(2)
-■ ヘッジファンド資産の 10 大マネージャーの 1 つであり、エネルギー資産の最大の資産マネージャー(2)
+さらに、ニューヨークを拠点とするこの運用会社は、プライベート・クレジットや中規模市場向け融資、商業用不動産のメザニン債務にもさらに重点を置き始めている。
