@@ -49,3 +49,14 @@ https://investors.primerica.com/sec-filings/sec-filings?form_type=10-K&year=2023
 
 https://investors.primerica.com/sec-filings/sec-filings/content/0000950170-24-083891/0000950170-24-083891.pdf
 2.05 撤退または処分活動に関連する費用 Primerica, Inc. (「当社」) の取締役会 (「取締役会」) は、以下の項目 8.01「その他の出来事」に記載されている撤退計画に取り組むことを約束しました。予想されるコストの見積もりは、以下の項目 2.06「重大な減損」に記載されています。 2.06 重大な減損 以下の項目 8.01「その他の事象」に記載されている撤退計画に関連して、当社は 2024 年の第 2 四半期に、税引後純非現金費用 2 億 2,960 万ドルを計上する予定です。これには、のれんおよび無形資産の残り 2 億 5,360 万ドルの償却が含まれますが、当社のシニアヘルス部門における繰延税金負債および州の営業損失の除去による純税効果 2,400 万ドルによって部分的に相殺されます。これらの項目はすべて調整後の業績から除外されます。減損費用により将来の現金支出が生じることはありません。当社は、2024 年の第 3 四半期に、まだ検討中の追加のリストラ費用を認識する予定です。上記第 2.05 項「撤退または処分活動に関連する費用」および第 8.01 項「その他の事象」に記載されている撤退計画およびその予想される費用および手数料に関する情報は、参照によりこの第 2.06 項に組み込まれます。
+
+https://investors.primerica.com/news-events/press-releases/detail/322/primerica-announces-its-intention-to-exit-senior-health
+
+
+【CNO】
+https://www.fitchratings.com/research/insurance/fitch-upgrades-cno-financial-group-ratings-outlook-stable-15-11-2023
+レガシー債務: フィッチは、従来、CNO のレガシー個人長期介護 (LTC) 債務に対するエクスポージャーを否定的に捉えてきました。これは、フィッチがこれらの債務のリスクレベルが高いと見なしているためです。幸いなことに、同社は一連の重要なリスク回避措置を講じ、個人 LTC エクスポージャーを削減しており、フィッチは残りの債務エクスポージャーのリスクは比較的低いと考えています。さらに、同社の残りの LTC 事業ブロックは引き続き好調で、高金利環境の恩恵を受けています。
+
+https://www.wiltonre.com/wilton-re-completes-the-reinsurance-of-legacy-long-term-care-insurance-policies-from-cno-financial-groups-bankers-life-subsidiary/
+ウィルトン再保険は、CNO との管理再保険契約を通じて、LTC 法定準備金 27 億ドルを引き受けました。
+
