@@ -1,3 +1,6 @@
 This time, we have extracted Section 1 of the document.
 Basically, there are no major changes from the last time, but if you notice anything strange, we would appreciate it if you could let us know.
 Thank you in advance.
+
+Let me know if there's anything that needs to be fixed.
+e is something that needs to be changed/corrected. 
