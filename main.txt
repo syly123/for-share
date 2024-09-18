@@ -31,3 +31,297 @@ The speaker at the meeting will be Takanabe-san.
 
 Best,
 Tatsuhiko
+
+	As of March	As of March
+	31, 2020	31, 2021
+(ASSETS)		
+Cash and deposits	543,121	380,173
+Cash	160	0
+Bank deposits	542,960	380,172
+Call loans	513,800	403,700
+Monetary claims bought	221,147	252,140
+Money held in trust	34,274	7,716
+Securities	30,283,786	33,467,036
+Government bonds	13,809,257	14,774,895
+Local government bonds	129,433	108,035
+Corporate bonds	2,078,289	2,000,852
+Stocks	2,900,518	3,713,900
+Foreign securities	10,308,387	11,763,263
+Other securities	1,057,900	1,106,089
+Loans	2,542,025	2,576,064
+Policy loans	323,486	292,080
+Ordinary loans	2,218,538	2,283,983
+Tangible fixed assets	1,097,493	1,086,183
+Land	761,993	758,555
+Buildings	323,539	315,778
+Leased assets	6,740	5,145
+Construction in progress	182	2,161
+Other tangible fixed assets	5,036	4,542
+Intangible fixed assets	114,309	119,457
+Software	92,337	96,901
+Other intangible fixed assets	21,971	22,556
+Reinsurance receivable	6,720	28,084
+Other assets	1,091,187	553,949
+Accounts receivable	310,854	13,205
+Prepaid expenses	14,705	16,376
+Accrued revenue	157,971	156,694
+Deposits	53,027	65,422
+Margin money for futures trading	196,215	164,668
+Differential account for futures trading	-	28
+Derivatives	300,742	56,120
+Collateral for financial products	-	29,119
+Suspense payment	2,799	3,038
+Other assets	54,871	49,277
+Customers' liabilities for acceptances and guarantees	47,065	52,861
+Reserve for possible loan losses	-560	-2,358
+Reserve for possible investment losses	-807	-627
+Total assets	36,493,562	38,924,381
+		
+	(millions of yen)	
+	As of March As of March	
+	31, 2020 31, 2021	
+(LIABILITIES)		
+Policy reserves and others	30,823,423 30,844,443	
+Reserves for outstanding claims	127,391 148,070	
+Policy reserves	30,296,289 30,295,374	
+Reserve for policyholder dividends	399,742 400,999	
+Reinsurance payable	135,490 1,048	
+Subordinated bonds	476,277 476,277	
+Other liabilities	1,693,171 3,340,249	
+Payables under repurchase agreements	841,166 2,301,762	
+Long-term debt and other borrowings	283,000 390,600	
+Corporate income tax payable	20,306 32,372	
+Accounts payable	128,590 32,212	
+Accrued expenses	45,970 44,736	
+Unearned revenue	271 391	
+Deposits received	58,573 62,025	
+Guarantee deposits received	53,059 52,554	
+Differential account for futures trading	18 -	
+Derivatives	139,464 356,963	
+Collateral for financial instruments	82,314 41,339	
+Lease liabilities	6,837 5,179	
+Asset retirement obligations	2,096 2,009	
+Suspense receipt	2,801 1,180	
+Other liabilities	28,701 16,921	
+Reserve for employees' retirement benefits	398,004 400,138	
+Reserve for retirement benefits of directors, executive officers and corporate auditors	1,188 998	
+Reserve for possible reimbursement of prescribed claims	800 800	
+Reserve for price fluctuations	215,453 233,453	
+Deferred tax liabilities	79,585 312,227	
+Deferred tax liabilities for land revaluation	73,195 71,606	
+Acceptances and guarantees	47,065 52,861	
+Total liabilities	33,943,654 35,734,105	
+(NET ASSETS)		
+Capital stock	60,000 60,000	
+Capital surplus	370,000 370,000	
+Legal capital surplus	60,000 60,000	
+Other capital surplus	310,000 310,000	
+Retained earnings	200,155 249,195	
+Other retained earnings	200,155 249,195	
+Reserve for tax basis adjustments of real estate	4,947 8,355	
+Reserve for specified business investment	-49	
+Retained earnings brought forward	195,207 240,789	
+Total shareholders' equity	630,155 679,195	
+Net unrealized gains (losses) on securities, net of tax	1,916,417 2,536,608	
+Deferred hedge gains (losses)	21,312 (3,501)	
+Reserve for land revaluation	(17,978) (22,026)	
+Total of valuation and translation adjustments	1,919,752 2,511,080	
+Total net assets	2,549,907 3,190,276	
+Total liabilities and net assets	36,493,562 38,924,381	
+		
+	Year ended	Year ended
+	31-Mar-20	31-Mar-21
+ORDINARY REVENUES	3,680,689	3,811,725
+Premium and other income	2,350,198	2,285,471
+Premium income	2,345,183	2,275,617
+Reinsurance income	5,015	9,854
+Investment income	1,074,327	1,357,114
+Interest and dividends	786,512	836,571
+Interest from bank deposits	4,979	1,676
+Interest and dividends from securities	656,639	712,308
+Interest from loans	40,893	39,132
+Rental income	75,373	73,700
+Other interest and dividends	8,626	9,754
+Gains on money held in trust	-	4,849
+Gains on sale of securities	223,240	371,297
+Gains on redemption of securities	11,609	15,370
+Derivative transaction gains	51,944	-
+Reversal of reserve for possible loan losses	4	-
+Other investment income	1,015	1,202
+Gains on investments in separate accounts	-	127,823
+Other ordinary revenues	256,163	169,138
+Fund receipt for annuity rider of group insurance	487	331
+Fund receipt for claim deposit payment	156,231	141,931
+Reversal of reserves for outstanding claims	3,258	-
+Transfer from policy reserves	57,487	915
+Reversal of reserve for employees' retirement benefits	2,818	-
+Other ordinary revenues	35,879	25,960
+ORDINARY EXPENSES	3,389,993	3,437,925
+Benefits and claims	2,397,490	2,364,631
+Claims	623,690	616,314
+Annuities	519,868	486,953
+Benefits	407,707	378,685
+Surrender values	485,414	392,747
+Other refunds	88,335	110,789
+Ceding reinsurance commissions	272,474	379,140
+Provision for policy reserves and others	8,245	28,897
+Provision for reserves for outstanding claims	-	20,678
+Provision for interest on policyholder dividends	8,245	8,218
+Investment expenses	309,488	408,153
+Interest expenses	12,530	12,358
+Losses on money held in trust	2,216	-
+Losses on sale of securities	72,761	125,323
+Losses on valuation of securities	57,153	1,285
+Losses on redemption of securities	5,372	6,175
+Derivative transaction losses	-	172,879
+Foreign exchange losses	93,869	31,586
+Provision for reserve for possible loan losses	-	1,813
+Provision for reserve for possible investment losses	504	295
+Write-down of loans	40	43
+Depreciation of real estate for rent and others	13,059	13,171
+Other investment expenses	40,641	43,219
+Losses on investments in separate accounts	11,339	-
+Operating expenses	398,500	403,798
+Other ordinary expenses	276,268	232,444
+Claim deposit payments	197,776	150,515
+National and local taxes	29,349	31,236
+Depreciation	32,543	36,393
+Provision for reserve for employees' retirement benefits	-	1,943
+Other ordinary expenses	16,599	12,356
+ORDINARY PROFIT	290,696	373,799
+EXTRAORDINARY GAINS	4,905	5,469
+Gains on disposal of fixed assets	4,905	5,469
+EXTRAORDINARY LOSSES	33,888	27,554
+Losses on disposal of fixed assets	13,141	6,810
+Impairment losses on fixed assets	3,556	2,552
+Provision for reserve for price fluctuations	17,000	18,000
+Other extraordinary losses	190	190
+Provision for reserve for policyholder dividends	82,500	77,500
+Income before income taxes	179,213	274,214
+Corporate income taxes-current	67,696	77,701
+Corporate income taxes-deferred	-17,152	436
+Total of corporate income taxes	50,544	78,138
+Net income	128,669	196,075
+	(millions of yen)	
+	As of	
+	31-Mar-21	
+ASSETS		
+Cash and deposits	383,214	
+Call loans	403,700	
+Monetary claims bought	252,140	
+Money held in trust	7,716	
+Securities	33,462,279	
+Loans	2,576,064	
+Tangible fixed assets	1,086,447	
+Land	758,555	
+Buildings	315,822	
+Leased assets	5,145	
+Construction in progress	2,161	
+Other tangible fixed assets	4,762	
+Intangible fixed assets	119,638	
+Software	97,081	
+Other intangible fixed assets	22,557	
+Reinsurance receivable	28,084	
+Other assets	554,045	
+Customers' liabilities for acceptances and guarantees	52,861	
+Reserve for possible loan losses	-2,358	
+Reserve for possible investment losses	-627	
+Total assets	38,923,206	
+LIABILITIES		
+Policy reserves and others	30,844,451	
+Reserves for outstanding claims	148,071	
+Policy reserves	30,295,380	
+Reserve for policyholder dividends	400,999	
+Reinsurance payable	1,048	
+Bonds payable	476,277	
+Other liabilities	3,340,298	
+Payables under repurchase agreements	2,301,762	
+Other liabilities	1,038,536	
+Net defined benefit liabilities	406,894	
+Reserve for retirement benefits of directors, executive officers and corporate auditors	998	
+Reserve for possible reimbursement of prescribed claims	800	
+Reserve for price fluctuations	233,453	
+Deferred tax liabilities	310,360	
+Deferred tax liabilities for land revaluation	71,606	
+Acceptances and guarantees	52,861	
+Total liabilities	35,739,051	
+NET ASSETS		
+Capital stock	60,000	
+Capital surplus	370,000	
+Retained earnings	247,446	
+Total shareholders' equity	677,446	
+Net unrealized gains (losses) on securities, net of tax	2,536,608	
+Deferred hedge gains (losses)	-3,501	
+Reserve for land revaluation	-22,026	
+Foreign currency translation adjustments	497	
+Accumulated remeasurements of defined benefit plans	-4,869	
+Total accumulated other comprehensive income	2,506,708	
+Total net assets	3,184,154	
+Total liabilities and net assets	38,923,206	
+	(millions of yen)	
+	Year ended	
+	31-Mar-21	
+ORDINARY REVENUES	3,811,851	
+Premium and other income	2,285,515	
+Investment income	1,357,203	
+Interest and dividends	836,660	
+Gains on money held in trust	4,849	
+Gains on sale of securities	371,297	
+Gains on redemption of securities	15,370	
+Other investment income	1,202	
+Gains on investments in separate accounts	127,823	
+Other ordinary revenues	169,132	
+ORDINARY EXPENSES	3,439,065	
+Benefits and claims	2,364,632	
+Claims	616,314	
+Annuities	486,953	
+Benefits	378,685	
+Surrender values	392,747	
+Other refunds	489,930	
+Provision for policy reserves and others	28,898	
+Provision for reserves for outstanding claims	20,679	
+Provision for interest on policyholder dividends	8,218	
+Investment expenses	408,404	
+Interest expenses	12,358	
+Losses on sale of securities	125,323	
+Losses on valuation of securities	1,285	
+Losses on redemption of securities	6,175	
+Derivative transaction losses	172,879	
+Foreign exchange losses	31,837	
+Provision for reserve for possible loan losses	1,813	
+Provision for reserve for possible investment losses	295	
+Write-down of loans	43	
+Depreciation of real estate for rent and others	13,171	
+Other investment expenses	43,219	
+Operating expenses	404,407	
+Other ordinary expenses	232,723	
+Ordinary profit	372,786	
+EXTRAORDINARY GAINS	5,469	
+Gains on disposal of fixed assets	5,469	
+EXTRAORDINARY LOSSES	27,554	
+Losses on disposal of fixed assets	6,810	
+Impairment losses on fixed assets	2,552	
+Provision for reserve for price fluctuations	18,000	
+Other extraordinary losses	190	
+Provision for reserve for policyholder dividends	77,500	
+Income before income taxes	273,201	
+Corporate income taxes-current	77,701	
+Corporate income taxes-deferred	439	
+Total of corporate income taxes	78,141	
+Net income	195,059	
+Net income attributable to shareholders of parent company	195,059	
+	(millions of yen)	
+	Year ended	
+	31-Mar-21	
+Net income	195,059	
+Other comprehensive income	614,980	
+Net unrealized gains (losses) on securities, net of tax	620,191	
+Deferred hedge gains (losses)	-24,814	
+Foreign currency translation adjustments	592	
+Remeasurements of defined benefit plans, net of tax	19,011	
+Share of other comprehensive income of subsidiaries and affiliates accounted for		
+	0	
+under the equity method		
+Comprehensive income	810,040	
+Attributable to shareholders of parent company	810,040	
+
