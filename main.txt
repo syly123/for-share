@@ -6,4 +6,4 @@ More employers, especially large corporations, are looking to expand their benef
 
 multiplied by Dai-ichi Life's Total payout ratio (estimate): Medium-term average of 50%
 
-For BVPS analysis, we compare figures that do not take into account the impact of transactions with figures that do take into account the impact of transactions each fiscal year to analyze the pure impact of transactions.
+Regarding BVPS analysis, we analyze the pure impact of transactions by comparing the figures without taking into account the impact of transactions and the figures that take into account the impact of transactions every fiscal year.
