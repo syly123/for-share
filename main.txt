@@ -5,3 +5,5 @@ https://s201.q4cdn.com/630564768/files/doc_presentations/2023/Unum-Group-2023-Ou
 More employers, especially large corporations, are looking to expand their benefits offerings, which is likely to lead to increased adoption of cloud HR.
 
 multiplied by Dai-ichi Life's Total payout ratio (estimate): Medium-term average of 50%
+
+For BVPS analysis, we compare figures that do not take into account the impact of transactions with figures that do take into account the impact of transactions each fiscal year to analyze the pure impact of transactions.
