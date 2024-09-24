@@ -1,9 +1,21 @@
-The book value of shareholders is increased by adding the net income for each fiscal year.
+import win32com.client
 
-https://s201.q4cdn.com/630564768/files/doc_presentations/2023/Unum-Group-2023-Outlook-Meeting-2.22.pdf
+# Outlookのアプリケーションオブジェクトを作成する
+outlook_app = win32com.client.Dispatch("Outlook.Application")
 
-More employers, especially large corporations, are looking to expand their benefits offerings, which is likely to lead to increased adoption of cloud HR.
+# Outlookの予定表フォルダを取得する
+calendar = outlook_app.GetNamespace("MAPI").GetDefaultFolder(9)
 
-multiplied by Dai-ichi Life's Total payout ratio (estimate): Medium-term average of 50%
+# 予定の一覧を取得する
+appointments = calendar.Items
 
-Regarding BVPS analysis, we analyze the pure impact of transactions by comparing the figures without taking into account the impact of transactions and the figures that take into account the impact of transactions every fiscal year.
+# 予定の一覧を表示する
+for appointment in appointments:
+    print(appointment.Subject, appointment.Start, appointment.End)
+
+# 予定を追加する
+new_appointment = appointments.Add()
+new_appointment.Subject = "会議"
+new_appointment.Start = "2024-01-01 14:00"
+new_appointment.End = "2024-01-01 15:00"
+new_appointment.Save()
