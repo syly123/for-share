@@ -1,0 +1,21 @@
+import win32com.client
+
+# Outlookのアプリケーションオブジェクトを作成する
+outlook_app = win32com.client.Dispatch("Outlook.Application")
+
+# Outlookの予定表フォルダを取得する
+calendar = outlook_app.GetNamespace("MAPI").GetDefaultFolder(9)
+
+# 予定の一覧を取得する
+appointments = calendar.Items
+
+# 予定の一覧を表示する
+for appointment in appointments:
+    print(appointment.Subject, appointment.Start, appointment.End)
+
+# 予定を追加する
+new_appointment = appointments.Add()
+new_appointment.Subject = "会議"
+new_appointment.Start = "2024-01-01 14:00"
+new_appointment.End = "2024-01-01 15:00"
+new_appointment.Save()
