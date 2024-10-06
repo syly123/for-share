@@ -1,21 +1,89 @@
-import win32com.client
-
-# Outlookのアプリケーションオブジェクトを作成する
-outlook_app = win32com.client.Dispatch("Outlook.Application")
-
-# Outlookの予定表フォルダを取得する
-calendar = outlook_app.GetNamespace("MAPI").GetDefaultFolder(9)
-
-# 予定の一覧を取得する
-appointments = calendar.Items
-
-# 予定の一覧を表示する
-for appointment in appointments:
-    print(appointment.Subject, appointment.Start, appointment.End)
-
-# 予定を追加する
-new_appointment = appointments.Add()
-new_appointment.Subject = "会議"
-new_appointment.Start = "2024-01-01 14:00"
-new_appointment.End = "2024-01-01 15:00"
-new_appointment.Save()
+			
+			
+Unum			
+	モルガン・スタンレー	Equalwt/In-Line	58.00
+	JPモルガン	オーバーウェート	63.00
+	Piper Sandler & Co	オーバーウェート	68.00
+	Autonomous Research	アンダーパフォーム	52.00
+	Zacks	中立	63.00
+	Barclays	オーバーウェート	73.00
+	Jefferies	買い	67.00
+	Baptista Research	ホールド	63.40
+	Wells Fargo	オーバーウェート	69.00
+	Keefe, Bruyette & Woods	アウトパフォーム	66.00
+	Truist Securities	買い	70.00
+	Evercore ISI	インライン	59.00
+	Raymond James	市場平均並み	
+	シティ	買い	69.00
+	SADIF Investment Analytics	ホールド	57.49
+	ISS-EVA	買い	
+			
+			
+GL			
+	モルガン・スタンレー	ホールド	83.00
+	JPモルガン	Equalwt/In-Line	136.00
+	Piper Sandler & Co	オーバーウェート	118.00
+	Autonomous Research	オーバーウェート	108.00
+	Evercore ISI	アウトパフォーム	95.00
+	Zacks	インライン	113.00
+	Raymond James	中立	160.00
+	Jefferies	強い買い	95.00
+	Baptista Research	ホールド	118.90
+	Wells Fargo	アンダーパフォーム	108.00
+	ISS-EVA	オーバーウエート	
+	Keefe, Bruyette & Woods	アウトパフォーム	118.00
+	Truist Securities	ホールド	90.00
+	SADIF Investment Analytics	強い買い	128.84
+			
+			
+Voya			
+	モルガン・スタンレー	Equalwt/In-Line	82.00
+	JPモルガン	中立	87.00
+	Piper Sandler & Co	オーバーウェート	88.00
+	Autonomous Research	アウトパフォーム	85.00
+	Zacks	中立	83.00
+	Raymond James	市場平均並み	
+	RBCキャピタルマーケッツ	アウトパフォーム	83.00
+	Keefe, Bruyette & Woods	アウトパフォーム	82.00
+	シティ	Rating一時停止	
+	Evercore ISI	アウトパフォーム	82.00
+	Wells Fargo	オーバーウェート	87.00
+	Barclays	オーバーウェート	84.00
+	Jefferies	ホールド	75.00
+	Truist Securities	ホールド	75.00
+	ISS-EVA	買い	
+			
+PRI			
+	モルガン・スタンレー	Equalwt/In-Line	269.00
+	Piper Sandler & Co	中立	283.00
+	Raymond James	市場平均並み	
+	Baptista Research	アンダーパフォーム	291.00
+	William Blair	市場平均並み	
+	Keefe, Bruyette & Woods	市場平均並み	275.00
+	Jefferies	ホールド	249.00
+	Truist Securities	買い	300.00
+	SADIF Investment Analytics	買い	285.25
+	ISS-EVA	買い	
+			
+			
+FG			
+	Piper Sandler & Co	中立	46.00
+	Autonomous Research	中立	44.00
+	SADIF Investment Analytics	ホールド	84.53
+	Barclays	equalweight	45.00
+	Stephens	equalweight	43.00
+	Baptista Research	アンダーパフォーム	41.10
+	ISS-EVA	買い	
+			
+			
+CNO			
+	Piper Sandler & Co	オーバーウェート	38.00
+	Autonomous Research	中立	30.00
+	Zacks	アウトパフォーム	40.00
+	Jefferies	ホールド	31.00
+	Raymond James	市場平均並み	
+	Keefe, Bruyette & Woods	市場平均並み	33.00
+	RBCキャピタルマーケッツ	アウトパ フォーム	38.00
+	Evercore ISI	アンダーパフォーム	29.00
+	ISS-EVA	オーバーウェート	
+	SADIF Investment Analytics	強い買い	48.05
