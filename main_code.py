@@ -25,3 +25,32 @@ extracted_texts = extract_text_between_numbers_and_newline(pdf_path)
 
 for text in extracted_texts:
     print(text)
+
+
+
+import pdfplumber
+
+def extract_bold_text(pdf_path):
+    bold_texts = []
+
+    with pdfplumber.open(pdf_path) as pdf:
+        # 各ページを処理
+        for page in pdf.pages:
+            # PDF内のテキストオブジェクトを取得
+            words = page.extract_words()
+
+            # 各テキストオブジェクトを確認して、bold属性をチェック
+            for word in words:
+                # 'fontname' フィールドでフォントの種類を確認し、太字を判定
+                if 'Bold' in word['fontname']:  # フォント名に 'Bold' が含まれる場合
+                    bold_texts.append(word['text'])
+
+    return bold_texts
+
+# 使用例
+pdf_path = "example.pdf"  # ここに対象のPDFファイルのパスを指定
+bold_texts = extract_bold_text(pdf_path)
+
+for text in bold_texts:
+    print(text)
+
