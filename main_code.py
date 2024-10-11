@@ -17,3 +17,5 @@ r'([^\n]*\.\n)((?:[^\n]*\n){0,3})([^\n]*\.\n)'
             extracted_texts.append(match.strip())
     
     return extracted_texts
+
+    https://www.sec.gov/Archives/edgar/data/1431048/000095012309062171/k02183fv4.htm
