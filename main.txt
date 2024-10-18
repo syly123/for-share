@@ -1,3 +1,28 @@
+Outflowの要因
+資産クラス別の流出
+投資家属性ごとの流出、リテール？機関投資家？特定のファンドから？
+GIRのページにモデルが出ており、monthly AUMがすべて出ている（使える）
+他にAUM分析をするのに使えるのはSimfundsのData、どう取るかはわからない、梅村・内田さんにどう取っているか聞く（ISG？）
+スポットでも期間ごとでも取れるからどう取るべきか
+それがあれば米国ミューチュアル・ファンド、特定ファンドからなのかまんべんなく流出しているかわかる
+マルチブティック、最近買ったPuntnumが優秀でinflowのはず（エクイティが強い）
+減っているものの要因分析、足元＋もう少し長い視点と、会社がそれで良いのか、量ではなく質じゅうしなのかも？（想定通り？）
+どういう手立てを打っているのか定性的でもいいので知りたい、成果のあるものはわかるように掲載
+AcquisitionによるAUM増加以外のMitigating Factor、デジタルの取り組みなど？
+AR、Moodys/S&P以外の格付けレポートなども定性的コメントが参考になるかも、PR、RRなど。伊川さんたちが持っているはずなので既に集めたものはもらう。
+Wells FargoのInitial Coverageなど回してもらった記憶
+不正＋パフォーマンスが悪いが原因だが、パフォーマンスが悪いのはキーパーソンがいなくなったからなのか？
+第一はGA30兆円あるので200bnあると足していい感じ
+ウェスタンアセットの流出内訳も開示で出ているので見せる
+AUM整理できたら一旦共有
+
+AMGアフィリエーテッド・マネジャーズ・グループを次に見てみる
+その後はマルチブティックがうまくいかないことを説明したい
+バリュエーション低いので言いやすいはず。
+今までどういうことをやってどう評価されててこういう立ち位置にいます。と見せる
+概要・強み・弱みをマルチブティックにFocusして見せたい。
+オペレーションの統合は、Integratedに近いシステムもあれば、ただただぶら下がっているだけ（確かAMGはこっち）
+
 I feel that there is a wide disparity in the types of deals experienced among my peers: some are assigned to multiple M&A executions, while many are assigned to deal marketing only or offerings only. 
 In addition, project assignments are often made unilaterally, and there are almost no hearings regarding requests for assignments. I would like to see more sharing of internal project availability, etc.
 
