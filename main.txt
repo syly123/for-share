@@ -1,3 +1,14 @@
+Q3 2024, Q2 2024, ..., Q1 2022まで、
+各四半期の"Simfunds Overlap_Performance Master.xls"のファイルからシートを抽出し、
+すべて一つのブックにまとめてNet Flow Dataという名前にする。
+そのうえで最新四半期（Q3 2024）のシートで、B列「Manager Parent」が「Franklin Resource」になっているものでM列「Net New Flows」が、
+①プラスの数で絶対値が大きい順に上位30ファンド抽出
+②マイナスの数で絶対値が大きい順に上位30ファンド抽出
+という作業をそれぞれ新シートを作成して実施（趣旨として流入額と流出額の多いファンドをそれぞれランキング作成）
+そのうえで抽出した上位30ファンドに対してそれぞれ過去四半期の間のNet New Flowを右に列を足していく形で追加（Index Match等をご活用ください）
+各四半期の流出入は「Ytd 日付 Net New Flows $MM」と書いてある列になります
+
+
 https://www.insurance-canada.ca/2019/07/08/sun-life-completes-acquisition-bentall-greenoak/#backgrounder
 https://kyodonewsprwire.jp/release/201812191636
 https://www.tetragoninv.com/tfgam-articles/announcement-of-closing-of-greenoak-real-estate-merger-with-sun-lifes-real-estate-and-property-management-firm-bentall-kennedy
