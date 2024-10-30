@@ -1,83 +1,13 @@
-Q3 2024, Q2 2024, ..., Q1 2022まで、
-各四半期の"Simfunds Overlap_Performance Master.xls"のファイルからシートを抽出し、
-すべて一つのブックにまとめてNet Flow Dataという名前にする。
-そのうえで最新四半期（Q3 2024）のシートで、B列「Manager Parent」が「Franklin Resource」になっているものでM列「Net New Flows」が、
-①プラスの数で絶対値が大きい順に上位30ファンド抽出
-②マイナスの数で絶対値が大きい順に上位30ファンド抽出
-という作業をそれぞれ新シートを作成して実施（趣旨として流入額と流出額の多いファンドをそれぞれランキング作成）
-そのうえで抽出した上位30ファンドに対してそれぞれ過去四半期の間のNet New Flowを右に列を足していく形で追加（Index Match等をご活用ください）
-各四半期の流出入は「Ytd 日付 Net New Flows $MM」と書いてある列になります
-
-
-https://www.insurance-canada.ca/2019/07/08/sun-life-completes-acquisition-bentall-greenoak/#backgrounder
-https://kyodonewsprwire.jp/release/201812191636
-https://www.tetragoninv.com/tfgam-articles/announcement-of-closing-of-greenoak-real-estate-merger-with-sun-lifes-real-estate-and-property-management-firm-bentall-kennedy
-
-結論：残りの44%の株主は恐らくTetragon
-・Bentall Kennedy（Sun Lifeが2015に買収）とGreenOak Real Estateが合併、世界規模の不動産投資プラットフォームBentall GreenOakが誕生
-・Sun Lifeは合併後企業（Bentall GreenOak）の株式56%を保有
-・現在のGreenOak経営陣ならびにGreenOakの戦略的パートナーであるTetragon Financial Group Limitedは、引き続きBentall GreenOakの相当の大部分の所有権を保持
-・Tetragonはクローズドエンド型投資会社で、Amsterdam N.V.のユーロネクスト上およびロンドン証券取引所のメイン市場のSpecialist Fund Segment上で取引されている
-
-
-https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/slf-crescent-capital-slides-october-21-2020.pdf
-https://www.latimes.com/archives/la-xpm-2010-jul-28-la-fi-tcw-20100728-story.html
-https://www.themiddlemarket.com/articles/sun-life-buys-majority-stake-in-crescent-capital-to-bolster-asset-management-business
-
-結論：残りの49%の株主は恐らくCrescent Capitalの創設者&従業員
-・投資会社トラスト・カンパニー・オブ・ザ・ウエスト（後にTCWグループに改名）に売却
-・再びTCWから分離独立し再び従業員所有の会社となった。両社の業務関係は密接なままで、両社は既存のクライアントの管理手数料を分担
-・Sun Lifeが51%の株式を買収
-
-https://cdn.sunlife.com/static/Global/Investors/Presentations%20and%20events/Past%20events/SLF_InfraRed_Slides_December_18_2019.pdf
-https://realassets.ipe.com/infrared-capital-partners-emerges-from-hsbc-mbo/40434.article
-
-結論：残りの20%の株主は恐らInfraRedの創設者&従業員、およびHSBC
-・HSBCスペシャリスト・インベストメンツは、MBO後に社名をインフラレッド・キャピタル・パートナーズに変更
-・HSBCは同事業の株式19.9%を保持しており、インフラレッドは同銀行が「重要なビジネスパートナー」であり続けると述べた
-・Sun Lifeが80%の株式を買収
-
-https://www.sunlife.com/en/newsroom/news-releases/announcement/sun-life-to-acquire-a-majority-stake-in-advisors-asset-management/123677/
-https://files.brokercheck.finra.org/firm/firm_46727.pdf
-結論：残りの20%の株主は恐ら創業家のファミリーファンド（S&LC FAMILY LLC）
-・FINRAのレポートを見る限りS&LC FAMILY LLCが25%-49%以上を保有している
-・Sun Lifeが80%の株式を買収
-
-
-
-
-https://www.ft.com/content/c06c01b8-408e-4897-8556-53a8365ff055
-
-・フランクリンは富裕層投資家をターゲットにしたオルタナティブ投資事業に、今後の新規資金獲得への期待
-・アクティブETFや退職者向けチャネルへの国際市場からの資金流入
-・アクティブ Mutual Fund → アクティブETF の流れ
-
-https://www.wsj.com/finance/investing/franklin-templeton-turns-toward-private-investing-as-mutual-fund-business-shrinks-07fb042b
-
-・昨年末時点で、フランクリンのオルタナティブ投資は資産の18％、運用手数料の25％を占めている
-・アクティブ運用ファンドは、2008～09年の金融危機からの回復期に市場全体を下回るパフォーマンスを示し、投資家の支持を失う
-・フランクリンのような伝統的な資産運用会社は、プライベートエクイティの急成長と豊富な手数料収入を長い間切望し買収を考えるも、売り手のメリットがなかった
-・しかし機関投資家からの資金流入が鈍化したことで、プライベートマーケット企業は個人投資家に目を向けるようになった
-・個人投資家に対して強いブランドと知名度のあるフランクリンと提携するメリットが生まれた
-
-https://www.ft.com/content/1f9cfb87-c44b-44a5-b682-889d5266a584
-
-・投資家がリスクエクスポージャーを減らし、金利上昇で利回りが上昇したマネーマーケットファンドに投資する選択をしたため、伝統的な株式および債券運用会社に大きな打撃
-・高金利が続いたことで打撃を受けたウエスタン・コア・プラス債券ファンドの不振
-・フランクリンCEO「FRBが景気サイクルの終盤に動いたと安心し始めると、リスクオンともう少し長いデュレーションに移行し始める」
-
-https://www.ft.com/content/3b42a786-902a-48b7-9b09-48339710bf0b
-https://www.ft.com/content/355c5842-30bc-11ea-a329-0bcf87a328f2
-・テンプルトン・グローバル・ボンド・ファンドを運用するマネージャー、マイケル・ハセンスタブ氏は、債券価格が下落するという誤った読みで、2020年に米国の債券ファンドの中で最大の資金流出を経験した
-・マウリコ・マクリ大統領が失脚したアルゼンチン国債でも大きな損失を被った
-・2019年に利回りは着実に低下し、パンデミックが激化すると、ゼロをわずかに上回る記録的な低水準にまで落ち込んだ
-・同社は近年、それ以外にも継続的な資金流出を経験しており、パンデミック発生後のインド投資信託からの多額の解約もその1つ
-・同社は、2018年に買収したプライベートクレジット部門のベネフィット・ストリート・パートナーズを含め、ETFとオルタナティブ投資のサービス拡充に注力している
-
-https://www.ft.com/content/377ba913-b1e8-410d-9ac9-7ca79dbdc4a4
-・新型コロナウイルスによる市場ショックはフランクリン・テンプルトンにも打撃（インドで運用する投資信託からの大量の解約）
-・ライバルのレッグ・メイソンの画期的な買収を前に投資家が同社のファンドから資金を引き揚げた
-・資金流出は投資家が統合プロセスがうまくいかないと予想していたことを示している
+2021年初頭以降、70以上のMutual FundがETFに転換した
+ETFはキャピタルゲインの節税効果があり、手数料も低いため、近年多くの投資家から注目を集める
+ETFへの転換にあたっては既存投資家の承認や、投資家によっては新規口座開設が必要となる
+ETFを保有するには顧客が証券口座にアクセスする必要があるため、顧客がETFを利用していない企業にとっては転換が問題となる可能性がある
+ETF は保有資産を毎日開示する必要がありますが、Mutual Fundの四半期毎の開示と比べより透明性が高い
+ETFには新しい資金の流入を防ぐメカニズムがなく、ファンドサイズを意図的に抑制することはできない
+最も早く動いたDimensionalは2021年半ばから2022年半ばの間に7つのMutual Fund（総額440億ドル以上）をETFに転換した。7つともTax-managedであったため、より節税効果の高いETFに転換したのは理にかなっている
+JPモルガンも早い時期に総額83億ドル以上の4つのMutual FundをETFに転換した
+DimensionalやJPモルガン、フィディリティなどは転換後に資金流入を増加させた一方、その他のファンドは大した成果が見られていない
+2019年9月に最終化された1940年投資会社法規則6c-11で、「カスタム・バスケット」の活用を容認したことにより、アクティブETFへの転換がより容易になった
 
 https://www.dai-ichi-life-hd.com/newsroom/newsrelease/2023/pdf/index_032.pdf
 https://www.dai-ichi-saiyo.jp/2025/people/work13.html
