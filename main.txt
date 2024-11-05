@@ -1,3 +1,35 @@
+Rank	Insurance Asset Manager	WW AUM	General account	Subadvised	Other
+1	Pacific Investment Management Co.	$652,659	$600,542	$35,666	$16,452
+2	Amundi	$631,849			
+3	PGIM	$620,783	$458,729	$7,173	$154,881
+4	MetLife Investment Management	$568,506	$492,726		$75,780
+5	Goldman Sachs	$416,524	$311,248	$42,480	$62,796
+6	BlackRock	$401,155	$399,671		$1,484
+7	Schroders	$281,060	$52,436	$228,624	
+8	DWS Group	$266,182	$198,906		$67,276
+9	BNP Paribas Asset Management	$253,395	$253,395		
+10	J.P. Morgan Asset Management	$244,577	$187,420	$57,157	
+11	AllianceBernstein	$190,599	$112,903	$67,375	$10,321
+12	HSBC Asset Management	$182,398			
+13	Wellington Management Group	$153,440	$153,440		
+14	Guggenheim Investments	$149,496	$149,443		$53
+16	Principal Global Investors	$134,680	$105,040	$691	$28,948
+17	Conning	$134,661	$134,661		
+18	New England Asset Management	$109,128	$109,128		
+19	Voya Investment Management	$97,967	$92,084		$5,883
+20	Western Asset Management Company	$90,155	$67,364	$22,791	
+21	PPM America	$87,725	$44,431		$43,294
+22	Macquarie Asset Management	$84,073	$54,499	$20,687	$8,887
+23	Morgan Stanley	$80,822	$36,080	$27,919	$16,822
+24	Northern Trust Asset Management	$69,839	$64,480	$5,359	
+25	MFS Investment Management	$47,834	$5,520	$40,031	$2,283
+26	PineBridge Investments	$47,025			
+27	BNY Mellon Investment Management	$46,580	$46,580		
+28	Loomis, Sayles & Company	$39,842	$17,933	$21,909	
+29	Securian Asset Management	$36,369	$32,102	$494	$3,772
+30	Ares Management Corporation	$25,862	$25,862		
+
+
 	金 額	占 率	金 額	占 率
 現 預 金 ・ コ ー ル ロ ー ン	864,225	2.5	989,274	2.9
 買 現 先 勘 定	-	-	-	-
