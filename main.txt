@@ -1,3 +1,58 @@
+AMG				
+	ドイツ銀行	買い	204	11/05/24
+	ゴールドマン・サックス	買い	193	11/05/24
+	Jefferies	買い	207	11/05/24
+	Barrington Research	買い	200	11/05/24
+	TD Cowen	中立	177	11/05/24
+	Morningstar	中立	184	11/04/24
+	Autonomous	売り	159	11/04/24
+	SADIF Investment Analytics	売り	152.65	10/08/24
+	Zacks	中立	191	10/07/24
+	ISS-EVA	買い		03/23/24
+				
+				
+BEN				
+	ゴールドマン・サックス	売り	20	11/05/24
+	JPモルガン	中立	21	11/05/24
+	Jefferies	中立	20	11/05/24
+	TD Cowen	中立	18.5	11/05/24
+	BMO Capital Markets	中立	22	11/04/24
+	ドイツ銀行	中立	19	11/04/24
+	Keefe, Bruyette & Woods	売り	19	11/04/24
+	Evercore ISI	売り	19	11/04/24
+	Wells Fargo	中立	19.5	11/04/24
+	Morningstar	中立	22	11/04/24
+	Barclays	売り	19	11/04/24
+	Autonomous	売り	18	11/04/24
+	モルガン・スタンレー	売り	19	10/18/24
+	Zacks	中立	20.5	09/06/24
+	SADIF Investment Analytics	中立	24.08	08/19/24
+	ISS-EVA	買い		04/30/24
+				
+				
+SL				
+	モルガン・スタンレー	中立	80	11/05/24
+	Scotiabank	買い	85	11/05/24
+	Cormark Securities	中立	85	11/05/24
+	Evercore ISI	買い	77	11/05/24
+	Barclays	equalweight	79	11/05/24
+	BMO Capital Markets	買い	86	11/04/24
+	RBCキャビタルマーケッツ	買い	78	11/04/24
+	Jefferies	買い	89	11/04/24
+	Desjardins Securities	買い	84	11/04/24
+	TD Cowen	中立	81	11/04/24
+	National Bank Financial 	中立	82	11/04/24
+	Veritas Investment 	買い	77	10/30/24
+	CIBC Capital Markets	買い	90	10/29/24
+	Zacks	中立	82.98	10/22/24
+	Morningstar	売り	66	09/06/24
+	Baptista Research	買い	96.54	08/30/24
+	Argus Research	買い	79.72	08/23/24
+	ISS-EVA	買い		05/30/24
+	Canaccord Genuity	(評価一時停止)		08/02/23
+	Edward Jones	中立		03/17/23
+
+
 トヨタ自動車	356,773,671	380.06
 野村ホールディングス	50,672,800	995.24
 三菱UFJ FG	49,273,347	1,746.60
