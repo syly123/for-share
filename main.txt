@@ -1,3 +1,91 @@
+;https: // ahkwiki.net / KeyList
++^Esc:: ExitApp  ; Exit script with Escape key
+vk1D : (
+Send "& Click Down )"
+KeyWait "vk1D"
+Send "( Click Up )"
+Return
+sc07B : (
+Send "& Click Down )"
+KeyWait "sc07B"
+Send "& Click Up )"
+Return
+sc070 : : (
+Send "(vkF2]"
+; ^2:: (
+Send "(F2)"
+return
+#lf : (
+#a::(
+#m: : (
+Send "!(Space)"
+Sleep 200
+Send "n"
+; + 1::(
+Send "(Home)"
+Send "+(End)"
+Send "^c"
+Sleep(0.5)
+Send "^k"
+sleep(0.5)
+Send "^v"
+Send "(Enter)"
+: )
++ x: : [
+Send "(Home)"
+Send "+(End)"
+Send "^x"
+#f::(
+Run "C: Users)mizutalApppData(Loca] (Programs)Everything_1.4.1.969.x6464(Everything.exe"
+WinActivate "ahk_exe AgentRansack.exe"
+WinMaximize "ahk_exe AgentRansack.exe"
+Send "#t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin関連が最重要、特に個人的に今後必要となる証明書等
+自分が作成した資料一覧
+GS Template
+
+
+
+
+メールの署名
+研修PDF　汎用性のあるもの
+オファリングのメール一覧
+案件フォルダの構成・構造
+IB Facebook
+座席表
+マレリのLBOモデル
+エクセルアドイン
+AHK
+GSBS
+バンカー略歴
+
+
+
+
+
+７月中旬にLOIを後ろ倒し、取締役会を4,6,8?月で追加 
+5月出張より前にLOIはきつい
+制約条件
+来週水曜日に菊田さんへブリーフリングするので、それに向けて簡易的なディールの財務インパクトをシミュレーションをする
+先方の2月面談後のお感触次第でGS側でコンフリクトがないかチェック進める
+
+
 社名： ジャパン・アクティベーション・キャピタル株式会社
 代表取締役社長 ＆ CEO： 大塚 博行
 事業内容： 投資運用業及び第二種金融商品取引業
@@ -5,6 +93,7 @@ AUM： 1300億円
 所在地： 〒107-0062 東京都港区南青山2-5-17 ポーラ青山ビルディング 11F
 
 CEO略歴
+
 旧住友銀行（現三井住友銀行）、米投資銀行ラザードなどを経て2006年にカーライル・ジャパンに入社。カーライル・グループの日本拠点で副代表を務めた。
 
 沿革
