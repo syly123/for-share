@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ;https: // ahkwiki.net / KeyList
 +^Esc:: ExitApp  ; Exit script with Escape key
 vk1D : (
@@ -85,6 +86,201 @@ GSBS
 来週水曜日に菊田さんへブリーフリングするので、それに向けて簡易的なディールの財務インパクトをシミュレーションをする
 先方の2月面談後のお感触次第でGS側でコンフリクトがないかチェック進める
 
+=======
+01/14/25
+01/13/25
+01/12/25
+01/12/25
+01/12/25
+01/08/25
+01/07/25
+12/24/24
+12/20/24
+12/19/24
+12/18/24
+12/09/24
+12/03/24
+11/18/24
+11/05/24
+04/30/24
+
+21.75
+17.00
+19.00
+18.00
+22.50
+21.00
+22.00
+21.50
+19.00
+20.00
+22.00
+21.00
+22.00
+29.48
+21.00
+
+ゴールドマン・サックス
+Autonomous Resear...
+Keefe Bruyette & W...
+Evercore ISI
+Wells Fargo
+ドイツ銀行
+Jefferies
+Zacks
+モルガン・スタンレー
+ID Cowen
+BMO Capital Markets
+Barclays Morningstar
+Sadif Investment An...
+JPモルガン
+ISS-EVA
+
+
+1）
+ゴールドマン・サックス
+Alexander Blostein ...
+中立
+
+21.75
+01/14/25
+25.52%
+3
+Tに
+
+Ea Autonomous Resear... Patrick Davitt
+アンダーパフォーム
+
+17.00
+01/13/25
+29.28%
+
+
+Ea Keefe Bruyette & W...
+Aidan Hall
+アンダーパフォーム
+
+19.00
+01/12/25
+26.62%
+12
+4
+En Evercore ISI
+Glenn P Schorr
+アンダーパフォーム
+
+18.00
+01/12/25
+29.28%
+1
+1
+5）
+Ee Wells Fargo
+Michael C Brown
+equalweight
+
+22.50
+01/12/25
+
+
+6)
+園田ドイツ銀行
+Brian Bedell
+
+
+21.00
+01/08/25
+0.00%
+55
+7）
+Jefferies
+Daniel T Fannon "D...
+ホールド
+
+22.00
+01/07/25
+0.00%
+6に
+8
+I Zacks
+Team Coverage
+中立
+
+21.50
+12/24/24
+- 1.88%
+
+9)
+「モルガソースタルー
+Michael J Cyprys
+Underwt/In-Line
+
+19.00
+12/20/24
+29.28%
+
+
+10 L EATD Cowen
+William Raymond Ka...
+ホールド
+
+20.00
+12/19/24
+0.00%
+155
+11)
+E. BMO Capital Markets
+Etienne Ricard
+市場平均並み
+
+22.00
+12/18/24
+0.00%
+3
+12)
+冒BaBarclays
+Benjamin Budish
+アンダーウエート
+
+21.00
+12/09/24
+
+
+13)
+Es Morningstar
+Greggory Warren
+ホールド
+
+22.00
+12/03/24
+6.79%
+
+14
+Sadif Investment An... Team Coverage
+↑強い買い
+
+29.48
+11/18/24
+-0.48%
+
+15）
+Kenneth B Worthingt...
+中立
+
+21.00
+11/05/24
+0.00%
+5
+16)
+ISS-EVA
+Team Coverage
+オーバーウエート
+
+
+04/30/24
+-20.53%
+9に
+>>>>>>> 869e7da061187b510518e255241b1f83b4054029
 
 社名： ジャパン・アクティベーション・キャピタル株式会社
 代表取締役社長 ＆ CEO： 大塚 博行
