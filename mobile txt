@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows;
+
+namespace FastSearch {
+    public partial class MainWindow : Window {
+        List<string> fileList = new List<string>();
+
+        public MainWindow() {
+            InitializeComponent();
+            ScanDirectory("C:\\"); // 初期ロード
+        }
+
+        void ScanDirectory(string directory) {
+            try {
+                foreach (var file in Directory.EnumerateFiles(directory, "*", SearchOption.AllDirectories)) {
+                    fileList.Add(file);
+                }
+            } catch { /* アクセス拒否を無視 */ }
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e) {
+            string keyword = SearchBox.Text;
+            var results = fileList.Where(f => f.Contains(keyword)).ToList();
+            ResultsList.ItemsSource = results;
+        }
+    }
+}
