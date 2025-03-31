@@ -37,3 +37,5 @@ getFileInfo(startDir)
     writeStream.end();
   })
   .catch((err) => console.error("Error:", err));
+
+//???
