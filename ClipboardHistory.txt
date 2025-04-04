@@ -1,21 +1,9 @@
-; Shift + Ctrl + Win + Vで履歴をファイルに保存するホットキー
-+^#v::
-{
-    global ClipboardHistory, FilePath := A_ScriptDir "\ClipboardHistory.txt"
-    FileDelete(FilePath) ; 古い履歴ファイルを削除
-    for item in ClipboardHistory {
-        FileAppend(item "`n", FilePath) ; ファイルに履歴を書き込む
-    }
-    MsgBox("クリップボード履歴を " FilePath " に保存しました。")
-}
+ルバック関数
+EnterPressed(*) {
+ SelectedItem ; クリップボードにコピー
+        Send "^v" ; 貼り付け
+ry.RemoveAt(index) ; 削除
+            break ; 最初に見つ
+をグローバルに保持
+    MyGui.SetFont("s12") ; フォント設定
 
-    MsgBox("クリップボード履歴を " FilePath " に保存しました。")
-    FileDelete(FilePath) ; 古い履歴ファイルを削除
-    ; デフォルトの不可視ボタンを作成し、Enterキーでイベント処理
-    MsgBox("クリップボード履歴を " FilePath " に保存しました。")
-bal Cli
-MonitorCli
-ardHist
-#Requires AutoHotkey v2
-
-ardHist
