@@ -1,0 +1,25 @@
+{
+  "search_dir": "(\\lfirmwide.corp.gs.com)ibdroot)(projects|(I8D-SI()dust282824(933333333358",
+  "ignore_dir": ["dummy dummy"],
+  "save_dir_info_by_filename": {
+    "RSM\\sent": [
+      [
+        "ロードショー,資料",
+        "road,show,material",
+        "rsm",
+        "ロードショーマテリアル"
+      ]
+    ],
+    "Circle Up Requests": [[]],
+    "QA": [["QA", "想定QA"]],
+    "GS Waiver": [[]]
+  },
+  "domain_dic": {
+    "Outlook": "outlook",
+    "Gmail": "gmail"
+  },
+  "name_dic": {
+    "GS": ["gs", "ゴールドマン"],
+    "Nomura": ["野村", "Nomura"]
+  }
+}
