@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>スクショ表示</title>
+    <style>
+      body {
+        margin: 0;
+        background: transparent;
+        -webkit-user-select: none;
+        overflow: hidden;
+      }
+      #screenshot {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        -webkit-app-region: drag;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="screenshot" src="" alt="screenshot" />
+    <script>
+      function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+      }
+      const base64 = getQueryParam("img");
+      const imgElement = document.getElementById("screenshot");
+      if (base64) {
+        imgElement.src = "data:image/png;base64," + base64;
+      }
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          window.close();
+        }
+      });
+      window.addEventListener("load", () => {
+        window.focus();
+      });
+    </script>
+  </body>
+</html>

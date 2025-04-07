@@ -1,11 +1,56 @@
-Develop an understanding of the overall deal process and learn how junior members, including associates, should navigate the deal
-to have evidence and responsibility for the numbers I calculate and be able to explain them at any time
-Carefully manage working hours and establish my own way of delivering output in a time-effective manner.
-Make sure to check my checklist every time I interact with an outside party.
-Engaging in communication with colleagues and superiors outside of work.
+<<<<<<< HEAD
+;https: // ahkwiki.net / KeyList
++^Esc:: ExitApp  ; Exit script with Escape key
+vk1D : (
+Send "& Click Down )"
+KeyWait "vk1D"
+Send "( Click Up )"
+Return
+sc07B : (
+Send "& Click Down )"
+KeyWait "sc07B"
+Send "& Click Up )"
+Return
+sc070 : : (
+Send "(vkF2]"
+; ^2:: (
+Send "(F2)"
+return
+#lf : (
+#a::(
+#m: : (
+Send "!(Space)"
+Sleep 200
+Send "n"
+; + 1::(
+Send "(Home)"
+Send "+(End)"
+Send "^c"
+Sleep(0.5)
+Send "^k"
+sleep(0.5)
+Send "^v"
+Send "(Enter)"
+: )
++ x: : [
+Send "(Home)"
+Send "+(End)"
+Send "^x"
+#f::(
+Run "C: Users)mizutalApppData(Loca] (Programs)Everything_1.4.1.969.x6464(Everything.exe"
+WinActivate "ahk_exe AgentRansack.exe"
+WinMaximize "ahk_exe AgentRansack.exe"
+Send "#t"
 
 
-Overall, the process went smoothly and I had a great experience, but it took a little longer to receive the offer letter after passing the final interview (about two months).
+
+
+
+
+
+
+
+
 
 
 

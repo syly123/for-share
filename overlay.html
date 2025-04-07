@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>範囲選択</title>
+    <style>
+      html,
+      body,
+      canvas {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="selectionCanvas"></canvas>
+    <script>
+      const { ipcRenderer } = require("electron");
+      const canvas = document.getElementById("selectionCanvas");
+      const ctx = canvas.getContext("2d");
+      let startX = 0,
+        startY = 0;
+      let isDragging = false;
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      function clearCanvas() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+
+      canvas.addEventListener("mousedown", (e) => {
+        startX = e.clientX;
+        startY = e.clientY;
+        isDragging = true;
+      });
+
+      canvas.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+        clearCanvas();
+        const currentX = e.clientX;
+        const currentY = e.clientY;
+        const rectX = Math.min(startX, currentX);
+        const rectY = Math.min(startY, currentY);
+        const rectWidth = Math.abs(currentX - startX);
+        const rectHeight = Math.abs(currentY - startY);
+        ctx.strokeStyle = "red";
+        ctx.lineWidth = 2;
+        ctx.setLineDash([6]);
+        ctx.strokeRect(rectX, rectY, rectWidth, rectHeight);
+      });
+
+      canvas.addEventListener("mouseup", (e) => {
+        if (!isDragging) return;
+        isDragging = false;
+        clearCanvas();
+        const endX = e.clientX;
+        const endY = e.clientY;
+        const rectX = Math.min(startX, endX);
+        const rectY = Math.min(startY, endY);
+        const rectWidth = Math.abs(endX - startX);
+        const rectHeight = Math.abs(endY - startY);
+
+        console.log(
+          `選択範囲: (${rectX}, ${rectY}), ${rectWidth}x${rectHeight}`
+        );
+        ipcRenderer.send("selection-made", {
+          x: rectX,
+          y: rectY,
+          width: rectWidth,
+          height: rectHeight,
+        });
+        window.close();
+      });
+    </script>
+  </body>
+</html>
