@@ -1,3 +1,60 @@
+X
+
+PRIVATE AND CONFIDENTIAL
+
+Priority Diligence Requests
+
+INTERVIEW
+
+Contracts
+
+Top vendor and supplier contracts, including fuel agreements
+
+Material agreements triggered by change of control
+
+Other material expenditure or license agreements
+
+Any agreements for acquisitions, divestitures, partnerships, joint ventures
+
+Agreements containing non-compete, exclusivity or other similar restrictive covenants
+
+Franchise and License Agreements
+
+Sample of franchise agreements from key markets
+
+Material license agreements for key international markets
+
+Sites
+
+Schedule of all sites including key attributes, including location, type and channel, land and building attributes, brand and services
+
+Operational
+
+Listing of top suppliers (non-fuel) and vendors, including annual spend
+
+Overview of distribution in key markets
+
+Summary of technology systems
+
+Breakdown of non-store costs by country and operating business
+
+SG&A
+
+Organizational chart by business unit, department and location
+
+Summary of key executive compensation
+
+Detailed financial statements by business unit, including segregation of product categories and geographies and key KPIs
+
+Financial
+
+Detail on capital expenditure requirements, both historical and projected, including breakdown of capex by type
+
+Commitments for capital expenditures or other long-term agreements of similar nature
+
+CIRCLE
+
+
 <<<<<<< HEAD
 ;https: // ahkwiki.net / KeyList
 +^Esc:: ExitApp  ; Exit script with Escape key
