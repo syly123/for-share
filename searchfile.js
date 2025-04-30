@@ -3,7 +3,7 @@ const path = require("path");
 const { promisify } = require("util");
 
 const outputFilePath = "file_info_node.csv";
-const startDir = "C:Users\tatsuDocuments\for-share"; // ここに対象ディレクトリを指定
+const startDir = "C:/your/target/directory"; // ここに対象ディレクトリを指定
 
 const writeStream = fs.createWriteStream(outputFilePath);
 writeStream.write("Type,Path,Name,Last Modified,Created,Size (bytes)\n");
