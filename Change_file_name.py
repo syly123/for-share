@@ -1,35 +1,47 @@
 import os
 import re
 
-# 対象のフォルダを指定（例：カレントディレクトリ）
+# 対象フォルダのパス
 target_folder = "path/to/your/folder"
 not_matched_file = os.path.join(target_folder, "Not matched.txt")
 
-# パターン：[数字.数字...] [Finance]_[数字.数字...]_[根幹名]_[202xxxxx]
-pattern = re.compile(r"^\d+(?:\.\d+)* Finance_\d+(?:\.\d+)*_([^_]+)_202\d+")
+# 正規表現パターン：指定された形式にマッチするもの
+pattern = re.compile(r"^(\d+(?:\.\d+)*) Finance_\d+(?:\.\d+)*_([^_]+)_202\d+")
 
-matched_core_names = []
 not_matched = []
 
 for root, dirs, files in os.walk(target_folder):
     for filename in files:
         if filename == "Not matched.txt":
-            continue  # 自分自身は除く
+            continue  # 自分自身はスキップ
+
         match = pattern.match(filename)
         if match:
-            core_name = match.group(1)
-            matched_core_names.append(core_name)
+            core_name = match.group(2)
+            ext = os.path.splitext(filename)[1]
+            new_filename = core_name + ext
+            old_path = os.path.join(root, filename)
+            new_path = os.path.join(root, new_filename)
+
+            # 同名ファイルがすでにある場合はスキップ（または "_1" などで区別してもよい）
+            if os.path.exists(new_path):
+                count = 1
+                while True:
+                    new_filename_alt = f"{core_name}_{count}{ext}"
+                    new_path = os.path.join(root, new_filename_alt)
+                    if not os.path.exists(new_path):
+                        break
+                    count += 1
+
+            os.rename(old_path, new_path)
         else:
             not_matched.append(os.path.join(root, filename))
 
-# 結果出力
-print("抽出された根幹ファイル名:")
-for name in matched_core_names:
-    print(name)
-
-# Not matched.txt に出力
+# マッチしなかったファイルの記録
 with open(not_matched_file, "w", encoding="utf-8") as f:
     for path in not_matched:
         f.write(path + "\n")
 
-print(f"\nマッチしなかったファイルは {not_matched_file} に出力されました。")
+print(
+    "ファイル名のリネーム完了。マッチしなかったファイルは Not matched.txt に出力されました。"
+)
