@@ -4,14 +4,17 @@ import re
 # 対象フォルダ（必要に応じて変更）
 target_dir = "your_directory_path_here"
 
-# 正規表現パターン：完全一致形式（マッチすれば根幹ファイル名を抽出）
-pattern = re.compile(r"^\d+(?:\.\d+)*\s+Finance_\d+(?:\.\d+)*_([\w\s.-]+)_202\d{5,}$")
+# 正規表現パターン：ファイル名をマッチングし、根幹ファイル名を抽出
+pattern = re.compile(r"^(?:\d+(?:\.\d+)*\s)?Finance_\d+(?:\.\d+)*_(.+?)_202\d+")
 
 # 末尾の _202xxxxx を削除するパターン
 remove_trailing_date = re.compile(r"_(202\d{5,})$")
 
 # 先頭の数字とピリオドの組み合わせ（3桁以上）+ 半角スペースを削除
 remove_leading_numbers = re.compile(r"^([\d\.]{3,})\s+(.*)")
+
+# Finance_とその前の部分を削除するパターン（Finance_とその後の数字ピリオド群も削除）
+remove_finance_part = re.compile(r"^(?:\d+(?:\.\d+)*\s)?Finance_\d+(?:\.\d+)*_")
 
 # マッチしなかったファイル名を記録するリスト
 not_matched = []
@@ -36,6 +39,8 @@ for root, _, files in os.walk(target_dir):
             match_leading = remove_leading_numbers.match(modified_name)
             if match_leading and "." in match_leading.group(1):
                 modified_name = match_leading.group(2)
+            # Finance_とその前の部分を削除
+            modified_name = remove_finance_part.sub("", modified_name)
             new_name = modified_name + ext
             not_matched.append(filename)
 
