@@ -1,3 +1,12 @@
+
+
+Detail on capital expenditure requirements, both historical and projected, including breakdown of capex by type
+
+Commitments for capital expenditures or other long-term agreements of similar nature
+
+CIRCLE
+
+
 <<<<<<< HEAD
 ;https: // ahkwiki.net / KeyList
 +^Esc:: ExitApp  ; Exit script with Escape key
