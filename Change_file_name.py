@@ -6,7 +6,7 @@ target_folder = "path/to/your/folder"
 not_matched_file = os.path.join(target_folder, "Not matched.txt")
 
 # パターンの定義（_202で終わる前の文字列をグループ化）
-pattern = re.compile(r"^\d+(?:\.\d+)* Finance_\d+(?:\.\d+)*_(.+?)_202\d+")
+pattern = re.compile(r"^(?:\d+(?:\.\d+)*\s)?Finance_\d+(?:\.\d+)*_(.+?)_202\d+")
 
 not_matched = []
 
