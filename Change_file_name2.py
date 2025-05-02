@@ -7,27 +7,34 @@ target_dir = "your_directory_path_here"
 # 正規表現パターン：完全一致形式（マッチすれば根幹ファイル名を抽出）
 pattern = re.compile(r"^\d+(?:\.\d+)*\s+Finance_\d+(?:\.\d+)*_([\w\s.-]+)_202\d{5,}$")
 
-# 後処理パターン（マッチしなかったときのみ）
+# 末尾の _202xxxxx を削除するパターン
 remove_trailing_date = re.compile(r"_(202\d{5,})$")
-remove_leading_numbers = re.compile(r"^(\d{3,}(?:\.\d+)+)\s+(.*)")
 
+# 先頭の数字とピリオドの組み合わせ（3桁以上）+ 半角スペースを削除
+remove_leading_numbers = re.compile(r"^([\d\.]{3,})\s+(.*)")
+
+# マッチしなかったファイル名を記録するリスト
 not_matched = []
 
+# フォルダ内のファイルを探索
 for root, _, files in os.walk(target_dir):
     for filename in files:
         old_path = os.path.join(root, filename)
         name, ext = os.path.splitext(filename)
 
+        # 正規表現でファイル名をマッチング
         match = pattern.match(name)
         if match:
+            # マッチした場合は、根幹ファイル名を抽出
             new_name = match.group(1) + ext
         else:
+            # マッチしなかった場合、後処理を行う
             modified_name = name
             # 末尾の _202xxxxx を削除
             modified_name = remove_trailing_date.sub("", modified_name)
-            # 先頭の 3桁以上の数字＋ピリオド＋スペース を削除（ピリオドがない場合は除外）
+            # 先頭の数字 + ピリオド + 半角スペース を削除（ピリオドが含まれている場合のみ）
             match_leading = remove_leading_numbers.match(modified_name)
-            if match_leading:
+            if match_leading and "." in match_leading.group(1):
                 modified_name = match_leading.group(2)
             new_name = modified_name + ext
             not_matched.append(filename)
