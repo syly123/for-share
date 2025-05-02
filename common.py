@@ -8,7 +8,8 @@ import os
 import pyperclip
 import time
 import json
-import Auto_Kairan_Paris
+
+# import Auto_Kairan_Paris
 
 
 def get_toRecipient(mail):
@@ -299,10 +300,10 @@ def save_attachment(mail, json_info, pj, calendar):
                     mail.SaveAs(path_to_save, 3)
                     saved_info.append([original_sub, savename + ".msg", path_to_save])
 
-                    if need_kairan:
-                        Auto_Kairan_Paris.create_kairan_draft(
-                            mail, new_dir_path, calendar
-                        )
+                    # if need_kairan:
+                    #     Auto_Kairan_Paris.create_kairan_draft(
+                    #         mail, new_dir_path, calendar
+                    #     )
 
                 no_attachment = False
                 path_to_save = os.path.join(new_dir_path, str(attachment.FileName))
