@@ -1,6 +1,7 @@
 #Requires AutoHotkey v2
 
 global SearchResults := [] ; 検索結果を保持する配列
+global PathList := [] ; パスを保持する配列
 global TsvFilePath := "C:\Users\tatsu\Documents\for-share\sample.tsv" ; 検索対象のTSVファイルのパス
 global MyGui := "" ; GUIオブジェクトを明示的に初期化
 global WindowActive := false ; ウィンドウが表示中かどうかを管理
@@ -43,7 +44,7 @@ global WindowActive := false ; ウィンドウが表示中かどうかを管理
 }
 
 SearchTsv(*) {
-    global SearchResults, TsvFilePath, MyGui
+    global SearchResults, PathList, TsvFilePath, MyGui
 
     SearchText := MyGui["SearchBox"].Text ; 検索ボックスの入力を取得
 
@@ -54,6 +55,7 @@ SearchTsv(*) {
     }
 
     SearchResults := [] ; 検索結果を初期化
+    PathList := []
 
     ; TSVファイルを読み取る
     Loop Read, TsvFilePath
@@ -72,6 +74,7 @@ SearchTsv(*) {
         ; 検索文字がファイル名またはパスに含まれる場合、結果に追加
         if (InStr(FileName, SearchText) || InStr(FilePath, SearchText)) {
             SearchResults.Push(FileName " - " FilePath) ; ファイル名とパスの形式で格納
+            PathList.Push(FilePath) ; パスの形式で格納
         }
     }
 
@@ -117,14 +120,16 @@ HandleEsc(*) {
 }
 
 ShowDetails(*) {
-    global SearchResults, MyGui
+    global PathList, MyGui
 
     SelectedIndex := MyGui["ResultList"].Value ; 選択されたアイテムのインデックスを取得
     if (SelectedIndex > 0) {
-        ; 選択された結果の詳細情報を取得
-        SelectedResult := SearchResults[SelectedIndex]
+        SelectedPath := PathList[SelectedIndex] ; 選択されたパスを取得
 
-        ; 詳細をメッセージボックスに表示
-        MsgBox("選択された項目: " SelectedResult)
+        ; エクスプローラーでフォルダを開く
+        Run "explorer.exe /select," SelectedPath
+
+        ; クリップボードにパスをコピー
+        A_Clipboard := SelectedPath
     }
 }
