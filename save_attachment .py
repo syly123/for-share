@@ -44,7 +44,7 @@ all_pj_saved_info = {}
 
 for pj in pj_list:
     # 全PJの情報を含む辞書を作成
-    json_path = r"C:\Users\mizuta\Src\save_setting_" + pj + ".json"
+    json_path = r"C:\Users\Tatsuhiko.M\Documents\for-share\save_setting_" + pj + ".json"
     json_data = read_json(json_path)
 
     # 全PJでJson構造を一致させないとエラーが出る
