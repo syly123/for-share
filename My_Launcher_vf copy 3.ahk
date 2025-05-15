@@ -1,3 +1,4 @@
+;https: // www.autohotkey.com / docs / v2 / lib / ListView.htm#Add
 #Requires AutoHotkey v2
 
 ; グローバル変数の定義
@@ -29,7 +30,11 @@ global to_Omit := ["C:\Users\tatsu\Documents\", "C:\Shared\"]  ; 表示時に省
     SearchBox.OnEvent("Change", DelayedSearch)  ; 入力時に検索を遅延
 
     ; リストボックスを作成
-    ResultList := MyGui.Add("ListBox", "r10 vResultList w800 h300", [])
+    ; ResultList := MyGui.Add("ListBox", "r10 vResultList w800 h300", [])
+    ResultList := MyGui.Add("ListView", "r30 vResultList w800 h300", ["ファイル名", "パス"])
+    ResultList.ModifyCol(1, 250)  ; ファイル名の列幅
+    ResultList.ModifyCol(2, 550)  ; パスの列幅
+
 
     ; 選択ボタンを作成
     MyGui.Add("Button", "y+10 Default", "エクスプローラーで表示").OnEvent("Click", ShowDetails)
@@ -38,8 +43,8 @@ global to_Omit := ["C:\Users\tatsu\Documents\", "C:\Shared\"]  ; 表示時に省
     MyGui.OnEvent("Close", HandleEsc)
 
     ; ホットキーの有効化
-    Hotkey("Up", HandleKeyUp, "On")
-    Hotkey("Down", HandleKeyDown, "On")
+    ; Hotkey("Up", HandleKeyUp, "On")
+    ; Hotkey("Down", HandleKeyDown, "On")
     Hotkey("Enter", HandleKeyEnter, "On")
     Hotkey("Esc", HandleEsc, "On")
 
@@ -104,34 +109,41 @@ SearchTsv(*) {
 
             ; ファイル名と拡張子を削除
             DisplayPath := RegExReplace(DisplayPath, "\\[^\\]+?\.[^.]+?$", "")
-            SearchResults.Push(Item.FileName " - " DisplayPath)
+            ; SearchResults.Push(Item.FileName " - " DisplayPath)
+            SearchResults.Push([Item.FileName, DisplayPath])
             PathList.Push(FullPath)
         }
     }
     ResultList := MyGui["ResultList"]
     ResultList.Delete()
-    ResultList.Add(SearchResults)
+    ; ResultList.Add(SearchResults)
+    for Row in SearchResults {
+        ResultList.Add(, Row[1], Row[2])  ; 各列の値を個別に追加
+    }
+
 }
 
 ; キー操作: 上移動
-HandleKeyUp(*) {
-    global MyGui, SearchResults, WindowActive
-    if !WindowActive || SearchResults.Length = 0
-        return
+; HandleKeyUp(*) {
+;     global MyGui, SearchResults, WindowActive
+;     if !WindowActive || SearchResults.Length = 0
+;         return
 
-    ResultList := MyGui["ResultList"]
-    ResultList.Value := Max(ResultList.Value - 1, 1)
-}
+;     ResultList := MyGui["ResultList"]
+;     ResultList.GetNext := Max(ResultList.GetNext() - 1, 1)
+; }
 
-; キー操作: 下移動
-HandleKeyDown(*) {
-    global MyGui, SearchResults, WindowActive
-    if !WindowActive || SearchResults.Length = 0
-        return
+; ; キー操作: 下移動
+; HandleKeyDown(*) {
+;     global MyGui, SearchResults, WindowActive
+;     if !WindowActive || SearchResults.Length = 0
+;         return
 
-    ResultList := MyGui["ResultList"]
-    ResultList.Value := Min(ResultList.Value + 1, SearchResults.Length)
-}
+;     ResultList := MyGui["ResultList"]
+;     MsgBox(ResultList.GetNext())
+;     ResultList.GetNext := Min(ResultList.GetNext() + 1, SearchResults.Length)
+; }
+
 
 ; キー操作: Enterキー
 HandleKeyEnter(*) {
@@ -148,8 +160,8 @@ HandleEsc(*) {
     WindowActive := false
     MyGui.Destroy()
 
-    Hotkey("Up", HandleKeyUp, "Off")
-    Hotkey("Down", HandleKeyDown, "Off")
+    ; Hotkey("Up", HandleKeyUp, "Off")
+    ; Hotkey("Down", HandleKeyDown, "Off")
     Hotkey("Enter", HandleKeyEnter, "Off")
     Hotkey("Esc", HandleEsc, "Off")
 }
@@ -157,7 +169,7 @@ HandleEsc(*) {
 ; 詳細情報の表示
 ShowDetails(*) {
     global PathList, MyGui
-    SelectedIndex := MyGui["ResultList"].Value
+    SelectedIndex := MyGui["ResultList"].GetNext()
 
     if (SelectedIndex > 0) {
         SelectedPath := PathList[SelectedIndex]
