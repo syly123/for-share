@@ -6,7 +6,6 @@ global PathList := [] ; パスを保持する配列
 global TsvFilePath := "C:\Users\tatsu\Documents\for-share\sample.tsv" ; TSVファイルのパス
 global MyGui := "" ; GUIオブジェクトを明示的に初期化
 global WindowActive := false ; ウィンドウが表示中かどうかを管理
-global SearchTimer := 0 ; 検索遅延用のタイマー
 
 ; Win + Shift + Spaceで検索ボックスを表示するホットキー
 #+Space::
@@ -24,23 +23,22 @@ global SearchTimer := 0 ; 検索遅延用のタイマー
     MyGui := Gui()
     MyGui.SetFont("s12")
 
-    ; 検索ボックスを作成
+    ; **検索ボックスを作成**
     SearchBox := MyGui.Add("Edit", "vSearchBox w600 h40", "")
-    SearchBox.OnEvent("Change", DelayedSearch) ; 入力時に検索を遅延
 
-    ; リストボックスを作成
+    ; **リストボックスを作成**
     ResultList := MyGui.Add("ListBox", "r10 vResultList w800 h300", [])
 
-    ; 選択ボタンを作成
+    ; **選択ボタンを作成**
     MyGui.Add("Button", "y+10 Default", "エクスプローラーで表示").OnEvent("Click", ShowDetails)
 
-    ; GUI全体をEscキーで閉じる処理を設定
+    ; **GUI全体をEscキーで閉じる処理を設定**
     MyGui.OnEvent("Close", HandleEsc)
 
-    ; ホットキーを有効化
+    ; **ホットキーを有効化**
+    Hotkey("Enter", HandleEnterKey, "On")
     Hotkey("Up", HandleKeyUp, "On")
     Hotkey("Down", HandleKeyDown, "On")
-    Hotkey("Enter", HandleKeyEnter, "On")
     Hotkey("Esc", HandleEsc, "On")
 
     MyGui.Show("x400 y200")
@@ -67,9 +65,17 @@ LoadTSVData() {
     return Data
 }
 
-DelayedSearch(*) {
-    global SearchTimer
-    SetTimer(SearchTsv, -300) ; **0.3秒後にSearchTsvを実行**
+HandleEnterKey(*) {
+    global MyGui
+
+    ; フォーカスされているコントロールを取得
+    FocusedControl := MyGui.FocusedCtrl.Name
+
+    if (FocusedControl = "SearchBox") {
+        SearchTsv()
+    } else if (FocusedControl = "ResultList") {
+        ShowDetails()
+    }
 }
 
 SearchTsv(*) {
@@ -116,21 +122,14 @@ HandleKeyDown(*) {
     ResultList.Value := Min(ResultList.Value + 1, SearchResults.Length)
 }
 
-HandleKeyEnter(*) {
-    global MyGui, WindowActive
-    if !WindowActive || SearchResults.Length = 0
-        return
-    ShowDetails()
-}
-
 HandleEsc(*) {
     global MyGui, WindowActive
     WindowActive := false
     MyGui.Destroy()
 
+    Hotkey("Enter", HandleEnterKey, "Off")
     Hotkey("Up", HandleKeyUp, "Off")
     Hotkey("Down", HandleKeyDown, "Off")
-    Hotkey("Enter", HandleKeyEnter, "Off")
     Hotkey("Esc", HandleEsc, "Off")
 }
 
