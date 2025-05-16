@@ -1,6 +1,18 @@
 const fs = require("fs");
 const path = require("path");
 
+// UTF-8 BOM を追加してファイルを作成
+const outputFilePath = "C:/Users/tatsu/file_info_node_0515.tsv";
+const BOM = "\uFEFF"; // **UTF-8 BOM**
+fs.writeFileSync(
+  outputFilePath,
+  BOM + "Type\tPath\tName\tLast Modified\tCreated\tSize (bytes)\n",
+  { encoding: "utf8" }
+);
+
+let startDir = String.raw`C:\Users\tatsu\Documents`; // 対象ディレクトリ
+startDir = startDir.replace(/\\/g, "/");
+
 // 日付をフォーマットする関数
 function formatDate(date) {
   const pad = (num) => String(num).padStart(2, "0");
@@ -10,13 +22,6 @@ function formatDate(date) {
     date.getSeconds()
   )}`;
 }
-
-const outputFilePath = "C:/Users/tatsu/file_info_node_0515.tsv";
-let startDir = String.raw`C:\Users\tatsu\Documents`; // 対象ディレクトリを指定
-startDir = startDir.replace(/\\/g, "/");
-
-const writeStream = fs.createWriteStream(outputFilePath);
-writeStream.write("Type\tPath\tName\tLast Modified\tCreated\tSize (bytes)\n");
 
 // 非同期で並列処理を最適化
 async function getFileInfo(dir) {
@@ -33,8 +38,10 @@ async function getFileInfo(dir) {
         const created = formatDate(stats.birthtime);
         const size = entry.isDirectory() ? "-" : stats.size;
 
-        writeStream.write(
-          `${type}\t${fullPath}\t${entry.name}\t${lastModified}\t${created}\t${size}\n`
+        fs.appendFileSync(
+          outputFilePath,
+          `${type}\t${fullPath}\t${entry.name}\t${lastModified}\t${created}\t${size}\n`,
+          { encoding: "utf8" }
         );
 
         if (entry.isDirectory()) {
@@ -54,7 +61,6 @@ async function getFileInfo(dir) {
 // 実行
 getFileInfo(startDir)
   .then(() => {
-    writeStream.end();
     console.log("Completed"); // **完了時に "Completed" を表示**
   })
   .catch(() => {});
