@@ -31,15 +31,15 @@ global FileMode := True
     SearchBox := MyGui.Add("Edit", "vSearchBox w600 h40", "")
     SearchBox.OnEvent("Change", DelayedSearch)
 
-    ResultList := MyGui.Add("ListView", "r30 vResultList w800 h300", ["ファイル名", "パス"])
-    ResultList.ModifyCol(1, 250)
-    ResultList.ModifyCol(2, 550)
+    ResultList := MyGui.Add("ListView", "r30 vResultList w1800 h900", ["ファイル名", "パス"])
+    ResultList.ModifyCol(1, 750)
+    ResultList.ModifyCol(2, 1250)
 
     MyGui.Add("Button", "y+10 Default", "エクスプローラーで表示").OnEvent("Click", ShowDetails)
 
     MyGui.OnEvent("Close", HandleEsc)
 
-    Hotkey("Enter", HandleKeyEnter, "On")
+    ; Hotkey("Enter", HandleKeyEnter, "On")
     Hotkey("Esc", HandleEsc, "On")
 
     MyGui.Show("x400 y200")
@@ -88,7 +88,7 @@ SearchTsv(*) {
 
     SearchText := MyGui["SearchBox"].Text
 
-    ; p  の場合は先頭2文字を削除して検索
+    ; p の場合は先頭2文字を削除して検索
     if !FileMode
         SearchText := SubStr(SearchText, 3)
 
@@ -100,6 +100,10 @@ SearchTsv(*) {
         return
     }
 
+    ; **日本語の検索対策: 正規化 + UTF-8エンコード変換**
+    SearchText := StrReplace(SearchText, "　", " ")  ; 全角スペースを半角に変換
+    SearchText := StrLower(SearchText)  ; 大文字小文字を統一
+    SearchText := RegExReplace(SearchText, "\p{Z}", "")  ; 余計な空白を削除
 
     BoxChanged := False
 
@@ -109,7 +113,8 @@ SearchTsv(*) {
     for Item in GlobalData {
         SearchTarget := FileMode ? Item.FileName : Item.FilePath
 
-        if (InStr(SearchTarget, SearchText)) {
+        ; **日本語対応: `InStr()` の比較時にエンコード変換**
+        if (InStr(StrLower(Item.FileName), StrLower(SearchText)) || InStr(StrLower(Item.FilePath), StrLower(SearchText))) {
             FullPath := Item.FilePath
             DisplayPath := FullPath
 
@@ -136,13 +141,13 @@ SearchTsv(*) {
     }
 }
 
-HandleKeyEnter(*) {
-    global MyGui, WindowActive
-    if !WindowActive || SearchResults.Length = 0
-        return
 
-    ShowDetails()
-}
+; HandleKeyEnter(*) {
+;     global MyGui, WindowActive
+;     if !WindowActive || SearchResults.Length = 0
+;         return
+;     ShowDetails()
+; }
 
 HandleEsc(*) {
     global MyGui, WindowActive, BoxChanged
@@ -150,7 +155,7 @@ HandleEsc(*) {
     BoxChanged := True
     MyGui.Destroy()
 
-    Hotkey("Enter", HandleKeyEnter, "Off")
+    ; Hotkey("Enter", HandleKeyEnter, "Off")
     Hotkey("Esc", HandleEsc, "Off")
 }
 
