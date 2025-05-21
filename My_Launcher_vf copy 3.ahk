@@ -45,6 +45,9 @@ global UseRegex := False  ; 正規表現検索を管理するフラグ
 
     Hotkey("Esc", HandleEsc, "On")
 
+    ; ウィンドウを全画面化するホットキー追加
+    Hotkey("#Up", MaximizeWindow, "On")
+
     MyGui.Show("x400 y200")
 }
 
@@ -75,17 +78,13 @@ DelayedSearch(*) {
 
     SearchText := MyGui["SearchBox"].Text
 
-    ; **1. "p " が先頭の場合 → `FileMode = False` を確定**
     FileMode := (SubStr(SearchText, 1, 2) = "p ") ? False : True
 
-    ; "p " の場合、先頭2文字を削除
     if !FileMode
         SearchText := SubStr(SearchText, 3)
 
-    ; **2. "r:" が先頭の場合 → 正規表現検索を確定**
     UseRegex := (SubStr(SearchText, 1, 2) = "r:") ? True : False
 
-    ; "r:" の場合、先頭2文字を削除
     if UseRegex
         SearchText := SubStr(SearchText, 3)
 
@@ -100,17 +99,14 @@ SearchTsv(*) {
 
     SearchText := MyGui["SearchBox"].Text
 
-    ; **1. "p " が先頭なら削除した後、FileModeを確定**
     FileMode := (SubStr(SearchText, 1, 2) = "p ") ? False : True
     if !FileMode
         SearchText := SubStr(SearchText, 3)
 
-    ; **2. "r:" が先頭なら削除した後、UseRegex を確定**
     UseRegex := (SubStr(SearchText, 1, 2) = "r:") ? True : False
     if UseRegex
         SearchText := SubStr(SearchText, 3)
 
-    ; 検索ボックスが2文字以下の場合は検索しない
     if (StrLen(SearchText) <= 2) {
         SearchResults := []
         PathList := []
@@ -118,10 +114,9 @@ SearchTsv(*) {
         return
     }
 
-    ; 日本語検索対策
-    SearchText := StrReplace(SearchText, "　", " ")  ; 全角スペースを半角に変換
-    SearchText := StrLower(SearchText)  ; 大文字小文字を統一
-    SearchText := RegExReplace(SearchText, "\p{Z}", "")  ; 余計な空白を削除
+    SearchText := StrReplace(SearchText, "　", " ")
+    SearchText := StrLower(SearchText)
+    SearchText := RegExReplace(SearchText, "\p{Z}", "")
 
     BoxChanged := False
 
@@ -135,7 +130,7 @@ SearchTsv(*) {
             MatchFound := !UseRegex ? InStr(StrLower(SearchTarget), SearchText) : RegExMatch(SearchTarget, SearchText)
         } Catch {
             MsgBox("正規表現のエラーが発生しました: " . SearchText)
-            MatchFound := False  ; エラー発生時は検索結果を無視
+            MatchFound := False
         }
 
         if MatchFound {
@@ -183,4 +178,8 @@ ShowDetails(*) {
         Run "explorer.exe /select," SelectedPath
         A_Clipboard := SelectedPath
     }
+}
+
+MaximizeWindow(*) {
+    WinMaximize(MyGui)
 }
