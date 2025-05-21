@@ -40,7 +40,7 @@ async function getFileInfo(dir) {
 
         fs.appendFileSync(
           outputFilePath,
-          `${type}\t${fullPath}\t${entry.name}\t${lastModified}\t${created}\t${size}\n`,
+          `${type}\t${entry.name}\t${fullPath}\t${lastModified}\t${created}\t${size}\n`,
           { encoding: "utf8" }
         );
 

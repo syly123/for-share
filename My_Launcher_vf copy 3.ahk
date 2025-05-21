@@ -33,9 +33,11 @@ global UseRegex := False  ; 正規表現検索を管理するフラグ
     SearchBox := MyGui.Add("Edit", "vSearchBox w600 h40", "")
     SearchBox.OnEvent("Change", DelayedSearch)
 
-    ResultList := MyGui.Add("ListView", "r30 vResultList w1400 h700", ["ファイル名", "パス"])
+    ResultList := MyGui.Add("ListView", "r30 vResultList w1400 h700", ["ファイル名", "パス", "更新日", "作成日"])
     ResultList.ModifyCol(1, 750)
     ResultList.ModifyCol(2, 1250)
+    ResultList.ModifyCol(3, 200)
+    ResultList.ModifyCol(4, 200)
 
     MyGui.Add("Button", "y+10 Default", "エクスプローラーで表示").OnEvent("Click", ShowDetails)
 
@@ -145,7 +147,7 @@ SearchTsv(*) {
             }
 
             DisplayPath := RegExReplace(DisplayPath, "\\[^\\]+?\.[^.]+?$", "")
-            SearchResults.Push([Item.FileName, DisplayPath])
+            SearchResults.Push([Item.FileName, DisplayPath, Item.UpdateDate, Item.CreationDate])
             PathList.Push(FullPath)
         }
         if BoxChanged
@@ -159,7 +161,7 @@ SearchTsv(*) {
         if BoxChanged
             return
 
-        ResultList.Add(, Row[1], Row[2])
+        ResultList.Add(, Row[1], Row[2], Row[3], Row[4])
     }
 }
 
