@@ -141,7 +141,8 @@ SearchTsv(*) {
                 DisplayPath := StrReplace(DisplayPath, OmitText, "")
             }
 
-            DisplayPath := RegExReplace(DisplayPath, "\\[^\\]+?\.[^.]+?$", "")
+            ; DisplayPath := RegExReplace(DisplayPath, "\\[^\\]+?\.[^.]+?$", "")
+            DisplayPath := StrReplace(DisplayPath, Item.FileName, "")
             SearchResults.Push([Item.FileName, DisplayPath, Item.UpdateDate, Item.CreationDate])
             PathList.Push(FullPath)
         }
@@ -170,11 +171,13 @@ HandleEsc(*) {
 }
 
 ShowDetails(*) {
-    global PathList, MyGui
+    global PathList, MyGui, to_Omit
+    ResultList := MyGui["ResultList"]
     SelectedIndex := MyGui["ResultList"].GetNext()
 
     if (SelectedIndex > 0) {
-        SelectedPath := PathList[SelectedIndex]
+        ; SelectedPath := PathList[SelectedIndex]
+        SelectedPath := to_Omit[1] . ResultList.GetText(SelectedIndex, 2) . ResultList.GetText(SelectedIndex, 1)
         Run "explorer.exe /select," SelectedPath
         A_Clipboard := SelectedPath
     }
