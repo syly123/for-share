@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // UTF-8 BOM を追加してファイルを作成
-const outputFilePath = "C:/Users/tatsu/file_info_node_0515.tsv";
+const outputFilePath = "C:/Users/tatsuhim/file_info_node_0515.tsv";
 const BOM = "\uFEFF"; // **UTF-8 BOM**
 fs.writeFileSync(
   outputFilePath,
@@ -10,8 +10,12 @@ fs.writeFileSync(
   { encoding: "utf8" }
 );
 
-let startDir = String.raw`C:\Users\tatsu\Documents`; // 対象ディレクトリ
+let startDir = String.raw`L:\projects_shared\Active_Non-GCM\COLOR_WPMK004`; // 対象ディレクトリ
 startDir = startDir.replace(/\\/g, "/");
+
+// バックアップ先のファイルパス
+const backupFilePath =
+  "L:/projects_shared/Active_Non-GCM/COLOR_WPMK004/file_info.tsv";
 
 // 日付をフォーマットする関数
 function formatDate(date) {
@@ -61,6 +65,8 @@ async function getFileInfo(dir) {
 // 実行
 getFileInfo(startDir)
   .then(() => {
-    console.log("Completed"); // **完了時に "Completed" を表示**
+    // **処理完了後にバックアップフォルダへコピー**
+    fs.copyFileSync(outputFilePath, backupFilePath);
+    console.log(`Completed. Backup saved to: ${backupFilePath}`);
   })
   .catch(() => {});

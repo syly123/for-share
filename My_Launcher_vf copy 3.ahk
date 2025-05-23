@@ -29,6 +29,7 @@ global UseRegex := False  ; 正規表現検索を管理するフラグ
 
     MyGui := Gui()
     MyGui.SetFont("s12")
+    MyGui.Opt("+Resize")
 
     SearchBox := MyGui.Add("Edit", "vSearchBox w600 h40", "")
     SearchBox.OnEvent("Change", DelayedSearch)
@@ -44,9 +45,6 @@ global UseRegex := False  ; 正規表現検索を管理するフラグ
     MyGui.OnEvent("Close", HandleEsc)
 
     Hotkey("Esc", HandleEsc, "On")
-
-    ; ウィンドウを全画面化するホットキー追加
-    Hotkey("#Up", MaximizeWindow, "On")
 
     MyGui.Show("x400 y200")
 }
@@ -116,7 +114,7 @@ SearchTsv(*) {
 
     SearchText := StrReplace(SearchText, "　", " ")
     SearchText := StrLower(SearchText)
-    SearchText := RegExReplace(SearchText, "\p{Z}", "")
+    ;SearchText := RegExReplace(SearchText, "\p{Z}", "")
 
     BoxChanged := False
 
@@ -127,10 +125,10 @@ SearchTsv(*) {
         SearchTarget := FileMode ? Item.FileName : Item.FilePath
 
         Try {
-            MatchFound := !UseRegex ? InStr(StrLower(SearchTarget), SearchText) : RegExMatch(SearchTarget, SearchText)
+            MatchFound := !UseRegex ? InStr(StrLower(SearchTarget), SearchText) : RegExMatch(StrLower(SearchTarget), SearchText)
         } Catch {
-            MsgBox("正規表現のエラーが発生しました: " . SearchText)
             MatchFound := False
+            return
         }
 
         if MatchFound {
@@ -181,8 +179,4 @@ ShowDetails(*) {
         Run "explorer.exe /select," SelectedPath
         A_Clipboard := SelectedPath
     }
-}
-
-MaximizeWindow(*) {
-    WinMaximize(MyGui)
 }
