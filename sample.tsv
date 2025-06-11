@@ -1,11 +1,13 @@
-FolderorFile	filename	filepath	作成日時	更新日時
-Folder	Documents	C:\Users\tatsu\Documents	2023-01-01	2023-04-05		
-File	Resume.docx	C:\Users\tatsu\Documents\Resume.docx	2023-01-15	2023-04-06		
-Folder	Photos	C:\Users\tatsu\Pictures\Photos	2023-02-10	2023-04-01		
-File	Photo1.jpg	C:\Users\tatsu\Pictures\Photos\Photo1.jpg	2023-02-12	2023-04-01		
-Folder	Work	C:\Users\tatsu\Work	2023-03-05	2023-04-05		
-File	Report.pdf	C:\Users\tatsu\Work\Report.pdf	2023-03-06	2023-04-05		
-Folder	Projects	C:\Users\tatsu\Projects	2023-03-15	2023-04-05		
-File	Code.py	C:\Users\tatsu\Projects\Code.py	2023-03-16	2023-04-06		
-Folder	Backup	C:\Users\tatsu\Backup	2023-04-01	2023-04-05		
-File	Backup.zip	C:\Users\tatsu\Backup\Backup.zip	2023-04-02	2023-04-06		
+FolderorFile	filename	filepath	作�?日?�?更新日?�?	
+Folder	Copy_History.ahk	C:\Users\tatsu\Documents\for-share\Copy_History.ahk	2023-01-01	2023-04-05
+File	Copy_History_vf.ahk	C:\Users\tatsu\Documents\for-share\Copy_History_vf.ahk	2023-01-15	2023-04-06
+Folder	Copy_History2.ahk	C:\Users\tatsu\Documents\for-share\Copy_History2.ahk	2023-02-10	2023-04-01
+File	IMG_3140.png	C:\Users\tatsu\Documents\for-share\IMG_3140.png	2023-02-12	2023-04-01
+Folder	main.ahk	C:\Users\tatsu\Documents\for-share\main.ahk	2023-03-05	2023-04-05
+File	main.txt	C:\Users\tatsu\Documents\for-share\main.txt	2023-03-06	2023-04-05
+Folder	Change_structure.py	C:\Users\tatsu\Documents\for-share\Change_structure.py	2023-03-15	2023-04-05
+File	ClipboardHistory.txt	C:\Users\tatsu\Documents\for-share\ClipboardHistory.txt	2023-03-16	2023-04-06
+Folder	common.py	C:\Users\tatsu\Documents\for-share\common.py	2023-04-01	2023-04-05
+File	Copy_History copy 2.ahk	C:\Users\tatsu\Documents\for-share\Copy_History copy 2.ahk	2023-04-02	2023-04-06
+File	Copy_History copy 3.ahk	C:\Users\tatsu\Documents\for-share\Copy_History copy 3.ahk	2023-04-02	2023-04-06
+File	Copy_History copy 3.ahk	C:\Users\tatsu\Documents\for-share\Copy_History copy 3.ahk	2023-04-06	

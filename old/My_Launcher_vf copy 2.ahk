@@ -1,14 +1,16 @@
 #Requires AutoHotkey v2
 
+global GlobalData := [] ; TSVデータを事前に保持する配列
 global SearchResults := [] ; 検索結果を保持する配列
-global TsvFilePath := "C:\Users\tatsu\Documents\for-share\sample.tsv" ; 検索対象のTSVファイルのパス
+global PathList := [] ; パスを保持する配列
+global TsvFilePath := "C:\Users\tatsu\Documents\for-share\sample.tsv" ; TSVファイルのパス
 global MyGui := "" ; GUIオブジェクトを明示的に初期化
 global WindowActive := false ; ウィンドウが表示中かどうかを管理
 
 ; Win + Shift + Spaceで検索ボックスを表示するホットキー
 #+Space::
 {
-    global MyGui, WindowActive ; グローバル変数を宣言
+    global MyGui, WindowActive, GlobalData, SearchResults, PathList
 
     ; GUIオブジェクトが既に存在する場合は破棄して再作成
     if IsObject(MyGui) {
@@ -16,6 +18,9 @@ global WindowActive := false ; ウィンドウが表示中かどうかを管理
     }
 
     WindowActive := true ; ウィンドウ表示中
+
+    ; **TSVデータを事前にロード**
+    GlobalData := LoadTSVData()
 
     MyGui := Gui()
     MyGui.SetFont("s12") ; フォント設定
@@ -28,7 +33,7 @@ global WindowActive := false ; ウィンドウが表示中かどうかを管理
     ResultList := MyGui.Add("ListBox", "r10 vResultList w800 h300", [])
 
     ; 選択ボタンを作成
-    MyGui.Add("Button", "y+10 Default", "詳細を見る").OnEvent("Click", ShowDetails)
+    MyGui.Add("Button", "y+10 Default", "エクスプローラーで表示").OnEvent("Click", ShowDetails)
 
     ; GUI全体をEscキーで閉じる処理を設定
     MyGui.OnEvent("Close", HandleEsc)
@@ -42,36 +47,49 @@ global WindowActive := false ; ウィンドウが表示中かどうかを管理
     MyGui.Show("x400 y200") ; GUIを表示
 }
 
+LoadTSVData() {
+    global TsvFilePath
+    Data := []
+
+    ; **TSVファイルを事前に読み込み**
+    Loop Read, TsvFilePath
+    {
+        LineData := StrSplit(A_LoopReadLine, "`t")
+        if (LineData.Length < 5) ; 列が不足している場合は無視
+            continue
+
+        Data.Push({
+            FolderOrFile: LineData[1],
+            FileName: LineData[2],
+            FilePath: LineData[3],
+            CreationDate: LineData[4],
+            UpdateDate: LineData[5]
+        })
+    }
+    return Data
+}
+
 SearchTsv(*) {
-    global SearchResults, TsvFilePath, MyGui
+    global GlobalData, SearchResults, PathList, MyGui
 
     SearchText := MyGui["SearchBox"].Text ; 検索ボックスの入力を取得
 
     ; 検索ボックスが空の場合は処理を終了
     if (SearchText = "") {
+        SearchResults := [] ; **検索結果を常に初期化**
+        PathList := []
         MyGui["ResultList"].Delete() ; リストボックスをクリア
         return
     }
 
     SearchResults := [] ; 検索結果を初期化
+    PathList := []
 
-    ; TSVファイルを読み取る
-    Loop Read, TsvFilePath
-    {
-        ; 行をタブで分割
-        LineData := StrSplit(A_LoopReadLine, "`t")
-        if (LineData.Length < 5) ; 列が不足している場合は無視
-            continue
-
-        FolderOrFile := LineData[1]
-        FileName := LineData[2]
-        FilePath := LineData[3]
-        CreationDate := LineData[4]
-        UpdateDate := LineData[5]
-
-        ; 検索文字がファイル名またはパスに含まれる場合、結果に追加
-        if (InStr(FileName, SearchText) || InStr(FilePath, SearchText)) {
-            SearchResults.Push(FileName " - " FilePath) ; ファイル名とパスの形式で格納
+    ; **事前読み込みしたTSVデータを検索**
+    for Item in GlobalData {
+        if (InStr(Item.FileName, SearchText) || InStr(Item.FilePath, SearchText)) {
+            SearchResults.Push(Item.FileName " - " Item.FilePath) ; ファイル名とパスの形式で格納
+            PathList.Push(Item.FilePath) ; パスの形式で格納
         }
     }
 
@@ -83,7 +101,7 @@ SearchTsv(*) {
 
 HandleKeyUp(*) {
     global MyGui, SearchResults, WindowActive
-    if !WindowActive ; ウィンドウが非表示なら無効
+    if !WindowActive || SearchResults.Length = 0 ; **検索結果が空のときは動作させない**
         return
     ResultList := MyGui["ResultList"]
     ResultList.Value := Max(ResultList.Value - 1, 1) ; 上矢印キーで移動
@@ -91,7 +109,7 @@ HandleKeyUp(*) {
 
 HandleKeyDown(*) {
     global MyGui, SearchResults, WindowActive
-    if !WindowActive ; ウィンドウが非表示なら無効
+    if !WindowActive || SearchResults.Length = 0 ; **検索結果が空のときは動作させない**
         return
     ResultList := MyGui["ResultList"]
     ResultList.Value := Min(ResultList.Value + 1, SearchResults.Length) ; 下矢印キーで移動
@@ -99,9 +117,9 @@ HandleKeyDown(*) {
 
 HandleKeyEnter(*) {
     global MyGui, WindowActive
-    if !WindowActive ; ウィンドウが非表示なら無効
+    if !WindowActive || SearchResults.Length = 0 ; **検索結果が空のときは動作させない**
         return
-    ShowDetails() ; Enterキーで詳細を表示
+    ShowDetails() ; Enterキーでエクスプローラーを開く
 }
 
 HandleEsc(*) {
@@ -117,14 +135,16 @@ HandleEsc(*) {
 }
 
 ShowDetails(*) {
-    global SearchResults, MyGui
+    global PathList, MyGui
 
     SelectedIndex := MyGui["ResultList"].Value ; 選択されたアイテムのインデックスを取得
     if (SelectedIndex > 0) {
-        ; 選択された結果の詳細情報を取得
-        SelectedResult := SearchResults[SelectedIndex]
+        SelectedPath := PathList[SelectedIndex] ; 選択されたパスを取得
 
-        ; 詳細をメッセージボックスに表示
-        MsgBox("選択された項目: " SelectedResult)
+        ; **エクスプローラーでフォルダを開く**
+        Run "explorer.exe /select," SelectedPath
+
+        ; **クリップボードにパスをコピー**
+        A_Clipboard := SelectedPath
     }
 }
