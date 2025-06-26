@@ -1,55 +1,186 @@
+				前連結会計年度	当連結会計年度
+				(自 2021年3月1日	(自 2022年3月1日
+				至 2022年2月28日)	至 2023年2月28日)
+	資産				
+流動資産					
+	現金及び現金同等物	159,472	220,789	220,789	200,623
+	営業債権及びその他の債権	133,129	137,422	137,422	157,442
+	未収法人所得税	6,296	-		
+	その他の金融資産	6,634	10,302	10,302	9,615
+	棚卸資産	4,408	4,594	4,594	5,317
+	その他の流動資産	11,909	6,605	6,605	5,524
+	小計	321,848	379,711	379,711	378,521
+	売却目的で保有する資産	262,175	-		
+	流動資産合計	584,023	379,711	379,711	378,521
+非流動資産					
+	有形固定資産	141,891	123,944	123,944	123,324
+	使用権資産	581,215	544,118	544,118	573,377
+	投資不動産	7,930	5,574	5,574	6,542
+	のれん	133,197	131,738	131,738	130,500
+	無形資産	53,808	56,009	56,009	63,626
+	持分法で会計処理されている投資	23,856	138,617	138,617	149,274
+	敷金	84,938	83,651	83,651	82,450
+	その他の金融資産	205,290	92,235	92,235	107,013
+	繰延税金資産	72,283	48,211	48,211	33,244
+	その他の非流動資産	7,838	2,358	2,358	3,226
+	非流動資産合計	1,312,246	1,226,456	1,226,456	1,272,574
+	資産合計	1,896,269	1,606,167	1,606,167	1,651,095
+	負債及び資本				
+	負債				
+流動負債					
+	営業債務及びその他の債務	167,603	169,561	169,561	174,526
+	預り金	142,901	116,349	116,349	116,794
+	社債及び借入金	58,896	3,757	3,757	31,827
+	リース負債	142,618	129,902	129,902	133,066
+	未払法人所得税等	247	10,609	10,609	4,958
+	その他の流動負債	9,042	9,528	9,528	9,717
+	小計	521,306	439,705	439,705	470,888
+	売却目的で保有する資産に直接関連する負債	220,722	-		
+	流動負債合計	742,028	439,705	439,705	470,888
+非流動負債					
+	社債及び借入金	55,929	53,750	53,750	23,604
+	リース負債	432,861	393,015	393,015	419,981
+	その他の金融負債	6,130	5,714	5,714	5,510
+	退職給付に係る負債	2,448	1,372	1,372	1,180
+	引当金	39,268	42,156	42,156	44,977
+	その他の非流動負債	1,245	1,086	1,086	4,951
+	非流動負債合計	537,881	497,093	497,093	500,203
+負債合計		1,279,909	936,799	936,799	971,091
+資本					
+	資本金	16,659	16,659	16,659	16,659
+	資本剰余金	237,890	240,430	240,430	240,430
+	その他の資本の構成要素	32,887	6,234	6,234	28,351
+	利益剰余金	308,147	406,716	406,716	396,111
+	親会社の所有者に帰属する持分合計	595,582	670,039	670,039	681,551
+	非支配持分	20,778	△671	△671	△1,547
+	資本合計	616,360	669,368	669,368	680,004
+負債及び資本合計		1,896,269	1,606,167	1,606,167	1,651,095
+					
+					
+	営業収益	473,359	451,461	451,461	461,495
+	売上原価	△56,027	△65,522	△65,522	△79,917
+	営業総利益	417,332	385,939	385,939	381,578
+	販売費及び一般管理費	△346,086	△320,631	△320,631	△317,564
+	持分法による投資損益	590	1,855	1,855	1,501
+	その他の収益	5,170	95,671	95,671	7,332
+	その他の費用	△79,932	△21,795	△21,795	△19,157
+	金融収益	2,046	2,748	2,748	1,862
+	金融費用	△8,015	△6,253	△6,253	△6,395
+	税引前利益	△8,894	137,534	137,534	49,158
+	法人所得税費用	3,550	△43,863	△43,863	△15,552
+	当期利益	△5,345	93,671	93,671	33,606
+	当期利益の帰属				
+	親会社の所有者	△16,477	90,259	90,259	34,361
+	非支配持分	11,132	3,411	3,411	△755
+	当期利益	△5,345	93,671	93,671	33,606
+	1株当たり当期利益				
+	基本的1株当たり当期利益(円)	△32.56	178.35	178.35	67.9
+	希薄化後1株当たり当期利益(円)	-	-	-	-
+					
+					
+営業活動によるキャッシュ・フロー					
+	税引前利益	△8,894	137,534	137,534	49,158
+	減価償却費及び償却費	189,049	175,880	175,880	175,296
+	減損損失	75,130	17,078	17,078	13,385
+	持分法による投資損益(△は益)	△590	△1,855	△1,855	△1,501
+	関係会社株式売却損益(△は益)	△2,259	△4,668	△4,668	-
+	関係会社株式再評価損益(△は益)	-	△87,918	△87,918	-
+	営業債権及びその他の債権の増減額(△は増加)	9,378	△2,924	△2,924	△19,242
+	棚卸資産の増減額(△は増加)	△597	2,635	2,635	△675
+	営業債務及びその他の債務の増減額(△は減少)	△23,206	△5,285	△5,285	4,567
+	預り金の増減額(△は減少)	35,072	△28,461	△28,461	460
+	退職給付に係る負債の増減額	△2,826	△995	△995	427
+	その他	11,390	8,058	8,058	11,143
+	小計	281,646	209,080	209,080	233,018
+	利息及び配当金の受取額	3,268	5,587	5,587	4,816
+	利息の支払額	△7,209	△5,997	△5,997	△6,122
+	法人所得税の支払額	△9,639	△1,230	△1,230	△13,166
+	法人所得税の還付額	3,163	6,374	6,374	-
+	営業活動によるキャッシュ・フロー	271,229	213,812	213,812	218,546
+投資活動によるキャッシュ・フロー					
+	定期預金の預入による支出	△7,018	△1,960	△1,960	-
+	定期預金の払戻による収入	4,885	2,803	2,803	-
+	有形固定資産、使用権資産及び投資不動産の取得による支出	△36,511	△17,699	△17,699	△19,393
+	有形固定資産、使用権資産及び投資不動産の売却による収入	744	665	665	846
+	無形資産の取得による支出	△9,565	△10,928	△10,928	△18,733
+	敷金等の差入による支出	△2,335	△1,427	△1,427	△1,251
+	敷金等の回収による収入	1,559	1,872	1,872	1,789
+	投資の取得による支出	△38,987	△635	△635	△300
+	投資の売却、償還による収入	4,435	79,036	79,036	3,217
+	支配の喪失を伴う子会社株式の売却による支出	-	△30,433	△30,433	-
+	事業の処分による収入			-	1,570
+	その他	△7,586	219	219	△1,196
+	投資活動によるキャッシュ・フロー	△90,377	21,515	21,515	△33,452
+財務活動によるキャッシュ・フロー					
+	社債及び借入金による調達額	111,500	31,736	31,736	5,206
+	社債及び借入金の返済額	△181,989	△90,431	△90,431	△7,517
+	リース負債の返済額	△178,500	△165,193	△165,193	△157,781
+	自己株式の取得による支出	△93	-		
+	支配の喪失を伴わない子会社株式の売却による収入	-	3,786	3,786	-
+	配当金の支払額	△10,122	-	-	△45,143
+	非支配持分への配当金の支払額	△2,772	△30	△30	△43
+	その他	43	297	297	-
+	財務活動によるキャッシュ・フロー	△261,933	△219,836	△219,836	△205,278
+	現金及び現金同等物の為替変動による影響	1,639	1,495	1,495	19
+	現金及び現金同等物の増減額(△は減少)	△79,442	16,986	16,986	△20,166
+	現金及び現金同等物の期首残高(連結財政状態計算書計上額)	283,245	159,472	159,472	220,789
+	売却目的で保有する資産に含まれる現金及び現金同等物の振戻額	-	44,331	44,331	-
+	現金及び現金同等物の期首残高	283,245	203,803	203,803	220,789
+	売却目的で保有する資産に含まれる現金及び現金同等物	△44,331	-		
+	現金及び現金同等物の期末残高	159,472	220,789	220,789	200,623
 
 
-Detail on capital expenditure requirements, both historical and projected, including breakdown of capex by type
 
-Commitments for capital expenditures or other long-term agreements of similar nature
+Detailoncapitalexpenditurerequirements,bothhistoricalandprojected,includingbreakdownofcapexbytype
+
+Commitmentsforcapitalexpendituresorotherlong-termagreementsofsimilarnature
 
 CIRCLE
 
 
-<<<<<<< HEAD
-;https: // ahkwiki.net / KeyList
-+^Esc:: ExitApp  ; Exit script with Escape key
-vk1D : (
-Send "& Click Down )"
-KeyWait "vk1D"
-Send "( Click Up )"
+<<<<<<<HEAD
+;https://ahkwiki.net/KeyList
++^Esc::ExitApp;ExitscriptwithEscapekey
+vk1D:(
+Send"&ClickDown)"
+KeyWait"vk1D"
+Send"(ClickUp)"
 Return
-sc07B : (
-Send "& Click Down )"
-KeyWait "sc07B"
-Send "& Click Up )"
+sc07B:(
+Send"&ClickDown)"
+KeyWait"sc07B"
+Send"&ClickUp)"
 Return
-sc070 : : (
-Send "(vkF2]"
-; ^2:: (
-Send "(F2)"
+sc070::(
+Send"(vkF2]"
+;^2::(
+Send"(F2)"
 return
-#lf : (
+#lf:(
 #a::(
-#m: : (
-Send "!(Space)"
-Sleep 200
-Send "n"
-; + 1::(
-Send "(Home)"
-Send "+(End)"
-Send "^c"
+#m::(
+Send"!(Space)"
+Sleep200
+Send"n"
+;+1::(
+Send"(Home)"
+Send"+(End)"
+Send"^c"
 Sleep(0.5)
-Send "^k"
+Send"^k"
 sleep(0.5)
-Send "^v"
-Send "(Enter)"
-: )
-+ x: : [
-Send "(Home)"
-Send "+(End)"
-Send "^x"
+Send"^v"
+Send"(Enter)"
+:)
++x::[
+Send"(Home)"
+Send"+(End)"
+Send"^x"
 #f::(
-Run "C: Users)mizutalApppData(Loca] (Programs)Everything_1.4.1.969.x6464(Everything.exe"
-WinActivate "ahk_exe AgentRansack.exe"
-WinMaximize "ahk_exe AgentRansack.exe"
-Send "#t"
+Run"C:Users)mizutalApppData(Loca](Programs)Everything_1.4.1.969.x6464(Everything.exe"
+WinActivate"ahk_exeAgentRansack.exe"
+WinMaximize"ahk_exeAgentRansack.exe"
+Send"#t"
 
 
 
@@ -68,7 +199,7 @@ Send "#t"
 
 Admin関連が最重要、特に個人的に今後必要となる証明書等
 自分が作成した資料一覧
-GS Template
+GSTemplate
 
 
 
@@ -77,7 +208,7 @@ GS Template
 研修PDF　汎用性のあるもの
 オファリングのメール一覧
 案件フォルダの構成・構造
-IB Facebook
+IBFacebook
 座席表
 マレリのLBOモデル
 エクセルアドイン
@@ -89,7 +220,7 @@ GSBS
 
 
 
-７月中旬にLOIを後ろ倒し、取締役会を4,6,8?月で追加 
+７月中旬にLOIを後ろ倒し、取締役会を4,6,8?月で追加
 5月出張より前にLOIはきつい
 制約条件
 来週水曜日に菊田さんへブリーフリングするので、それに向けて簡易的なディールの財務インパクトをシミュレーションをする
@@ -130,25 +261,25 @@ GSBS
 21.00
 
 ゴールドマン・サックス
-Autonomous Resear...
-Keefe Bruyette & W...
-Evercore ISI
-Wells Fargo
+AutonomousResear...
+KeefeBruyette&W...
+EvercoreISI
+WellsFargo
 ドイツ銀行
 Jefferies
 Zacks
 モルガン・スタンレー
-ID Cowen
-BMO Capital Markets
-Barclays Morningstar
-Sadif Investment An...
+IDCowen
+BMOCapitalMarkets
+BarclaysMorningstar
+SadifInvestmentAn...
 JPモルガン
 ISS-EVA
 
 
 1）
 ゴールドマン・サックス
-Alexander Blostein ...
+AlexanderBlostein...
 中立
 
 21.75
@@ -157,7 +288,7 @@ Alexander Blostein ...
 3
 Tに
 
-Ea Autonomous Resear... Patrick Davitt
+EaAutonomousResear...PatrickDavitt
 アンダーパフォーム
 
 17.00
@@ -165,8 +296,8 @@ Ea Autonomous Resear... Patrick Davitt
 29.28%
 
 
-Ea Keefe Bruyette & W...
-Aidan Hall
+EaKeefeBruyette&W...
+AidanHall
 アンダーパフォーム
 
 19.00
@@ -174,8 +305,8 @@ Aidan Hall
 26.62%
 12
 4
-En Evercore ISI
-Glenn P Schorr
+EnEvercoreISI
+GlennPSchorr
 アンダーパフォーム
 
 18.00
@@ -184,8 +315,8 @@ Glenn P Schorr
 1
 1
 5）
-Ee Wells Fargo
-Michael C Brown
+EeWellsFargo
+MichaelCBrown
 equalweight
 
 22.50
@@ -194,7 +325,7 @@ equalweight
 
 6)
 園田ドイツ銀行
-Brian Bedell
+BrianBedell
 
 
 21.00
@@ -203,7 +334,7 @@ Brian Bedell
 55
 7）
 Jefferies
-Daniel T Fannon "D...
+DanielTFannon"D...
 ホールド
 
 22.00
@@ -211,17 +342,17 @@ Daniel T Fannon "D...
 0.00%
 6に
 8
-I Zacks
-Team Coverage
+IZacks
+TeamCoverage
 中立
 
 21.50
 12/24/24
-- 1.88%
+-1.88%
 
 9)
 「モルガソースタルー
-Michael J Cyprys
+MichaelJCyprys
 Underwt/In-Line
 
 19.00
@@ -229,8 +360,8 @@ Underwt/In-Line
 29.28%
 
 
-10 L EATD Cowen
-William Raymond Ka...
+10LEATDCowen
+WilliamRaymondKa...
 ホールド
 
 20.00
@@ -238,8 +369,8 @@ William Raymond Ka...
 0.00%
 155
 11)
-E. BMO Capital Markets
-Etienne Ricard
+E.BMOCapitalMarkets
+EtienneRicard
 市場平均並み
 
 22.00
@@ -248,7 +379,7 @@ Etienne Ricard
 3
 12)
 冒BaBarclays
-Benjamin Budish
+BenjaminBudish
 アンダーウエート
 
 21.00
@@ -256,8 +387,8 @@ Benjamin Budish
 
 
 13)
-Es Morningstar
-Greggory Warren
+EsMorningstar
+GreggoryWarren
 ホールド
 
 22.00
@@ -265,7 +396,7 @@ Greggory Warren
 6.79%
 
 14
-Sadif Investment An... Team Coverage
+SadifInvestmentAn...TeamCoverage
 ↑強い買い
 
 29.48
@@ -273,7 +404,7 @@ Sadif Investment An... Team Coverage
 -0.48%
 
 15）
-Kenneth B Worthingt...
+KennethBWorthingt...
 中立
 
 21.00
@@ -282,30 +413,30 @@ Kenneth B Worthingt...
 5
 16)
 ISS-EVA
-Team Coverage
+TeamCoverage
 オーバーウエート
 
 
 04/30/24
 -20.53%
 9に
->>>>>>> 869e7da061187b510518e255241b1f83b4054029
+>>>>>>>869e7da061187b510518e255241b1f83b4054029
 
-社名： ジャパン・アクティベーション・キャピタル株式会社
-代表取締役社長 ＆ CEO： 大塚 博行
-事業内容： 投資運用業及び第二種金融商品取引業
-AUM： 1300億円
-所在地： 〒107-0062 東京都港区南青山2-5-17 ポーラ青山ビルディング 11F
+社名：ジャパン・アクティベーション・キャピタル株式会社
+代表取締役社長＆CEO：大塚博行
+事業内容：投資運用業及び第二種金融商品取引業
+AUM：1300億円
+所在地：〒107-0062東京都港区南青山2-5-17ポーラ青山ビルディング11F
 
 CEO略歴
 
 旧住友銀行（現三井住友銀行）、米投資銀行ラザードなどを経て2006年にカーライル・ジャパンに入社。カーライル・グループの日本拠点で副代表を務めた。
 
 沿革
-2023年7月 ニュートン・インベストメント・パートナーズを当初約15人でスタート
-2024年4月26日 JACの1号ファンド設立、大手金融機関から1300億円調達
-2024年7月1日 社名をニュートン・インベストメント・パートナーズからジャパン・アクティベーション・キャピタルに変更
-2024年10月10日 ライオンの発行済み株式5%弱を数百億円で取得
+2023年7月ニュートン・インベストメント・パートナーズを当初約15人でスタート
+2024年4月26日JACの1号ファンド設立、大手金融機関から1300億円調達
+2024年7月1日社名をニュートン・インベストメント・パートナーズからジャパン・アクティベーション・キャピタルに変更
+2024年10月10日ライオンの発行済み株式5%弱を数百億円で取得
 
 
 主な調達先
@@ -316,22 +447,22 @@ https://japanactivationcapital.com/news/20240424_japan-activation-capital-1%E5%8
 自社株買いなどの短期的な株価向上策は提言せず、「中長期目線で本質的かつ持続的な会社成長」のみ追求
 東京証券取引所に上場する大手・中堅企業に特化してマイナー投資を行う
 
-2023/10/30 bloomberg
+2023/10/30bloomberg
 https://www.bloomberg.co.jp/news/articles/2023-10-30/S34DD2T0G1KW01
 投資先は10社程度に分散し、発行済み株式の５％以上を保有する少数株主となる考え。
 業績の伸び悩む大企業に少額出資し、再び成長軌道に乗せるための助言などを行う。
 投資期間は３ー４年で、海外部門を持つ製造業などを投資先に想定する。
 
-2024/2/13 bloomberg
+2024/2/13bloomberg
 https://www.bloomberg.co.jp/news/articles/2024-02-13/-5000
 投資対象は時価総額で約2000億－２兆円程度の国内上場企業。
 2024年度中に10社前後への投資を計画しており、発行済み株式の5％超程度を保有する少数株主となる考えだ。
 増配や自社株買いなどの短期的に株価を上げる施策は求めず、成熟した大企業の変革を促す
 
-2024/5/1 Toyo Keizai
+2024/5/1ToyoKeizai
 近く数千億円規模で運用を開始し、5～10％程度の株式を取得し、大株主として3～4年程度のタイムスパンで投資
 
-2024/5/29 Nikkei
+2024/5/29Nikkei
 https://www.nikkei.com/article/DGXZQOUB270OI0X20C24A5000000/
 資先の企業は時価総額で約２５００億～２兆円とする。
 業種は明確に定めないものの製造業や小売業、流通業などの大企業を想定する。
@@ -346,15 +477,15 @@ https://www.nikkei.com/article/DGXZQOUB270OI0X20C24A5000000/
 
 時価総額２兆円以上の企業と、そこに満たない企業の株価パフォーマンスは大きく差が開いている。過去５年の株価上昇率でみると、２兆円以上企業が２．３倍に膨らんだ一方で、２５００億～２兆円企業は８割高に過ぎない。
 
-2024/10/10 bloomberg
+2024/10/10bloomberg
 https://www.bloomberg.co.jp/news/articles/2024-10-09/SL44QXT0G1KW00
 大塚氏は、ライオン以外にも投資パイプラインは積み上がっているとして、四半期ごとに１－２社程度のペースで投資先が増えるとの見通しを示した。
 
-2024/10/10 日経
+2024/10/10日経
 https://www.nikkei.com/article/DGXZQOUB09DK40Z01C24A0000000/
 海外事業を中心とする成長領域の収益改善に取り組む。アジアで主力の洗剤などの生活用品に加え、より付加価値の高い健康などに関連する製品の普及をめざす。国内で展開するブランドの選択と集中も進め、経営体力の強化も後押しする。
 
-2924/12/25 時事通信
+2924/12/25時事通信
 https://www.jiji.com/jc/article?k=2024122400666&g=eco
 投資先には時価総額最大２兆円規模の上場企業を想定。製造業や消費財、リテール業界などを主なターゲットに据える。
 大塚氏は「海外事業の強化を目指している企業の方が、成長のポテンシャルを高めやすい」と述べた。
@@ -362,46 +493,46 @@ https://www.jiji.com/jc/article?k=2024122400666&g=eco
 金融機関が持つ政策保有株の受け皿となる可能性も示唆した。
 金融機関にとっては企業統治の形骸化を招きかねないとして金融庁などから売却を求められている政策保有株を、企業の経営や株価に短期的な影響を与えずに譲渡できる可能性がある。大手銀行からは「当該企業から売却を打診された際には是々非々で検討していく」との声も聞かれる。
 
-Company Name: Japan Activation Capital Inc.
-President & CEO: Hiroyuki Otsuka
-Business description: Investment management and Type II financial instruments business
-AUM: 130 billion yen
-Location: 11F Pola Aoyama Building, 2-5-17 Minami-Aoyama, Minato-ku, Tokyo 107-0062
+CompanyName:JapanActivationCapitalInc.
+President&CEO:HiroyukiOtsuka
+Businessdescription:InvestmentmanagementandTypeIIfinancialinstrumentsbusiness
+AUM:130billionyen
+Location:11FPolaAoyamaBuilding,2-5-17Minami-Aoyama,Minato-ku,Tokyo107-0062
 
-CEO Profile
-After working for the former Sumitomo Bank (now Sumitomo Mitsui Banking Corporation) and Lazard, a U.S. investment bank, he joined Carlyle Japan in 2006. He served as Vice President of the Carlyle Group's Japan office.
+CEOProfile
+AfterworkingfortheformerSumitomoBank(nowSumitomoMitsuiBankingCorporation)andLazard,aU.S.investmentbank,hejoinedCarlyleJapanin2006.HeservedasVicePresidentoftheCarlyleGroup'sJapanoffice.
 
-Corporate History
-July 2023 
-Started Newton Investment Partners with an initial staff of about 15.
-April 26, 2024 
-JAC's first fund is established, raising 130 billion yen from major financial institutions
-July 1, 2024 
-Company name changed from Newton Investment Partners to Japan Activation Capital
-October 10, 2024 
-Acquired less than 5% of Lion's outstanding shares for tens of billions of yen
+CorporateHistory
+July2023
+StartedNewtonInvestmentPartnerswithaninitialstaffofabout15.
+April26,2024
+JAC'sfirstfundisestablished,raising130billionyenfrommajorfinancialinstitutions
+July1,2024
+CompanynamechangedfromNewtonInvestmentPartnerstoJapanActivationCapital
+October10,2024
+Acquiredlessthan5%ofLion'soutstandingsharesfortensofbillionsofyen
 
 
-Main Sources of Funding
-(Megabanks) Mitsubishi UFJ Bank, Mizuho Bank
-(Major banks) Risona Bank, Development Bank of Japan, Sumitomo Mitsui Trust Bank, Bank of Yokohama, (Life insurance companies) Sumitomo Life Insurance, Meiji Yasuda Life Insurance
-(Non-life insurance companies) SOMPO Holdings, Inc.
-(Leasing company) Century Tokyo Corporation
-(Securities company) Daiwa Securities Group Inc.
+MainSourcesofFunding
+(Megabanks)MitsubishiUFJBank,MizuhoBank
+(Majorbanks)RisonaBank,DevelopmentBankofJapan,SumitomoMitsuiTrustBank,BankofYokohama,(Lifeinsurancecompanies)SumitomoLifeInsurance,MeijiYasudaLifeInsurance
+(Non-lifeinsurancecompanies)SOMPOHoldings,Inc.
+(Leasingcompany)CenturyTokyoCorporation
+(Securitiescompany)DaiwaSecuritiesGroupInc.
 
-Investment Policy
-We do not propose short-term share price improvement measures such as share buybacks, etc., but only pursue “intrinsic and sustainable company growth from a medium- to long-term perspective
-Unlike activists, we acquire shares through off-auction trading based on an agreement with the company.
-Make minor investments, specializing in large and medium-sized companies listed on the Tokyo Stock Exchange.
-Target companies with a market capitalization of approximately 250 billion to 2 trillion yen.
-The company will make small investments in large companies with sluggish performance and provide advice on how to get them back on track for growth.
-Assume large companies in the manufacturing, retail, and distribution industries, although the type of industry will not be clearly defined.
-CEO Otsuka believes that companies aiming to strengthen their overseas operations are more likely to enhance their growth potential.
-The company expects to acquire about 5-10% of outstanding shares.
-The company will hold the shares for three to four years based on discussions with management.
-IRR is expected to be around 20-25%, which is comparable to unlisted equity funds.
-JAC also expects to become a recipient of policy shareholdings held by financial institutions.
-Mr. Otsuka said that in addition to Lion, the investment pipeline is building up, and the number of companies in the investment pipeline is expected to increase at a rate of 1-2 companies per quarter.
+InvestmentPolicy
+Wedonotproposeshort-termsharepriceimprovementmeasuressuchassharebuybacks,etc.,butonlypursue“intrinsicandsustainablecompanygrowthfromamedium-tolong-termperspective
+Unlikeactivists,weacquiresharesthroughoff-auctiontradingbasedonanagreementwiththecompany.
+Makeminorinvestments,specializinginlargeandmedium-sizedcompanieslistedontheTokyoStockExchange.
+Targetcompanieswithamarketcapitalizationofapproximately250billionto2trillionyen.
+Thecompanywillmakesmallinvestmentsinlargecompanieswithsluggishperformanceandprovideadviceonhowtogetthembackontrackforgrowth.
+Assumelargecompaniesinthemanufacturing,retail,anddistributionindustries,althoughthetypeofindustrywillnotbeclearlydefined.
+CEOOtsukabelievesthatcompaniesaimingtostrengthentheiroverseasoperationsaremorelikelytoenhancetheirgrowthpotential.
+Thecompanyexpectstoacquireabout5-10%ofoutstandingshares.
+Thecompanywillholdthesharesforthreetofouryearsbasedondiscussionswithmanagement.
+IRRisexpectedtobearound20-25%,whichiscomparabletounlistedequityfunds.
+JACalsoexpectstobecomearecipientofpolicyshareholdingsheldbyfinancialinstitutions.
+Mr.OtsukasaidthatinadditiontoLion,theinvestmentpipelineisbuildingup,andthenumberofcompaniesintheinvestmentpipelineisexpectedtoincreaseatarateof1-2companiesperquarter.
 
 
 投資方針
@@ -430,10 +561,10 @@ Mr. Otsuka said that in addition to Lion, the investment pipeline is building up
 デュレーションの低下は、基本的に返済額の減少によるものか？ポートフォリオの再構築を行ったのか、それとも単にロールダウンによるもので長期債への再投資は行っていないのか？
 （更問）実際に売却損を出したわけではなく、単にロールダウンしたということか
 
-CT1 資本については長期的にどう考えるべきか。日本の同業他社のCT1比率は世界的に見るとそれほど高くない。
+CT1資本については長期的にどう考えるべきか。日本の同業他社のCT1比率は世界的に見るとそれほど高くない。
 (更問)CT1比率を11～13％に戻すつもりはないということか
 
-GSIB スコアリングとは異なり、バケットを 1 つ上げるのにどれくらい近づいていますか? 昨年の開示情報によると、まだかなり良い状態だと思います。つまり、178 あたりだと思います。GSIB スコアでは、まだ 200 ポイントを下回っていますか? したがって、GSIB バッファーに実際の変化は予想されませんか?
+GSIBスコアリングとは異なり、バケットを1つ上げるのにどれくらい近づいていますか?昨年の開示情報によると、まだかなり良い状態だと思います。つまり、178あたりだと思います。GSIBスコアでは、まだ200ポイントを下回っていますか?したがって、GSIBバッファーに実際の変化は予想されませんか?
 
 GSIBのバケットは上がる可能性はあるか、GSIBのスコアはまだ200点未満なのか。それゆえGSIBバッファは増加しないという理解で合っているか
 日本円が弱いことが、GSIBスコアに大きな影響を与えているということか
@@ -491,7 +622,7 @@ https://www.reuters.com/markets/commodities/aramco-up-stake-eigs-midocean-49-fun
 サウジアラムコはミッドオーシャン・エナジーの戦略的少数株を5億ドルで取得(保有割合は非公表)、その後49％まで持ち分を増加
 
 https://eneken.ieej.or.jp/data/12043.pdf
-EIG 社傘下の LNG 企業 MidOcean Energy 社は、2024 年 9 月 16 日、 MidOcean Energy 社・ Hunt Oil 社が、 MidOcean 社がペルー Peru LNG における追加 15%持分を Hunt 社 から買い取る契約を締結したことを発表した。MidOcean 社の PLNG 持分が 20%から 35% に増加する。取引は Aramco 社が全資金を提供するもので、同社は MidOcean 社における 持分を 49%に増加する。 Aramco 社の PLNG 間接持分は 17.2%となる。EIG 社・ Aramco 社に加え三菱商事も MidOcean 社への出資者である。
+EIG社傘下のLNG企業MidOceanEnergy社は、2024年9月16日、MidOceanEnergy社・HuntOil社が、MidOcean社がペルーPeruLNGにおける追加15%持分をHunt社から買い取る契約を締結したことを発表した。MidOcean社のPLNG持分が20%から35%に増加する。取引はAramco社が全資金を提供するもので、同社はMidOcean社における持分を49%に増加する。Aramco社のPLNG間接持分は17.2%となる。EIG社・Aramco社に加え三菱商事もMidOcean社への出資者である。
 
 https://www.offshore-energy.biz/white-case-advises-on-wheatstone-lng-australia/
 https://gcaptain.com/japanese-consortium-gains-billion/
