@@ -1,3 +1,24 @@
+Networking Capital is calculated based on the ratio to the amount of revenue changes.
+
+Calculations are adjusted in order for the EBITDA margin to gradually reach the target level, so the results differ from seller case even with the same revenue CAGR and EBITDA margin.
+
+Revenue CAGR is set within a range from 3.5% (PGR's midpoint) to 10.7% (seller case).
+
+Management adjustments are included in the received business plan and cannot be separated; therefore, Mgmt. EBITDA is used for FCF calculation.
+
+For the terminal period, revenue changes are assumed to be 3.5% of PGR, multiplied by the ratio from the final projection year.
+The tax rate used is the corporate tax rate of the Czech Republic, where the Trunk's headquarters is located.
+
+Occurs at the midpoint of each fiscal year
+
+
+
+1. About Shimadzu
+
+Since its founding in Kyoto in 1875, Shimadzu Corporation has inherited the pioneering spirit of its founder, Genzo Shimadzu, and has operated under the corporate philosophy of
+
+
+
 注記
 
 Revenue積み上げ
@@ -280,7 +301,6 @@ ho)うち株券の権利を表示する株券等信託受益証券及び株券�
 aのうち潜在株券等に係る議決権の数	
 bo)うち株券の権利を表示する株券等信託受益証券及び株券等了見証券に係る議決権の数	
 報告書提出日現在における特別関係者の所有株券等に係る議決権の数	
-doin	
 e0)うち株券の権利を表示する株券等信託受益証券及び株券等項毛証券に係る議決権の数	
 対象者の総株主等の議決権の数	
 買付け等後における株券等所有割合	
