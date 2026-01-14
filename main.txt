@@ -1,57 +1,68 @@
 
 
-H-TEC事業は譲渡対象外だがすでにA/Lに開示済みの計画には含まれていたので抜いていることは明示。
-H-TEC事業は続けるかはMeteorの意向次第、いきなりやめられると困るというならリバースTSAのような形で委託を続ける事自体は買手候補も歓迎するはず（高利益率事業なので）。現在は半導体事業部等と委託関係（主に組み立て）がある。
-Meteorとしても今までMarlinに委託していたものを外部委託に切り替えられるのか。車本子会社で受託を受けているものもある、HTEC全部を除くのは避けたほうがいい。「Metorから委託を受けている事業部についてはリバースTSA等で当面継続予定だが検討中」とCIMにも記載。
-調達はマージン部分は、「本社共通費の中で吸収想定、1次では原価が上がることは考慮せず事業計画通りの想定」でお願いする。開発費内の特許使用料等も今のところマージンは含んでいない。
-法務はTSAは一般的ではないのでMeteor法務からの出向、または弁護士事務所等に外部委託で対応
-スタンドアローン担った結果OEM等パートナーにどれくらい影響・イシューがあるかEY/MUMSSで分析してほしい
 
-DDの際に海外からどのように情報・資料収集するかのプラクティスがあれば教えてほしい
-海外子会社にいる日本人をWPLに含め、その下には本社宛に送る必要のある資料があると言って協力させる事が多い。
-拠点長にはNDA結んで事情伝え収集させ、そこから先の従業員には子会社評価の一貫等として依頼することが多い
-EY/MHと連携して二次DDに向けた方針は1月上旬にはアラインできるようする。
+マネプレ？
+カーブアウト・実務者：佐野さん
 
+Jockey以外の全候補から質問を受領済
+ガイダンス左に
+回答追記期限1/19午前
 
+提示済、N/A
 
+前回合同にて説明済
 
+++++
+眞島さん
 
+PJ SequoiaのABM資料の構成について下記の通りまとめておりますのでご確認いただけますと幸いです。
 
+【主な資料構成】
+P.1 Case
+P.2 スケジュール表
+P.3 テキストスライド
 
+テキストスライドに記載する主な論点について：
 
+1: 短いタイムラインで公表までデリバリーできた背景
+お客さんの上層部（専務レベル）がかなり本件に非常に前向きであり、社内根回しを含めフレキシブルに動いてくれた
+事務局レベルにおいても士気が高く、社内上層部への事前説明のタイムライン等を含め前々に動いていただいた
+MS側としても小田さん含むDeal teamがここぞというタイミングでSeed上層部と直接会話し、先方社内の温度感を適切に把握しつつ、案件前進に繋がる意思決定のサポートとなるインプットができた
+（コンサルへの態度、JACへの対応、AVの考え方 等）
+案件初期のタイムライン策定の際に、どの社内会議体で、いつまでに、どの役職レベルで、何を合意するべきかを明確に握れた。(ホールバックプランも)
 
+クライアントと対象会社のエンティティの中で重要な部分を事前に特定し、価格やSPAにインパクトの大きい項目に絞って検証いただくようアドバイザーに繰り返し説明し、DDを短い期間で完了させることができた
+保険プロセスから逆算してDD最終レポートの期限を前もってアドバイザー陣に明確に周知できていた
 
-
-
-
-
-
-
-
-
-Jean Charles Chen CEO
-Bruno Janssens CSO, Laser Leader (acting)
-Sirine Assaf CRO, Sales & Marketing Leader
-Pavel Sustek CFO
-
-Networking Capital is calculated based on the ratio to the amount of revenue changes.
-
-Calculations are adjusted in order for the EBITDA margin to gradually reach the target level, so the results differ from seller case even with the same revenue CAGR and EBITDA margin.
-
-Revenue CAGR is set within a range from 3.5% (PGR's midpoint) to 10.7% (seller case).
-
-Management adjustments are included in the received business plan and cannot be separated; therefore, Mgmt. EBITDA is used for FCF calculation.
-
-For the terminal period, revenue changes are assumed to be 3.5% of PGR, multiplied by the ratio from the final projection year.
-The tax rate used is the corporate tax rate of the Czech Republic, where the Trunk's headquarters is located.
-
-Occurs at the midpoint of each fiscal year
+2: 価格関連の交渉
+UKチームとの連携
+売手の価格目線の聞き出し
 
 
+Equity bridgeは交渉戦術として、誠実コミュニケーションを心がけいたため、最後に売手より大きな譲歩を引き出すことができた。
+交渉の進め方としては、AVもEB金額も、先方のAskに対してそこまで低くない額を買手サイドのベストファイナルとして提出した。
+AVに関しても、対象会社が成長性の高い企業であり、業種の特殊性も含め適切なCompsが見当たらない中、売主の価格目線を探るためにUKチームから直接会話してもらい、オークション担った際には900億以上で売れる想定で、かつ3-4%の割引率で現在の価値に逆算して880という回答を得ることができた。NBOにおける提示価格はそれと比べて低くない850億円で最初から提示し、特段価格交渉はなくPre-emptionを獲得した。
+上記の一貫した対応により買手サイドの提案に重みを持たせることができ、EBに関して当初は双方提案差額を5:5で最終合意を求められたものをはねのけ、買手提案のほぼ全て飲んでもらうことができた。
+なお、上記EBは基本FA間でのやり取りを続けていたところ、最後のタイミングでUKチームから直接売り主のCoreに交渉を持ちかけたことも有利な条件での合意につながった。
 
-1. About Shimadzu
+本件の特殊性：短いタイムライン、Pre-emptive
 
-Since its founding in Kyoto in 1875, Shimadzu Corporation has inherited the pioneering spirit of its founder, Genzo Shimadzu, and has operated under the corporate philosophy of
+キーのタイムラインを列挙:Paris mtg,Excelスケジュールか、Keydate がある社内承認認
+
+Case(概要説明)+
+P2:スケジュールスライド（NBO前のやつか、）
+P3:テキスト(Aggregate Value 金額、Equity bridge)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
