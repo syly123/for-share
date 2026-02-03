@@ -1,4 +1,58 @@
+| Our current views on your proposal
 
+top secret
+
+3 years later
+
+Day1
+
+Equity ratio
+
+"Mitsubishi" brand
+
+Equity ratio
+
+@
+
+"Mitsubishi"
+
+brand
+
+Current understanding of your company's assumptions
+
+Hawk: 50%
+
+Meteor: 49%
+
+Other partners: [1%]
+
+Maintained for 3 years
+
+In the meantime, we aim to spread the Hawk brand
+
+After the Hawk brand gains credibility in the Japanese market, we will gradually acquire a majority stake in Hawk.
+
+Transition to Hawk brand
+
+Current thoughts on Meteor
+
+Hawk: [49]%~51%
+
+Meteor: 49%~[51]%
+
+(Meteor prioritizes minority investment as a general rule, and even if it retains a majority stake, Meteor's maximum stake will be 51%)
+
+Meteor Majority: Yes
+
+For Meteor minorities:
+
+Depends on negotiation between TOP
+
+Hawk: 66.7~80%
+
+[A certain agreement was reached regarding the acquisition of a majority stake at the time of execution of this transaction (put option granted)]
+
+Not possible
 日本はチャンネル別データを中心に頂いている理解でプロダクト別だったりMTP にある EVITA までのバックデータはもらっていない。
 カテゴリ別のブレイクダウンを渡しすることはできるが計算ロジックには入っていないので見せた時にその整合性を指摘される可能性がある。
 （GP マージンとかに反映されていないので）
