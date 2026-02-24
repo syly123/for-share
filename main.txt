@@ -1,3 +1,12 @@
+Action Items
+[ ] Review the VDR materials, mark documents as 'clean' or 'non-clean', and send the marked list back to the cookie legal lead to start the separation process
+[ ] Review the proposed key-entity shortlist with Kawakami-san and provide feedback on relevant entities for document collection
+[ ] Collect legal documents requested by the initial Morgan Stanley list and prepare documents based on that list for review (to be separated into clean and non-clean sets)
+[ ] Prepare and propose a shortlist of key entities (approx. 6–7) whose documents should be collected for due diligence
+[ ] Draft the clean team agreement and prepare clean-team guidelines (English and Japanese) based on the 2021 materials and send them to potential buyers for review
+[ ] Coordinate with Nishimura to divide review capacity and decide which languages/jurisdictions require outside counsel support for document review and separation
+[ ] Propose collection thresholds for supplier and customer contracts (e.g., agreements above a specified dollar amount) to simplify contract collection
+
 •	Morgan Stanley team grant VDR access to Macias 
 •	Prepare gun jumping guidelines by STB within one week 
 •	Mattias start preparing docs and uploading into VDR upon receiving IRL 
