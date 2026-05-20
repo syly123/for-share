@@ -1,3 +1,316 @@
+
+主要議題と議論内容
+1. ガバナンス（取締役会・役員）
+
+取締役: Marlinの取締役は6名（双方3名ずつ指名）で合意済み。
+代表取締役（President & CEO）: MeteorがロックアップCloze前まで指名する権利を持つが、山田氏側（Hawk）はDay 1からのCEO指名権を主張。紳士協定としての議論もあったが、MELCOとしては少なくともDeva（Marlin）においてはポジションを維持したい意向を表明。
+CFO等C-Suite: PresidentとCEOをセットで議論するとともに、CFOも含めたパッケージとして考える必要があると提案。
+Unit Manager（シニアエグゼクティブ）: TBDとし、6月2日に関善さんと田中さんで別途議論予定。
+
+2. 監査役
+
+Marlinは2名の監査役を置き、HawkとMeteorが各1名指名することで特段の異議なし。
+
+3. ロックアップ期間・株式
+
+タームシートは3年のロックアップ期間を提示。
+山田氏側は5年を主張：JVの安定性維持と従業員保護の観点から。日本・欧州での過去事例（2年のケースも）に言及しつつも、5年を提案。
+Mindy Jung（法務）が補足：ロックアップは第三者への株式譲渡に関するものであり、両当事者間の取引（Follow-on Sale Right等）は対象外と確認。MOU上は5年が合意内容。
+最終的に5年の方向で議論継続。
+
+4. Follow-on Sale Right（追加売却権）のマイルストーン
+
+行使条件となるマイルストーンの数値設定が主要な論点。
+タームシートではEBITDA等の財務指標（JPY 196億/JPY 65.3億/7.2%マージン）が提示されているが、山田氏側はビジネスプランのシナジーを含む水準ではなく、スタンドアローンのビジネスプランベースでのマイルストーン設定を主張。
+「MeteorのFollow-on Sale Rightの行使価格が高くなることは許容できるが、Day 1の価格（SPA価格）との一貫性が必要」との立場。
+具体的な数値として2728/29（FY表記と思われる）が議論に上がり、平均値か単年度値かの選択も検討。
+マイルストーンの達成・未達時の価格調整メカニズムについては、過去のデータタスクの経験から「双方不合意の場合はボードに委ねる」方式を示唆。
+最終判断は持ち帰りとし、後日DDの結果も踏まえてコメント提出の方向。
+
+5. 事業継続期間（Period of Continuation of Business）
+
+タームシート上の3年に対し、山田氏側は5年を希望（JVの安定性確保のため）。
+
+6. 商標（Mitsubishi Trademark）
+
+現時点では特段のマークアップなく議論スルー。
+
+7. ITシステム（TSA関連）
+
+別セッション（Carve-out discussion）にて、MELCOのSAP実装がMarlinのTSA（Transition Service Agreement）サービスや退出タイミングに与える影響についてKelichi Onodera氏が質問。IT Working Groupで継続議論とし、Questionリストに追記予定。
+
+
+全体所感・ネクストステップ
+
+未合意の主要論点：① CEO等役員人選のDay 1適用、② ロックアップ期間（3年 vs 5年）、③ Follow-on Sale Rightのマイルストーン数値・算定方式
+持ち帰り事項：マイルストーンの具体的数値はDD結果を踏まえて1〜2週間後にコメント提出（Steven Yu）
+次回セッション：追加のプライベートセッション設定の必要性を確認
+
++++++
+
+1. ガバナンス
+取締役会・代表取締役
+
+取締役6名（双方3名ずつ）で合意済み
+
+根拠: "Marlin shall have no more than six directors. Hawk shall have the right to nominate three directors. Meteor shall have the right to nominate three directors."（タームシートImage3）
+
+
+代表取締役（President & CEO）のDay 1指名権がHawk側の主要論点。MeteorがFollow-on Sale Right行使前までCEO指名権を持つことはタームシート上合意されているが、Hawk（MELCO）側はDay 1からのCEO指名を希望。紳士協定としての議論も示唆。
+
+根拠: "Especially for the day one, we really want to keep the presidential position is nominated by his method site, of course agreement from."（Image4）
+"As a day one, maybe the arm and the company channel or agreement, I think it can be discussed."（Image4）
+
+
+CFO等C-Suiteのパッケージ議論を提案。PresidentとCEOの議論に合わせCFOの処遇も含めて検討すべきとの意向。
+
+根拠: "When we talk about the President and CEO, I will suggest that we also talk about the C-Suite as a package. For example, CFO may need to consider keeping us so."（Image3）
+
+
+山田氏がMeteor側の意向を尊重しつつも交渉継続を示唆。
+
+根拠: "I don't think you will be satisf but employee or for the explanation to the stakeholder, especially the OEM side. We want to keep this position, at least in Deva."（Image4）
+
+
+
+監査役
+
+2名体制（双方1名ずつ）について特段の異議なし。
+
+根拠: "We are open with Mani 2 auditors and top ones on one speculative auditor and meteor the right to nominate one Staten under any. So this one we have. No objection."（Image3）
+
+
+
+Reserved Matters（Schedule 1の事前同意事項）
+
+MELCOの法務チームがSchedule 1への追記を要求：Meteorの持分が30%以上の場合に適用される事項についてリストが広範すぎるとし、少なくとも取締役1名分の議決権確保を求める法務意見を提示。
+
+根拠: "Our legal team was asked to extend that meet your host no less than 30 percentage of modeling in modeling and item because of the reserve matters. A schedule I should require four of our at least one director. It's our legal team's suggestion."（Image7, Image12）
+
+
+
+デッドロック・メカニズム
+
+多数決で合意に至らない場合のデッドロックメカニズムの導入が必要との認識で一致。具体的な設計は今後の議論。
+
+根拠: "What happens if the majority never reaches? Have you resolved?" → "Yeah, in that case, there will be the deadlock mechanism will need to be introduced, yeah."（Image5/6）
+
+
+
+
+2. ロックアップ期間
+
+タームシート上は3年。MELCO側は5年を主張。理由は①JV安定性、②従業員保護、③日本・欧州での過去事例（欧州では2年のケースもあるが三菱ゆえに保守的に3年以上が適切）。
+
+根拠: "I want to say five years if you can get five years...Sure the three years is from our exercise. We want to propose."（Image6/9）
+"We get other thing is in the case we done in Japan. Uh, I think they were the agreement is 2 years and also in the case in Europe we also done like two years...But again for the Mitsubishi people because of their little."（Image9）
+
+
+Mindy Jung（法務）が補足：ロックアップは第三者への株式譲渡に関するものであり、両当事者間のFollow-on Sale Right行使は対象外。MOU上の合意は5年。
+
+根拠: "Lock up period is talking about the transfer of shares to a third party instead of the two parties. So in case of the follow on sale right that mid tier sells the shares to foxcon that is not subject to this. Usually the our prior proposal is the five year."（Image10/11）
+
+
+
+
+3. Follow-on Sale Rightのマイルストーン
+基本的立場の相違
+
+MELCO側：マイルストーンはシナジーを含まないスタンドアローンのビジネスプランに基づくべき。シナジー込みで高い数値を設定することは矛盾。
+
+根拠: "1st we will be setting this milestone based on sustainable, not synergy...And I think that some sort of average in the business plan is more acceptable because right now the project revenue going down by about double."（Image13/18）
+"Yeah, I really want you to buy very high-priced. I you cannot have a inconsistency."（Image13）
+
+
+JVが順調に進めば高い価格を支払うことは許容する姿勢も示しつつ、Day 1の価格との一貫性を重視。
+
+根拠: "Yeah, I I think we are OK with if if the joint venture goes well, we are OK with paying high price for the increase. That's that's consistent. No, no, no. I want to say the for the past day, day one."（Image13）
+
+
+
+マイルストーンの数値
+
+FY2028/29あたりの数値が議論に上がる。28726（FY28の数値）はOK、29はNGとの立場を示す場面も。
+
+根拠: "If we can meet Marlene at 3...If to some 2728, OK, but 29 no, he dismissed."（Image16/17）
+
+
+マイルストーンの達成判定は年度末単年ではなく複数年の実績を参照することを希望。
+
+根拠: "Not only one time, but more the word period. If the milestone would hit. We can increase state. So instead of 11:30 then we can decide."（Image10/11）
+
+
+マイルストーン未達の場合は翌年以降に再判定する仕組みを検討。
+
+根拠: "It means this is the full year...if increasing 2030 then 2029 milestone hit based on the green number then we will increase our state if 2020. Milestone doesn't hit. Then we can reconsider the following year."（Image17）
+
+
+
+価格算定メカニズム
+
+不合意時のフォールバックとして、ボードによる決定または加重平均方式を示唆。
+
+根拠: "Mechanism that was implemented from our data task experience is that if both parties had disagreement, the big board let me go."（Image19）
+"We also we proposed which kind of the mechanics or which kind of way to to chat also we let's discuss about kind of number weighted average."（Image16/19）
+
+
+
+
+4. 事業継続期間（Period of Continuation of Business）
+
+3年→5年への延長をMELCO側が希望。理由は従業員の雇用安定とJVの継続性確保。
+
+根拠: "It's difficult to answer, but it is a normal exercise in Japan...we want to keep our employee...So either to keep the good people in this country or the joint company. I think three years ago."（Image6）
+
+
+
+
+5. タームシートのドキュメント共有
+
+小林睦（MELCO法務）がDKI事務所によるレビュー有無と最新版の共有を要請。
+
+根拠: "The first one is whether this document has been already reviewed by DKI office, which you assigned. And second point is we would like you to send us this share this version with us."（Image3）
+
+
+Steven Yu（Meteor側）は暫定版の共有に難色。数日内にDDコメントと合わせてマークアップ版を共有すると約束。
+
+根拠: "I would propose not to share because. I'm afraid that will be confused everybody. So yeah, can. Can you wait for a couple of days after the comments that we we can provide a preliminary mock up of virgin, hopefully that's can be done by end of this week."（Image3）
+
+
+山田氏：内部議論目的での共有ニーズを説明しつつ、Steven側の対応を待つ姿勢。今週中のマークアップ提供を期待。
+
+根拠: "It's difficult to share this, but of course that because we want to share internally for the discussion...By this week, just our our hexag is consideration in our company."（Image4）
+
+
+
+
+6. ネクストステップ・クロージング
+
+Steven Yu（Meteor）：タームシートへの詳細コメントはDD結果を踏まえて1〜2週間後に提供予定。
+
+根拠: "We haven't very detailed to go through each of the items, so probably we give our comments one or two weeks, data after generation about the due diligence result."（Image2/3）
+
+
+マイルストーン関連の追加議論：8月5日のミーティング（2ヶ月後）を目処に実施したい意向。9月が現実的とも。
+
+根拠: "Just a comment and also the the meeting on the 5th of. August 2 months and control should be. But regular September, maybe the reasonably achievable."（Image5/6）
+
+
+山田氏の締め括り：Meteor側のオープンな姿勢に謝意。内部議論後に改めて回答予定。
+
+根拠: "You were very open mind. Very was a few discussion. Yeah. And again, thank you very much, Steven. Everybody is at this markup is very helpful to understand your concept. So we take care of this idea. Through the internal discussion and we will come back to you."（Image7）
+
+
+
+
+主要未合意事項まとめ
+論点タームシートMELCO希望状況CEO指名（Day 1）Meteor指名Hawk指名継続協議ロックアップ期間3年5年継続協議（MOU上は5年）事業継続期間3年5年継続協議マイルストーン数値EBITDA基準（タームシート記載）スタンドアローンBP基準・FY28水準継続協議Reserved Matters現行ドラフト拡充（法務要求）持ち帰りタームシート共有—即時共有希望数日内にMeteorがマークアップ提供予定
+
+PJ Velocity — DA Discussion
+Yamada Keita: What we suggest is it can be based on consensus in this in our previous experience normally. It's really depending on the contribution. For example the Marlin will be mainly run by your people. It naturally will be sign for people, but we like to, you know, like the the right to be.
+相手方: These things are, oh, wow. Steve Gregor. Wow. Yeah, because for the employee.
+Yamada Keita: Especially for the day one, we really want to keep the presidential position is nominated by his method site, of course agreement from. But at least right, because we want to be. As a day one, maybe the arm and the company channel or agreement, I think it can be discussed. But yeah, of course we are the gentleman's agreement, I think. I don't think you will be satisf but employee or for the explanation to the stakeholder, especially the OEM side. We want to keep this position, at least in Deva.
+相手方: Got it. What we can do is I have another. You can definitely consult with your opinion. Mm-hmm. Because, you know, I believe you already have some understanding about the management mode. If set is down view. This is OK. And think that would be easier because you already have some certain trust between us, right?
+Yamada Keita: Absolutely hope so. Yeah, yeah. So I will consult. And I will get back to you. Just mention this also, customer so we will suspect if you appoint President and the CEO you know the business transfer will be more similar. Yeah, but this is the very honest because. Sorry to say if somebody come from you, everybody sent a 5050, but some. Big change even happened.
+Yamada Keita: Product for a statutory auditor. We are open with 2 auditors and top ones on one statutory auditor and Meteor the right to nominate one. So this one we have. No objection.
+Yamada Keita: And on the next one? We propose that, like James discussed, that maybe nominated by Hawk. Yes, we discuss that. And then after that the system will be part from majority shareholder from the joint venture. We should have the right to nominate 2 directors and we will be nominating the CEO as we become the majority. And just a quick clarification. It means President CEO, even nominated by your side after, yeah. But for example, just in case. Somebody still came, and if after day two, it's even we agree to keep the. This will be nominated by your side. But the people wise, we can discuss. Sorry, sorry about that. But I think we understand your point. Yeah, in our case. We can therefore assign your candidate. That's number one, number two. When we talk about the President and CEO, I will suggest that we also talk about the C-Suite as a package. For example, CFO may need to consider keeping. I'm not sure if there's something. OK. That's good. And the board nominee from this is coming from day one. What do you think?
+相手方: About will we will we step up.
+Yamada Keita: So let's say you assign the President and CEO, and then you want to actually expect that we can make we're able to assign a CFO. For equal time. So again. Is starting from day one. Nobody talks about day one, OK and this is the right tone. Included associate people wise. Either we can discuss, maybe including the. Understood. OK. We will come back to you. Discussion, yeah. OK.
+Yamada Keita: Yep, next OK. And that's next topic are gonna be managers. We are OK with. Yeah. I think and maybe participating, but this time we'll set it on the 2nd. So I think that will be part of the discussion of the year. So to me, we will propose but we are syncing about and also based on discussion with either we want to have a point shop, it's this kind of the concept, right? You want to do. And then. We have just added, you know. Provided, however, that the more growing application should not be applied in the event.
+Yamada Keita: Oh, sorry. Yeah, sorry. That means the one thing in the first sentence, because in the beginning it mentioned that there were at least three years from closing date. Why three years, if I may? It's difficult to answer, but it is a normal exercise in Japan. This is part of something like in the bench starting from right. Yeah, you can ask to your great pass and the second because we want to keep our employee and the our employee has a it's very nice and but also it's sometime it's a not so stable one. So either to keep the good people in this country or the joint company. I think three years ago. It's me, I want to say five years if you can get five years. I think that one years two shows maybe also two years. Sure the three years is from our exercise. We want to propose. Please don't get me wrong. We like to. We get other thing is in the case we done in Japan. Uh, I think they were the agreement is 2 years and also in the case in Europe we also done like two years and that's why I mean this is regulated by it's not regulated definitely. But again for the Mitsubishi people because of their little bit of conservative and you can see the discrepancy is not. If Tokyo maybe is more. Brexit voter accept these kind of things. Let me write this down. And so I'll have some terms. Let me check this with you.
+Yamada Keita: We know that the carve out is still ongoing. I will also leave that at home. Transferred to Marlin is not fixed. Almost fix it. You have to have you have to in the. I see. Yeah. So I think I will also fix 99% people already fixed, maybe just remaining some time. 20 people, OK. Yeah. So on your side, you can. It's pretty much fixed, but for example we identify any employee or talents may not be needed for our partnership. Is this something that we can suggest? Of course you can suggest. Yeah, at least we may have left. Because some people stay, some people go. But even in the yeah is under. Again, it's a corporate side. It's I think it's more, it's a principle. But the three states this operation side is if somebody not close somebody go, it may have another understand, but you can start this. But then basically our idea we want to sell 100% free. Understand. OK. So so that's OK. He reached to the employee and also whether we will suggest some certain employee will be kept or dump. Yup, that's good. The last time is provided, however, it's going to obligations and. Yeah, they decide because in our past case there's no employee had to be ruled to transfer, right? OK and. We also want to verify the agreement office definition as one of the yeah, this still draft, but we we would like to have a more clearance of your agree opposite to the meeting. In this day.
+Yamada Keita: So the next part of this is trademark. I think. Of course they are. I'm going discussion with this, but for I mean the issue right now is no mark up. So for interest of time, we move to the next. And we are going down. We could get it. Sorry, it's a lag. Yeah. And for reserve matters. There's some changes. The matter with respect to. That board is scheduled. Should be subjected to a jury of four by the end of I think. I think that's more consistent. So most of the things move one thing so. Would you go to the? Post closing. OK, I understand your point. Yeah. OK.
+Yamada Keita: And the second one, our legal team was asked to extend that meet your host no less than 30 percentage of modeling in modeling and item because of the reserve matters. There were quite extensive list of materials, so. Meteorologist percentage. Then we should have. A schedule I should require four of our at least one director. It's our legal team's suggestion. Second one understood. Yeah. Also understood. Yeah. We will come back to you.
+Steven Yu: Thank you.
+Yamada Keita: OK. Even do you want to add?
+Steven Yu: No.
+Yamada Keita: OK, next one consolation matters. We also want to clarify the purpose of this consolidation. Yep, OK Yep. And the period of a continuation business study, three of on the closing date. So for modeling control, party agree the business of modeling could be adjusted. And then please clarify the corporate for this class. What we need to do to get it? OK, let's do it. OK. Question three, yeah. Shared. So thinking this joint venture, in the interest of continuation of business, we think that the lock up period should be five years because yeah, it's a subject. Negotiation. But we think that's a more. Yeah. Waste stability in this junction, but that's why you you want to have five years because you know three years coming from also ground is. So easy to meet five years. Three years run. Three years. Another run. So it's something like that. It's also able step two. I would suggest that for the, let's say we on the milestone or step up and we have the agreement on the trademark usage. The reason which I might use it then we will consider to put this to increase the markup period to three years because I think that will be consistent, OK. But I think the condition is we have the agreement on the milestone on the trigger of the milestone and also the. So let's leave it there, OK?
+Mindy Jung: Yeah. Sorry. This is Mindy. Sorry to interrupt, but I think lock up period is talking about the transfer of shares to a third party instead of the two parties. So in case of the follow on sale right that mid tier sells the shares to Foxconn that is not subject to this. The three-year or five year period, but the lockup is mainly talking about the transfer to a third party, so. Usually the our prior proposal is the five year.
+Yamada Keita: Understood. Either MIDI. Yeah. OK.
+Mindy Jung: Yeah. Thank you.
+Yamada Keita: So yeah, yeah. OK. Next one. Leo's how long? So I think following the 3rd and the closing date and each of sub sync when anniversary until 2000. Something I think we want to change the. Not only one time, but more the word period. If the milestone would hit. We can increase state. So instead of 11:30 then we can decide. Increase the state, right? That's our intention. Yeah, this is for now. Yeah. OK, pass point. Yeah, I understand your intention, yeah. When you are in the book or Marie to fund this, this is part of your education.
+Mindy Jung: This is just to be consistent with the MOU. I think in the MOU the arrangement is for either hog or Marlin to purchase shares from Meteor. That is what's on agree in the MOU so.
+Yamada Keita: Look up. The fiber by Marley.
+Mindy Jung: Yeah. Yes, we we just keep it consistent with the MOU, but not sure if there's any change on this position.
+Kobayashi Mutsumi: This is coming from Nicole Lentils legal department. We have no intention to change our basic concept, which is stated in the MOU. So you're understanding scripts.
+Steven Yu: Thank you.
+Yamada Keita: OK, understood. Yeah. Go to next sentence. But following the 30 year. It's just same one. That next one will be may be subject to a more than a discussion. So I think the basic idea is that we saw. Your our sales right? For the first one is an aggregate figure, so we we don't know the duration. For the the hyperfape period. So yeah, we don't think its alternative, yeah. And also the the milestone is based on the historical data, but there's a business plan set in the stable or updated business stand alone. Think the milestone should be more related to the following business plan. About without giving the the synergy consider and also I think there's another point is that increasing state of whether it's 56.6 versus 80. I think that there might be a just a milestone with the being set. But it is not surprised. I think you deprived like this, but any idea about this? Milestone the problem your past experience. Because of course, you say the from a business plan including synergy. Yeah, I'm totally agree. But if it your variation was going to be high, including synergy and including it's a full part of the business. Yeah, I really want you to buy very high-priced. I you cannot have a inconsistency. Yeah, I I think we are OK with if if the joint venture goes well, we are OK with paying high price for the increase. That's that's consistent. No, no, no. I want to say the for the past day, day one. Yeah. If you say it's, I said. It's a new variation based on our business plan with some discount towards having the your consideration. You think it? And how to decide whether it's milestone? The milestones is set based on the. We had to discuss internally as well in subject management discussion, but. 1st we will be setting this milestone based on sustainable, not synergy, including one of the. Non binding authority. I'll stop, right? And I think that some sort of average in the business plan is more acceptable because right now the project revenue going down by about double. So we need, you know. Transparency on it. And also yeah, that's good. Yeah, based on the earlier, there's still a lot of cost, that's not, you know. That all of the buyable for us. So we need to take time to the big end to come back with your with the. No. Let's let's or you want to propose this number or. What? What is your idea? Because number is very important and. One there are OK. I think I suppose that. Also, that will be. Yeah, yeah, yeah, yeah. And. It means that I'm sorry, just for clarification. It means this is the full year, satisfied you can go last year or every. So for example if increasing 2030 then 2029 milestone hit based on the green number then we will increase our state if 2020. Milestone doesn't hit. Then we can reconsider the following year. So 31, we would look at 2013 overall and the average track record. Yeah, maybe 2 or 2027. Yes. OK, 272829 yes, 29 single year. If we can meet Marlene at 3. Mm-hmm, we can go. Yeah. If to some 2728, OK, but 29 no, he dismissed. Yeah. So we need to discuss whether we use the average or we use the 29 OK is that is that negotiable or we can discuss it? You said 28728 is OK, meaning that. It's reached the trigger point or reached the the forecast zone, yeah. For example look like this because we cannot expect this to be as reader. Maybe three years later, prices will come. Let me let me let me see. So you accept the earlier treatment. No, no, no, no. Not earlier, just just the confirm about condition. Again, 2728 and the 29. We put the disp figure but unlessa speaking three years later and not expecting very detailed. I think that is more important for you to. Read by your date OK. And not earlier. Not 30, not 30, because No 30, yeah. Because we should keep also ground seven. Yeah. For the Simsbury Ship 3 Years is necessary. Yeah, it won't be a average SAT score other rated average. Yeah, we we can. You know, we got the so here he end up ear three will be the decision point. Yeah, end up to 180. So the service will be 789, yeah, yes. We can move this must take into. Are we happy? Yeah, we have the other option, all right. Great. OK. But I think that we, we also we proposed which kind of the mechanics or which kind of way to to chat also we let's discuss about kind of number weighted average of blah blah blah. Yeah, but this is yeah, this custom point is always a business side, yes. For the. In AI, think there is also subject to the negotiation and we use. Mechanism that was implemented from our data task experience is that if both parties had disagreement, the big board let me go. You're talking about. So you can go down. But understood your point. This is. Always the discussion point. Or it could be a more, it depends on. I guess depends on the milestone that we'll have to pay price. OK. Yeah, because today I don't want to decide why I think I just want to understand, what do you think about yes. Any comments about? Hello. Yeah, yeah. But last account, can we leave the Deferred Reserve managed to legal? Sure. So that's. I think they still maybe under discussion because we are still having ongoing BD and there is also. Yeah, yeah, yeah. I understood. But the principal is if you have any comment to against opinion, I I. Maybe Steven. Or.
+Steven Yu: Sorry about, you know, as of today, we. We need to depends on the DD results and then have a put our comments. So probably you know we we can leave this one or two weeks later after our TK. I have some general picture.
+Yamada Keita: Yeah, I agree.
+Steven Yu: Can we?
+Yamada Keita: Yeah, maybe we don't decide what by what at this moment. Yeah, but just the principle you have any concern or question let us know.
+Steven Yu: So actually you know what? We haven't very detailed to go through each of the items, so probably we give our our comments one or two weeks, data after generation about the due diligence result.
+Yamada Keita: OK, understood. Yeah. Thank you very much.
+Steven Yu: OK.
+Yamada Keita: Yeah. Thank you very much. Go through it's you were either contact or call downs hey. Verified the credit.
+Kobayashi Mutsumi: Hi we have nothing to declutter that we would like to clarify this at this moment, but I just want to confirm. Three points. The first one is whether this document has been already reviewed by DKI office, which you assigned. And second point is we would like you to send us this share this version with us. Ward Ward S, Iasis.
+Steven Yu: Yeah, first. First quadrant, we haven't provide all comments to for TKS review because we are still in the process to consolidate internal conclusion and but we'll be done probably in the next couple of days, then go through layer for the comments we will provide. Markup a version to you guys as soon as possible.
+Kobayashi Mutsumi: Stephen, thank you. So you mean you will prepare this? Prepare the market budget after the reviewed by the KTI. Yeah. I understand. So just for reference for information, could you please share this version as well? We understand that this is not a final version of your intention.
+Steven Yu: I would propose not to share because. I'm afraid that will be confused everybody. So yeah, can. Can you wait for a couple of days after the comments that we we can provide a preliminary mock up of virgin, hopefully that's can be done by end of this week.
+Kobayashi Mutsumi: OK. Thank you so much. Thank you for your cooperation.
+Steven Yu: Thank you.
+Yamada Keita: It's difficult to share this, but of course that because we want to share internally for the discussion. Of course, we don't believe that this is the. True.
+Steven Yu: Yeah. Oh, I understood. Yeah, sure, sure. OK. Yeah. OK. OK. OK. Yeah, just just, OK, just for your information and but you know that should not be bound by offer comments in the next couple of days.
+Yamada Keita: Yeah, yeah, I understood. Yeah. So it's me. We are waiting for you. By this week, just our hexag is consideration in our company. We just use the version. Thank you very much, Steven.
+Steven Yu: OK, OK. OK. OK. Yeah. OK.
+Kobayashi Mutsumi: Thank you.
+Yamada Keita: A question from. Maybe one on the on the governance. So I think we, if we can go out. Of the. So good to Wi-Fi speeder. Mm-hmm. Yeah, so so. What's the code? I think there's a comment around, you know. The majority votes. What was it? Some items that need to be decided by majority party. The majority. So. What happens if the majority never reaches? Have you resolved?
+Mindy Jung: Yeah, in that case, there will be the deadlock mechanism will need to be introduced, yeah.
+Yamada Keita: Yeah. So how do you see? How do you set up? You know how you imagining the opening situation like that all?
+Mindy Jung: Sorry, I could not hear.
+Yamada Keita: But then you're not. Yeah. Yeah. OK. No, no, no, he said. Something you wanna. OK. Just to comment on the milestones. We also posted. Makes things more complicated discussion so. Developing this action. Plan because my business can be affected by. Factors such as oextdef. So you choose averages. Just a comment and also the the meeting on the 5th of. August 2 months and control should be. But regular September, maybe the reasonably achievable. We would like to. Conduct. The option it should be, yeah. We also, yeah. Single yeah should be yeah but this is a main discussion point will be. Electric company. So good to Wi-Fi speeder. Mm-hmm. Yeah, so so. Yeah, that that just coming, but. Here. Well, I think you can buy very, very high price day one. You know, everything is relative. Yeah, everything. This is my fault. Yeah, our port to work. Yeah, yeah, I guess the. There isn't a sound. Isn't there some? You mentioned there's several. There's something we may need to discuss. We we do understand. We have several issues. Not only on this project, but maybe for the second minute. So it's got some other by the way. So if you don't understand that. Also. Either the business plan or we have more clarity and granularity going forward otherwise. This is already something. Where did the where did the MOU and the DO? So. And if there's anything you like to update us, we're open to it, OK. Thank you very much. You were very open mind. Very was a few discussion. Yeah. And again, thank you very much, Steven. Everybody is at this markup is very helpful to understand your concept. So we take care of this idea. Through the internal discussion and we will come back to you. Yeah. Those we are waiting for. The URL shall be the mark up mine this week. Thank you very much. Thank you. Yeah, if you're OK, so. Next step you can show. I'm asking. Let's schedule. Hi so. Let me just quickly go through the next step.
+
+以上が全文です。あなたの入力: その上でもれなく全部日本語に訳してその上でもれなく全部日本語に訳して13:41Claudeが返答しました: PJ Velocity — DA Discussion（日本語訳）PJ Velocity — DA Discussion（日本語訳）
+山田圭太: 私たちの提案は、通常の過去の経験に基づいたコンセンサスで決められるというものです。それは本当に貢献度によります。例えば、Marlinは主にあなた方の人材によって運営されることになります。当然、人材の面でそうなりますが、私たちとしては、その権利のようなものを持ちたいと思っています。
+相手方: これらのことは、ああ、すごいですね。スティーブ・グレゴー。すごい。そうですね、従業員のためということで。
+山田圭太: 特にDay 1については、社長ポジションはMeteor側から指名されるということで、もちろん合意の上でのことですが、よく理解できていません。ただ少なくとも、私たちはそうありたいと思っています。Day 1については、会社のチャンネルや合意の枠組みの中で議論できると思います。もちろん、紳士協定という形になると思います。ただ、従業員やステークホルダー、特にOEM側への説明という観点からは満足できないと思います。私たちは少なくともDeva（Marlin）においてこのポジションを維持したいと思っています。わかりました。私にはもう一つ考えがあります。あなたのご意見を参考にして相談することは確実にできます。うーん。なぜなら、あなたはすでに経営体制についてある程度理解されていると思うからです。そういう視点で見れば。これはOKです。そして、すでに私たちの間にある程度の信頼関係があるので、その方が楽になると思います。そうであって欲しいと思います。ええ、ええ。では相談します。また改めてご連絡します。ただ、これも申し上げておきますが、あなたが社長とCEOを任命すれば、ビジネスの移管がより円滑になると思います。ええ、ただこれは非常に正直なところですが。あなた方から誰かが来た場合、全員が50:50で送られてきますが、一部は違います。大きな変化も起きました。この問題のガイダンスが難しいところです。ええ、それによってコストの理解がより深まります。ええ、どうもありがとうございます。ええ、ええ、大丈夫です。それは良いことです。
+山田圭太: 監査役について。私たちは2名の監査役を置き、上位の1名についてはMeteorが指名する権利を持つという形でオープンです。これについては異議ありません。
+山田圭太: 次の項目については。Hawkから指名されることについて、Jamesが議論したように、取締役指名についての話ですが、はい、それについて議論しました。その後、合弁会社の過半数株主の立場から、2名の取締役を指名する権利を持ち、CEOもこちらが指名するという形になります。つまり私たちが過半数を持つということです。少し明確にしておきます。それはつまり、社長・CEOは、そうなった後でもあなた方の側から指名されるということです。ただ例えば、誰かがDay 2以降も来た場合、それを維持することに合意した場合でも、あなた方の側から指名されることになります。ただし、人材の面では、なぜ自分たちで決めたいのかについて議論できます。申し訳ありません、そう言ってしまいましたが、あなたのご意見は理解していると思います。ええ、私たちの場合は、あなたの候補者を指名することができます。それが第一点、第二点として。社長・CEOの話をする際には、C-Suiteもパッケージとして議論することを提案します。例えばCFOについても検討する必要があるかもしれません。何かあるかどうかわかりませんが。OKです。それは良いと思います。そして取締役会の指名はDay 1から行われます。どう思われますか？
+相手方: 私たちがステップアップするかどうかについて。
+山田圭太: では、社長・CEOを任命したとして、CFOも任命できると期待したいと思います。同様に。これはDay 1から始まります。Day 1について誰も話しませんが、OK、これが正しいトーンです。人材を含めて。どちらも含めて議論できます。わかりました。OK。また改めてご連絡します。議論ですね。OK。
+山田圭太: はい、次のOK。次のトピックはマネージャーについてです。私たちはOKです。ええ、参加するかもしれませんが、今回は2日に設定します。それは年の議論の一部になると思います。私たちとしては提案しますが、どちらかと議論した上で、ポイントショップのような概念を持ちたいと思っています。そういう概念ですよね？やりたいですよね。そして。ただし、それ以上の展開はこのイベントには適用されないということです。
+山田圭太: ああ、失礼しました。そうですね、最初の文の一点について、最初にクロージング日から少なくとも3年と記載されていたことについてです。3年とした理由を聞いてもよろしいですか？なぜ3年なのか？答えるのが難しいのですが、これは日本では一般的な慣行です。何かベンチマークのようなものから始まる部分があります。従業員を維持したいということ、また従業員は素晴らしいのですが、時として安定しない面もあります。良い人材をこの国あるいは合弁会社に留めるためには、3年くらいが適切と思います。私としては、できれば5年と言いたいところです。1年、2年というのも考えられますが。3年は私たちの提案です。誤解しないでください、私たちも柔軟に対応したいと思っています。日本での事例も考えると、思うに合意期間は2年で、欧州の事例でも2年でした。つまり規制によるものではありませんが、三菱の場合は少し保守的で。東京であればもう少し多いかもしれません。これを書き留めておきます。いくつか条件があります。確認させてください。カーブアウトはまだ進行中です。転送先をMarlinとするのはまだ確定していません。ほぼ確定に近いです。見えてきました。はい、99%の人はすでに確定していると思います、残りの少数の人が残っているだけです。20人くらいです。ええ、あなたの側でも。ほぼ確定ですが、例えば私たちのパートナーシップに必要でない従業員や人材を特定した場合。それを提案することは可能ですか？もちろん提案できます。少なくとも残る人もいるかもしれません。HRセッションでパスポートを通じて全ての情報を得られますが、正直に言えばそれも一つの答えです。人によって残る人もいれば去る人もいます。ただ、それはコーポレートサイドの話です。これは原則的な話です。オペレーション的には、誰かが去った場合に別の理解が生まれるかもしれませんが、これを始めることはできます。基本的に私たちのアイデアは100%フリーで売りたいということです。わかりました、OK。それでいいです。従業員に連絡し、誰を残して誰を外すかを提案します。そうですね、それは良いと思います。最後に確認ですが、義務として従業員の扱いについては定めがあります。過去の事例では、転籍を強いられた従業員はいなかったと思います、OK。また、合意事項の定義を確認し、ドラフト段階ですが、このミーティングで合意内容をより明確にしたいと思っています。本日中に。
+山田圭太: 次は商標の部分です。もちろんそうですね。これについて議論したいですが、今のところマークアップがない状態です。時間の都合上、次に進みます。次の項目へ。下に進みます。取得できそうです。失礼、少し遅延があります。ええ。Reserved Mattersについて。いくつか変更があります。その事項について。取締役会は予定されています。4人の合議体に委ねるべきだと思います、より一貫性があると思います。クロージング後に。わかりました、あなたの意見は理解しています。ええ、OK。
+山田圭太: 第二点として、私たちの法務チームは、Reserved Mattersについて、Meteorの持分が30%以上の場合には、かなり広範なリストになっているため、拡張するよう求められました。Meteorの持分の割合について。そのため、スケジュールとして少なくとも1名の取締役が必要です。これは私たちの法務チームの提案です。第二点については理解しました。ええ、こちらも理解しました。ええ、また改めてご連絡します。
+Steven Yu: ありがとうございます。
+山田圭太: OK。何か追加することはありますか？
+Steven Yu: いいえ。
+山田圭太: OK、次のConsultation Mattersについて。この統合の目的についても明確にしたいと思います。はい、OKです。クロージング日から3年間の事業継続期間について。モデリングの管理については、当事者間でモデリングのビジネスを調整できることに合意し、このクラスの法人について明確にしてください。それを実現するために何が必要か？OK、やりましょう。OK。第三の質問ですね。共有します。この合弁会社の事業継続の観点から、ロックアップ期間は5年とすべきと考えています、交渉事項ですが。それ以上であるべきです。ええ。この結節点での安定性のために5年を求めています、3年というのはそういう背景から来ています。5年を達成するのは容易です。3年、また3年と走っていく。そういうイメージです。また、ステップアップとして、マイルストーンの達成や商標使用の合意が得られれば、マークアップ期間を3年に延長することを検討します。それが一貫していると思います。ただし、条件としてはマイルストーンの合意があることが前提です。ではここで留めておきましょう。
+Mindy Jung: ええ、失礼します。Mindyです。少し遮らせていただきますが、ロックアップ期間は両当事者間の取引ではなく、第三者への株式譲渡に関するものだと思います。つまりFollow-on Sale Rightでミッドティアがフォックスコンに株式を売却する場合は対象外です。3年または5年の期間ですが、ロックアップは主に第三者への譲渡についての話です。私たちの以前の提案は5年です。
+山田Keita: 理解しました。Mindyさん、ええ、OK。
+Mindy Jung: ええ、ありがとうございます。
+山田圭太: そうですね、ええ、OK。次の項目へ。Follow-on Sale Rightはどのくらいの期間ですか？クロージング日の3年後以降、毎年の記念日に行使可能で2000年まで、というものだと思います。ただ変更したい部分があります。一度だけでなく、マイルストーンが達成された場合により長い期間にわたって行使できるようにしたいです。状態を増やすことができます。その意図はそうです。ええ、これは今のところ。ええ、OK、それは置いておきます。ええ、その意図は理解しています。MOUに合わせるためです。MOUではHawkまたはMarlinがMeteorから株式を購入するという取り決めになっています。それがMOU上の合意内容です。
+山田圭太: 確認します。Marleyによるものです。
+Mindy Jung: ええ、MOUと一貫性を保ちますが、このポジションに変更があるかどうかは不明です。
+小林睦: Nicole Lentils法務部門からです。MOUに記載されている基本的なコンセプトを変更する意図はありません。ご理解の通りです。
+Steven Yu: ありがとうございます。
+山田圭太: OK、理解しました。ええ。次の文へ。30年後については。それは同じことです。次の項目はさらに議論が必要かもしれません。基本的な考え方はそういうことだと思います。御社の売却権について。最初のものは集計数値なので期間はわかりません。超過期間について。代替案ではないと思います。ええ。マイルストーンは歴史的なデータに基づいていますが、スタンドアローンの安定したまたは更新されたビジネスプランに基づいたものがあります。マイルストーンはむしろそのビジネスプランに関連したものであるべきだと思います。シナジーを考慮せずに、また増加の状態についても56.6対80という点があります。そのマイルストーンが設定されているだけかもしれません。驚くことではないです。この点についてご意見はありますか？マイルストーンは過去の経験が問題です。もちろん、シナジーを含むビジネスプランに基づいてそう言われているのですね。ええ、全くその通りです。ただし、シナジーを含めてビジネス全体として変動が高くなる場合。ええ、本当に高い価格で買っていただきたいです。一貫性がなければなりません。ええ、合弁がうまくいけば、その増加分の高い価格を支払うことはOKと思います。それは一貫しています。いいえ、違います。Day 1の価格についての話をしたいのです。ええ、そう言っています。それはビジネスプランに基づいた新しい変動であり、あなた方の考慮に対して割引を設けたものです。どう思いますか？マイルストーンかどうかをどう判断するか？マイルストーンは…に基づいて設定されます。内部でも経営幹部の議論で話し合う必要がありますが。まず、このマイルストーンはシナジーではなく持続可能性に基づいて設定します。非拘束的な権限です。一旦止めますね？ビジネスプランのある種の平均値の方が受け入れやすいと思います、今プロジェクトの収益が約2倍下がっているので。そのため、透明性が必要です。そうですね、それは良いです。以前の話に基づくと、まだコストがかなり残っています。私たちとして買える範囲ではありません。もう少し時間をかけて戻ってきます。いや、この数字を提案するか、またはあなたのアイデアは何ですか？数字は非常に重要です。1つはOKです。そうだと思います。そうなるでしょう。ええ、ええ、ええ、ええ。そして。少し確認のために申し上げますが、これは通年ベースで、昨年または毎年を参照できます。例えば2030年に増加する場合、2029年のマイルストーンがグリーンの数字に達すれば、2020年の状態を引き上げます。マイルストーンが達成されなければ。翌年に再考できます。つまり2031年には2013年全体と平均の実績を見ます。ええ、2027年くらいかもしれません。はい、OK、2728、29年、29年単年です。3に達することができれば、ええ、進めます。2728はOKですが、29はNGで却下されました。では、平均を使うか29年の数値を使うかを議論する必要があります、それは交渉可能か議論できますか？28728はOKとおっしゃっていましたが、それはトリガーポイントに達した、または予測ゾーンに達したという意味ですね。例えばこのように見えますが、これを読む人には期待できません。3年後には価格が上がるかもしれません。確認させてください。以前の扱いを受け入れるということですか？いいえ、違います。条件についての確認だけです。また、2728と29について。3年後の数値を参照するとして、詳細は期待しないということです。あなたのDate OKで読んでください。そして30ではなく、30でもなく、No 30ですね。7をベースに保つ必要があります。3年間のShipが必要です。平均評価平均ではない。ええ、できます。ここで3が決定点になります。180まで上がります。サービスは789になります。これを進めることができます。満足していますか？ええ、他のオプションもあります。OK。ただ、どのようなメカニズムまたは方法で数値加重平均などを議論しましょう。ええ、これは常にビジネスサイドのカスタムポイントです。AIの観点では、交渉の対象でもあります。過去のデータタスクの経験から実装されたメカニズムは、両当事者が不合意の場合はビッグボードに委ねるというものです。あなたのおっしゃっていることですね。進められます。ご意見は理解しています。これは常に議論のポイントです。それ以上かもしれませんし、場合によります。マイルストーンに応じて支払う価格が決まると思います。OK。今日は決めたくないのですが、理解したいと思っています、あなたはどう思いますか？何かご意見は？こんにちは、ええ、ええ。最後に、Deferred Reserveを法務に任せることはできますか？もちろんです。そういうことです。まだ議論中かもしれません、進行中のBDがあるので。ええ、ええ、ええ、理解しました。ただ原則として、反対意見があればSteven、またはご意見をお聞かせください。
+Steven Yu: 申し訳ありません、現時点では。DDの結果に依存して、コメントをまとめる必要があります。おそらくTKの後、1〜2週間後にこれを残せると思います。大まかな全体像は持っています。
+山田圭太: ええ、そうですね。
+Steven Yu: できますか？
+山田圭太: ええ、今時点では何を決めるかは決めないかもしれません。ただ原則として、懸念や質問があればお知らせください。
+Steven Yu: そうですね、実は各項目を詳細に検討していないので、デューデリジェンスの結果が出てから1〜2週間後にコメントをまとめます。
+山田圭太: OK、理解しました。ええ、どうもありがとうございます。
+Steven Yu: OK。
+山田圭太: ええ、どうもありがとうございます。連絡を取り合いましょう。確認しました。
+小林睦: こんにちは、現時点で明確にしたいことが3点あります。第一に、この文書はすでにあなたが指定したDKI事務所によってレビューされているかどうか。第二に、このバージョンを私たちと共有していただけますか。Ward Ward S、Iasis。
+Steven Yu: ええ、まず。TKSレビュー用のコメントをまだ全て提供していませんが、内部での結論をまとめる作業中で、おそらく数日以内に完了します。その後コメントを加えたマークアップ版をできるだけ早くお送りします。
+小林睦: Stevenさん、ありがとうございます。つまりあなたが作成するということですね？KTIのレビュー後に市場予算を作成するということですね。ええ、理解しました。参考情報として、このバージョンも共有していただけますか？これが最終版でないことは理解しています。
+Steven Yu: 共有しない方がいいと思います。混乱を招く恐れがあります。数日後にコメントを加えた後、予備的なマークアップ版を提供できると思います、今週末までには何とかなるかと思います。
+小林睦: OK。ありがとうございます。ご協力ありがとうございます。
+Steven Yu: ありがとうございます。
+山田圭太: これを共有するのは難しいですが、もちろん内部での議論のために共有したいと思っています。もちろん、これが最終版だとは思っていません。そうですね。
+Steven Yu: ええ、理解しました。ええ、もちろんです。OK、ええ。OK、OK、OK。ただ念のために申し上げますが、数日以内のコメントには縛られないでください。
+山田圭太: ええ、ええ、理解しました。では待っています。今週中に、これは社内での検討事項です。そのバージョンを使います。Stevenさん、ありがとうございます。
+Steven Yu: OK、OK、OK、OK、ええ、OK。
+小林睦: ありがとうございます。
+山田圭太: ガバナンスについて一点質問があります。もし抜け出せるなら。Wi-Fiが良くなりました。うーん。ええ、そうですね。コードは何ですか？コメントがあると思います。多数決についてでしたが、何でしたっけ？過半数の当事者によって決定される必要がある項目があります。過半数です。そうですね。過半数に達しない場合はどうなりますか？解決されましたか？
+Mindy Jung: ええ、その場合はデッドロックメカニズムの導入が必要になりますね。
+山田圭太: ええ、どのようにお考えですか？どのように設定しますか？そのような状況をどのようにイメージしていますか？
+Mindy Jung: 申し訳ありません、聞こえませんでした。
+山田圭太: ではそうではないと。ええ、ええ、OK。いいえ、彼は何かおっしゃいたいようです。OK。マイルストーンについてコメントします。投稿もしました。議論がより複雑になります。このアクションを展開しています。ビジネスプランは様々な外部的要因の影響を受けます。平均値を選ぶことになります。またマイルストーンについて、5日のミーティングについてもコメントです。8月、2ヶ月でコントロールできるはずです。ただ9月でも合理的に達成可能かもしれません。実施したいです。オプションとしてはそうあるべきです、ええ。これが主な議論ポイントになるでしょう。電力会社として。Wi-Fiが良くなりました。うーん。ええ、そうですね。ええ、それはそれとして。ここに。Day 1に非常に高い価格で買えると思いますよ。全て相対的なものですね。ええ、全てが。これは私のせいです。ええ、一緒に取り組みましょう。ええ、ええ、そうですね。音が聞こえません。いくつかあると言いましたね。議論する必要があることがあります。私たちは理解しています。いくつか問題があります。このプロジェクトだけでなく、他にもあります。それが理解できなければ。また。ビジネスプランか、あるいは今後より明確で詳細な情報が得られればです。これはすでに何かあります。MOUとDOはどこに行きましたか？そうですね。何か更新があればお知らせいただければ、オープンです、OK。ありがとうございます。非常にオープンマインドでした。少しの議論でした。ええ、改めてどうもありがとう、Stevenさん。このマークアップはコンセプトを理解するのに非常に役立ちます。内部での議論を経て、また改めてご連絡します。ええ、お待ちしています。今週中にマークアップをお送りします。ありがとうございます。ええ、よろしければ。次のステップをお見せできます。お聞きしています。スケジュールを立てましょう。こんにちは。次のステップを簡単にご説明します。
+
+
 L:26年7月から、欧州で全支社適用と理解しているが、欧州以外の地域でのこの規制化っていうのがまだそこまで見えていない理解で、そこはどう見られているか？
 M：この燃費規制もそうだが、今回は欧州は26年度のところの新車種から、次は大体アメリカがまずそこに同じように参入。その後EUの規格をそのままモニタリングしたようなものでインドの企画ができてきますので、大体規制ドリブンはこうやって繋がっていくと思う。グローバルに同じような課題を抱えており、日本についても幼児置き去りとかは同じだと思っているので、そこは順次そうなっていく想定。
 L：アイシンのブルーイーとのすみわけはどうなっているか？
